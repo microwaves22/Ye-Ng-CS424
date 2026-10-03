@@ -163,22 +163,20 @@ Deciding how real-world observations became data points required creating a stan
 
 ## Refined Domain Questions
 
-1. Does the 2nd Floor Quiet Area consistently maintain lower decibel levels than collaborative spaces during peak hours (11:00 AM – 1:00 PM)?
+1. Refined Quesiton: Which study spaces are best suited for focused, distraction-free studying?
     - Original Quetion: Which spaces in the CDRLC provide the studying quality I want?
-    - Why Changed: Quality is too subjective for visualization so narrowing it down to be more specific and measurable with decibel levels is helpful.
-    - Reasoning: This question tests how spaces more limited to individual seating controls sound levels when student traffic is highest.
-2. Refined Question: At what specific times during the day is seat scarcity most severe across all locations?
+    - Reasoning: We changed the question so that it dives deeper into what it means to have a quality study space. We were inspired by noise levels and occupancy because the degree of those are potential indicators of how well an area is for studying.
+2. Refined Question: Which locations in the CDRLC are the most reliable for finding open seating?
     - Original Question: Around a certain time, where are the most available spaces to study in the CDRLC?
-    - Why Changed: With structured data and timestamps it is more easier to visualize precise hourly open seating.
-    - Reasoning: This identifies peak times when there are many people in an area based on time and provides it for each area.
-3. How do external temperature and weather conditions impact the availability of seating?
+    - Reasoning: We're still staying on the topic of finding available seating, but we modified it to put more intentionality on discovering where students can place their hopes on finding a place to study without dealing with the frustration of going to a spot and having to leave immediately due to limited seat availability. We would most likely utilize open seat metrics across
+    different times, days, and locations to explore this question.
+3. Refined Question: Does the demand or usage of study spaces increase during poor external conditions?
     - Original Quetion: What amenities are near these study locations in the CDRLC?
-    - Why Changed: We did not count amenities, but we did factor in weather data.
-    - Reasoning: This looks at how outdoor weather can affect seating by using temperature, weather condition, area, and the open seats count.
-4. Is there a correlation between the number of people and the sound level, or are certain places typically louder?
+    - Reasoning: We changed our question because after reflecting on our pilot, we decided to not consider amenities. However, we did factor in weather conditions and temperature, and we're
+    curious as to how attributes like poor weather condition and temperature impact the behavior of occupants, such as the utilization of study areas and seat availability.
+4. Refined Qustion: How does the popularity of different study spaces change throughout the day?
     - Original Quetion: Which study spaces best fit different study activities in the CDRLC?
-    - Why Changed: The student activity types and seating types were not tracked so this question is harder to answer.
-    - Reasoning: This helps us determine if noise level is affected by the number of people or if the room is generally louder.
+    - Reasoning: We changed the original question to a more interesting one after we collcted data because the new one focuses on the intersection of occupancy across various times and different locations.
 
 # Task 4: Task abstractions
 
