@@ -128,6 +128,7 @@ Based on our pilot findings and feedback from our professor, we made the followi
 
 # Task 3: Data description and domain questions
 **Dataset Overview & Collectin Process**
+
 Data was collected over a two-week period from September 21, 2026 to October 2, 2026 (Monday to Friday). The dataset collected caputres spatial and temporal variations in noise and seating occupancy across five selected areas of CDRLC. The areas include: the Sandella Cafe seating, 1st Floor CS Lounge, Fron of Stairs area, 2nd Floor CS Study Lounge (split into Collaborative and Quiet sections), and the 4th Floor Balcony. Sampling occurred daily across five fixed time slots (9:00 AM, 11:00 AM, 1:00 PM, 3:00 PM, and 5:00 PM). In total 50 observation windows and 300 individual area data points.
 
 For every location and time slot, we recorded six attributes: Area Name, People Count, Open Seats Count, Average Noise Level (dB), Temperature (°F), and Weather Condition. Also a Notes section. Sound levels were caputured using 30-second average decibel readings with the Decibel X app, while ambient weather parameters were recorded from iPhone's weather app.
@@ -135,6 +136,7 @@ For every location and time slot, we recorded six attributes: Area Name, People 
 To ensure consistent sampling, we established observational rules: chairs occupied by belongings were marked as occupied unless the owner was actively seated nearby, circle blue couches were recorded at a capacity of one person per circle, and long blue couches were evaluated at two people per stitched seat segment.
 
 **Limitations and Biases**
+
 Our dataset contains inherent sampling limitations and potential sources of bias:
 - Decibel Measurements: Capturing sound over a 30-second window means that even a brief burst of loud noise (e.g., someone dropping something, door closing, laughing loudly) could slightly skew the mean reading compared to ambient continuous volume. 
  *Note this was attempted to be lowered by restarting recording if the noise subjectively really ruined the data
@@ -143,6 +145,7 @@ Our dataset contains inherent sampling limitations and potential sources of bias
  *Note this was due to group members conflict with school schedules, work schedules, living off campus, etc
 
 **Abstraction & Process Reflection**
+
 Taking the dynamic physical spaces into rows and numeric values required compressing complex social environments into standardized attributes. Our dataset effectively captured quantitative trends for space usage, number of people, noise level, and outside weather.
 
 Some qualitative nuances were lost in the abstraction:
@@ -152,6 +155,7 @@ Some qualitative nuances were lost in the abstraction:
 Deciding how real-world observations became data points required creating a standard. For example, when individuals were standing we recorded them in people count and added in notes saying that they were standing so the open seats count baseline was not too affected. Also having set couch capacity based on stitching helped us have discrete numeric attributes.
 
 **Refined Domain Questions**
+
 1. Does the 2nd Floor Quiet Area consistently maintain lower decibel levels than collaborative spaces during peak hours (11:00 AM – 1:00 PM)?
     - Original Quetion: Which spaces in the CDRLC provide the studying quality I want?
     - Why Changed: Quality is too subjective for visualization so narrowing it down to be more specific and measurable with decibel levels is helpful.
