@@ -132,34 +132,34 @@ our counts unless the chairs are removed from those areas entirely.
 - Collection Strategy: To increase data points as suggested by our professor, data will be collected over more days and more times throughout the day to notice if there's any signal or pattern across the span of 1-2 days.
 - Dataset File:[File Path] (./Data/Pilot_Collection_Data.csv)
 
-# Task 3: Data description and domain questions
+# Task 3: Data Description and Domain Questions
 
-## Dataset Overview & Collectin Process
+## Dataset Overview & Collection Process
 
-Data was collected over a two-week period from September 21, 2026 to October 2, 2026 (Monday to Friday). The dataset collected caputres spatial and temporal variations in noise and seating occupancy across five selected areas of CDRLC. The areas include: the Sandella Cafe seating, 1st Floor CS Lounge, Fron of Stairs area, 2nd Floor CS Study Lounge (split into Collaborative and Quiet sections), and the 4th Floor Balcony. Sampling occurred daily across five fixed time slots (9:00 AM, 11:00 AM, 1:00 PM, 3:00 PM, and 5:00 PM). In total 50 observation windows and 300 individual area data points.
+Data was collected over a two-week period from September 21, 2026 to October 2, 2026 (Monday's to Friday's only). The data we collected captures spatial and temporal variations in noise and seating occupancy across six selected areas of CDRLC. The areas include the Sandella Cafe seating, 1st floor lobby area, 1st floor CS study lounge, 2nd floor CS study lounge (split into collaborative and quiet sections), and 4th floor balcony area. Sampling occurred daily across five fixed time slots (9:00 AM, 11:00 AM, 1:00 PM, 3:00 PM, and 5:00 PM). In total 50 observation windows and 300 individual area data points.
 
-For every location and time slot, we recorded six attributes: Area Name, People Count, Open Seats Count, Average Noise Level (dB), Temperature (°F), and Weather Condition. Also a Notes section. Sound levels were caputured using 30-second average decibel readings with the Decibel X app, while ambient weather parameters were recorded from iPhone's weather app.
+For every date, location, and time, we recorded these attributes: weather condition, temperature (°F), average noise level (dB), number of people, and number of open seats. Sound levels were caputured using 30-second average decibel readings with the Decibel X app, while ambient weather parameters were recorded with Apple's weather app.
 
-To ensure consistent sampling, we established observational rules: chairs occupied by belongings were marked as occupied unless the owner was actively seated nearby, circle blue couches were recorded at a capacity of one person per circle, and long blue couches were evaluated at two people per stitched seat segment.
+To ensure consistent data collection, we established observational rules: chairs occupied by belongings were marked as occupied unless the owner was actively seated nearby, circle blue couches were recorded at a capacity of one person per circle, and long blue couches were evaluated at two people per stitched seat segment.
 
 ## Limitations and Biases
 
 Our dataset contains inherent sampling limitations and potential sources of bias:
 - Decibel Measurements: Capturing sound over a 30-second window means that even a brief burst of loud noise (e.g., someone dropping something, door closing, laughing loudly) could slightly skew the mean reading compared to ambient continuous volume. 
   > *Note this was attempted to be lowered by restarting recording if the noise subjectively really ruined the data*
-- Seating Assumptions: deciding whether unattended bags represented a temporarily open seat or a long-term open spot. This requires subjective judgment, but was attempted to limit based on obvious factors like an open laptop, or items on the table. (e.g., one person would typically not have 2 backpacks or 2 laptops)
-- Temporal scope: Collection was constrained to weekdays between 9:00 AM to 5:00PM, our data reflects peak academic hours, but misses evning study habits and weekend activity.
+- Seating Assumptions: deciding whether unattended bags represented a temporarily open seat or a long-term open spot. This requires subjective judgment but was attempted to limit based on obvious factors like an open laptop, or items on the table. (e.g., one person would typically not have 2 backpacks or 2 laptops)
+- Temporal scope: Collection was constrained to weekdays between 9:00 AM to 5:00PM, our data reflects peak academic hours, but misses evening study habits and weekend activity.
   > *Note this was due to group members conflict with school schedules, work schedules, living off campus, etc*
 
 ## Abstraction & Process Reflection
 
-Taking the dynamic physical spaces into rows and numeric values required compressing complex social environments into standardized attributes. Our dataset effectively captured quantitative trends for space usage, number of people, noise level, and outside weather.
+Taking the dynamic physical spaces into rows and numeric values required compressing complex social environments into standardized attributes. Our dataset effectively captures quantitative trends for space usage, number of people, noise level, and outside weather conditions and temperatures.
 
 Some qualitative nuances were lost in the abstraction:
-- Noise Quality: devibel metric captures sound pressure level, but loses type of noise a room has. For example some rooms had a higher sound pressure level, but it was due to the loud HVAC in the room rather than human conversation.
+- Noise Quality: decibel metrics capture sound pressure level but loses the type of noise a room has. For example, some rooms had a higher sound pressure level, but it was due to the loud HVAC in the room rather than human conversation.
 - Seating Dynamics: Recording people count and open seats count fails to capture group dynamics like people working together or alone. It also fails to capture what types of seating are available. If a table with four chairs only has one person sitting compared to a table with four chairs and no one sitting.
 
-Deciding how real-world observations became data points required creating a standard. For example, when individuals were standing we recorded them in people count and added in notes saying that they were standing so the open seats count baseline was not too affected. Also having set couch capacity based on stitching helped us have discrete numeric attributes.
+Deciding how real-world observations became data points required creating a standard. For example, when individuals were standing we recorded them in people count and added in notes saying that they were standing so the open seats count baseline was not too affected. Also, having set couch capacity based on stitching helped us have discrete numeric attributes.
 
 ## Refined Domain Questions
 
