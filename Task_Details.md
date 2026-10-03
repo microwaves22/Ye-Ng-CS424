@@ -2,21 +2,22 @@
 ![Description of image](path/to/image.png) -->
 
 # Task #1: Observation and data collection plan
-**Primary Dataset**
-- Add path to CSV file
-- Add link to Google Sheets
 
-**Description of What is Desired to Observe and Why**
+## Primary Dataset
+- Add path to CSV file
+- ![Link to Google Sheets](https://docs.google.com/spreadsheets/d/1kPfpt8VzsofgehPeB3OIRECaAapwIVqHasqaJXrZmyE/edit?usp=sharing)
+
+## Description of What is Desired to Observe and Why
 - Our group desires to observe the University of Illinois-Chicago's (UIC) Computer Design and Learning Resource Center (CDLRC). We want to observe the enviornment of different selected locations of study spots around the building across multiple times and days.
 - Just like many Computer Science (CS) students at UIC, we study in the CDLRC frequently and are curious as to what constitutes optimal study spots in that building, meaning that the enviornment can support the productivity of our academics and work.
 
-**Four Initial Domain Questions**
+## Four Initial Domain Questions
 - Around a certain time, where are the most available spaces to study in the CDRLC?
 - Which spaces in the CDRLC provide the studying quality I want?
 - What ammenities are near these study locations in the CDRLC?
 - Which study spaces best fit different study activites in the CDRLC?
 
-**Proposed Data Collection Process**
+## Proposed Data Collection Process
 
 An observation is constituted as having data for all of the attributes that are described in the data dictionary below. We want to take into
 account those observations because enviornmental factors and what different spaces have to offer are inherent factors that cause people to
@@ -45,9 +46,9 @@ Our collection process might introduce bias based on what we determine to be a g
 or chairs, the tables and chairs getting moved around, and possibly miscounting people due to the natural movement of people leaving and entering an
 area or people standing instead of sitting.
 
-**Initial Data Dictionary**
+## Initial Data Dictionary
 | Attribute                           | Type         | Description                                                   | Example                   |
-|-------------------------------------|--------------|---------------------------------------------------------------|---------------------------|
+| :--- | :--- | :--- | :--- |
 | `date`                              | Temporal     | Date of observation                                           | 9/17/2026                 |
 | `time`                              | Temporal     | Time of observation                                           | 13:00                     |
 | `location`                          | Categorical  | Location of the study area                                    | 2nd Floor CS Study Lounge |
@@ -75,25 +76,25 @@ area or people standing instead of sitting.
 
 # Task 2: Pilot and data collection
 
-**Pilot Collection & Key Findings**
+## Pilot Collection & Key Findings
 On September 17, 2026 at 11:00 AM, our team conducted a pilot collection at the University of Illinois-Chicago (UIC) Computer Design Research and Learning Center (CDRLC)
 
-**Collection Protocol & Timing**
+## Collection Protocol & Timing
 To test workload and feasibility of the collection, the team split up and each collected data across the different floors:
 - Elizabeth: Covered all designated study spots on Floors 1 and 2 (time: ~20 minutes)  
-  *note: due to class time conflict Elizabeth did not cover all study spots
+  > *note: due to class time conflict Elizabeth did not cover all study spots*
 - Michelle: Covered all designated study spots on Floors 1-5 (time: ~30 minutes) and tested a subset excluding Floors 3 and 5 (times: ~15 minutes)
 
 At first, we recorded data using Google Sheets with a separate key mapping `Location ID` to `Location Description` (e.g., `11` for `Area in front of stairs`)
 
-**Pilot Observations & Issues Found**
+## Pilot Observations & Issues Found
 - Location ID Issue: Needing to cross-reference `Location ID` numbers with the `Location Descriptions` caused extra unnecessary mental load and slowed down the collection process. 
 - Enclosed Study Rooms: Initially, we planned to include the study rooms on the second floor that can be booked. However, because these spaces are enclosed, pre-booking is required, and there are multiple study rooms, recording occupancy and noise levels inside them did not align with our focus on open/shared study spaces.
 - Office Hour Study Spaces: Initially, we also planned to factor in all of the Office Hour areas on the second floor. Due to time constraints and the notion that these areas are specifically meant for students in those courses at specific tables, we decided they did not align with our focus on general open/shared study spaces.
 - Movable Furniture: Students frequently moved chairs between nearby tables. Trying to track exact counts per table was chaotic and created confusion when a chair was moved from one nearby study area to another.
 - Seating Types: We initially wanted to track detailed chair/table variations (e.g., 1-person tables, nook chairs, tall plastic chairs, ADA accessibility, sofa spots). However, capturing these granular seating types proved overly complex, time-consuming, and difficult to standardize across collectors.
 
-**Revisions & Professor Consultation**
+## Revisions & Professor Consultation
 
 Following our pilot, we scheduled a meeting with our professor to discuss issues that arose, how to simplify our attributes without losing data, and more. 
 
@@ -110,7 +111,7 @@ Based on our pilot findings and feedback from our professor, we made the followi
 - Removed floors 3 and 5: Excluded these floors because they only consist of a single table with 2-3 seats next to the elevator, which did not provide useful data for our study.
 - Expanded collection frequency: Scheduled data collection across multiple days and varying times of day to ensure we collect a higher volume of data points and detect meaningful patterns.
 
-*Revised Data Dictionary (Post-Pilot)*
+## Revised Data Dictionary (Post-Pilot)
 | Attribute | Type | Description | Example |
 | :--- | :--- | :--- | :--- |
 | `date` | Temporal | Date of observation | 9/17/2026 |
@@ -122,12 +123,13 @@ Based on our pilot findings and feedback from our professor, we made the followi
 | `occupancy` | Quantitative | Total number of occupants at a location | 25 |
 | `open_seats` | Quantitative | Number of open seats at a location | 12 |
 
-**Full Data Collection Strategy**
+## Full Data Collection Strategy
 - Collection Strategy: To increase data points as suggested by our professor, data will be collected over more days and more times throughout the day to notice if there's any signal or pattern across the span of 1-2 days.
-- Dataset File: (./Data/Pilot_Collection_Data.csv)
+- Dataset File:[File Path] (./Data/Pilot_Collection_Data.csv)
 
 # Task 3: Data description and domain questions
-**Dataset Overview & Collectin Process**
+
+## Dataset Overview & Collectin Process
 
 Data was collected over a two-week period from September 21, 2026 to October 2, 2026 (Monday to Friday). The dataset collected caputres spatial and temporal variations in noise and seating occupancy across five selected areas of CDRLC. The areas include: the Sandella Cafe seating, 1st Floor CS Lounge, Fron of Stairs area, 2nd Floor CS Study Lounge (split into Collaborative and Quiet sections), and the 4th Floor Balcony. Sampling occurred daily across five fixed time slots (9:00 AM, 11:00 AM, 1:00 PM, 3:00 PM, and 5:00 PM). In total 50 observation windows and 300 individual area data points.
 
@@ -135,16 +137,16 @@ For every location and time slot, we recorded six attributes: Area Name, People 
 
 To ensure consistent sampling, we established observational rules: chairs occupied by belongings were marked as occupied unless the owner was actively seated nearby, circle blue couches were recorded at a capacity of one person per circle, and long blue couches were evaluated at two people per stitched seat segment.
 
-**Limitations and Biases**
+## Limitations and Biases
 
 Our dataset contains inherent sampling limitations and potential sources of bias:
 - Decibel Measurements: Capturing sound over a 30-second window means that even a brief burst of loud noise (e.g., someone dropping something, door closing, laughing loudly) could slightly skew the mean reading compared to ambient continuous volume. 
- *Note this was attempted to be lowered by restarting recording if the noise subjectively really ruined the data
+  > *Note this was attempted to be lowered by restarting recording if the noise subjectively really ruined the data*
 - Seating Assumptions: deciding whether unattended bags represented a temporarily open seat or a long-term open spot. This requires subjective judgment, but was attempted to limit based on obvious factors like an open laptop, or items on the table. (e.g., one person would typically not have 2 backpacks or 2 laptops)
 - Temporal scope: Collection was constrained to weekdays between 9:00 AM to 5:00PM, our data reflects peak academic hours, but misses evning study habits and weekend activity.
- *Note this was due to group members conflict with school schedules, work schedules, living off campus, etc
+  > *Note this was due to group members conflict with school schedules, work schedules, living off campus, etc*
 
-**Abstraction & Process Reflection**
+## Abstraction & Process Reflection
 
 Taking the dynamic physical spaces into rows and numeric values required compressing complex social environments into standardized attributes. Our dataset effectively captured quantitative trends for space usage, number of people, noise level, and outside weather.
 
@@ -154,7 +156,7 @@ Some qualitative nuances were lost in the abstraction:
 
 Deciding how real-world observations became data points required creating a standard. For example, when individuals were standing we recorded them in people count and added in notes saying that they were standing so the open seats count baseline was not too affected. Also having set couch capacity based on stitching helped us have discrete numeric attributes.
 
-**Refined Domain Questions**
+## Refined Domain Questions
 
 1. Does the 2nd Floor Quiet Area consistently maintain lower decibel levels than collaborative spaces during peak hours (11:00 AM – 1:00 PM)?
     - Original Quetion: Which spaces in the CDRLC provide the studying quality I want?
