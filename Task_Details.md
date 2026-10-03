@@ -182,3 +182,8 @@ Deciding how real-world observations became data points required creating a stan
 # Task 6: Summarizing
 
 # Task 7: Collaboration process
+
+
+# IDK where this goes: photos
+- notes converted with Canva fom heic to jpeg 
+- hiding people's faces w/ Canva editing
