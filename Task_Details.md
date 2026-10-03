@@ -68,54 +68,57 @@ area or people standing instead of sitting.
 **Initial Data Dictionary**
 
 # Task 2: Pilot and data collection
-**Pilot Collection & Key Findings**
 
+**Pilot Collection & Key Findings**
 On September 17, 2026 at 11:00 AM, our team conducted a pilot collection at the University of Illinois-Chicago (UIC) Computer Design Research and Learning Center (CDRLC)
 
 **Collection Protocol & Timing**
 To test workload and feasibility of the collection, the team split up and each collected data across the different floors:
-- Elizabeth: Covered all designated study spots on Floors 1 and 2 (time: ~20 minutes)
-*note: due to class time conflict Elizabeth did not cover all study spots
+- Elizabeth: Covered all designated study spots on Floors 1 and 2 (time: ~20 minutes)  
+  *note: due to class time conflict Elizabeth did not cover all study spots
 - Michelle: Covered all designated study spots on Floors 1-5 (time: ~30 minutes) and tested a subset excluding Floors 3 and 5 (times: ~15 minutes)
 
 At first, we recorded data using Google Sheets with a separate key mapping `Location ID` to `Location Description` (e.g., `11` for `Area in front of stairs`)
 
 **Pilot Observations & Issues Found**
-- Location ID Issue: Needing to cross-reference `Location ID` numbers with the `Location Descriptions` caused extra unnecessary mental load and slowed us down. 
-- Enclosed Study Rooms: Initially we planned to include the study rooms on the second floor that can be booked. However, because these spaces are enclosed, pre-booking is required, and there are multiple of the study rooms, recording the occupancy and noise levels inside them did not align with our focus on open/shared study spaces.
-- Office Hour Study Spaces: Initially we also planned to factor in all of the Office Hour areas on the second floor, but due to time and also the notion that it is meant for students in the courses at specific tables, we decided it did not align with our focus on open/shared study spaces.
-- Movable Furniture: students frequently moved chairs between nearby tables. Trying to track exact counts per table was chaotic, and also affected if two separate study areas we nearby and one chair was moved from one study area to another. Thus we decided to create bigger study areas by combining areas where furniture could easily be moved and change to counting open seats and people sitting.
-- Seating Types: We initially wanted to track chair/table variations (e.g., 1-person tables, nook chairs, tall plastic chairs, ADA accessibility, sofa spots). However, caputring these granular seating types was overly complex and difficultto standardize.
+- Location ID Issue: Needing to cross-reference `Location ID` numbers with the `Location Descriptions` caused extra unnecessary mental load and slowed down the collection process. 
+- Enclosed Study Rooms: Initially, we planned to include the study rooms on the second floor that can be booked. However, because these spaces are enclosed, pre-booking is required, and there are multiple study rooms, recording occupancy and noise levels inside them did not align with our focus on open/shared study spaces.
+- Office Hour Study Spaces: Initially, we also planned to factor in all of the Office Hour areas on the second floor. Due to time constraints and the notion that these areas are specifically meant for students in those courses at specific tables, we decided they did not align with our focus on general open/shared study spaces.
+- Movable Furniture: Students frequently moved chairs between nearby tables. Trying to track exact counts per table was chaotic and created confusion when a chair was moved from one nearby study area to another.
+- Seating Types: We initially wanted to track detailed chair/table variations (e.g., 1-person tables, nook chairs, tall plastic chairs, ADA accessibility, sofa spots). However, capturing these granular seating types proved overly complex, time-consuming, and difficult to standardize across collectors.
 
-**Revisions & Professor Consulation**
-Following our pilot, we scheduled a meeting with our professor to discuss issues that arose, how to simplify our attributes without loosing data, and more. 
+**Revisions & Professor Consultation**
 
-Based on our pilot findings and feedback from our professor we decided to make the following changes
-1. Remove study rooms and Office hour study areas
-2. simplified seating and furniture  to seat avaialble and people there. 
-3. make zones bigger by merging close study areas.
-4. replaced location Id system with direct location description.
-5. removed floors 3 and 5 because it was just a small area next to elevator and did not seem to provide useful as it was one table and 2-3 seating. 
+Following our pilot, we scheduled a meeting with our professor to discuss issues that arose, how to simplify our attributes without losing data, and more. 
 
+During our meeting, our professor provided key feedback to guide our strategy:
+- Increase Data Points: 30 observations isn't enough to capture meaningful variation. We need to collect across more days or more times throughout the day to notice if there’s any signal or pattern across the span of 1-2 days.
+- Simplify Attributes: Restrict the total amount of attributes so collecting frequent observations over time is feasible. Our professor recommended using the simplest approach possible—don't worry about people moving between rooms or furniture moving around.
+- Summarize Metrics: Summarize attributes after occupancy down to 2-3 essential, less granular attributes: count number of people, count the number of open seats, and count the number of outlets.
 
-### Revised Data Dictionary (Post-Pilot)
+Based on our pilot findings and feedback from our professor, we made the following revisions:
+- Removed study rooms and Office hour study areas: Excluded booked study rooms and course-specific office hour tables to focus strictly on open/shared spaces.
+- Simplified seating and furniture: Stripped away complex chair types and table variations in favor of simpler counts: seat availability, people present, and outlet access.
+- Made zones bigger by merging close study areas: Combined adjacent areas where furniture easily moves around into unified zones so individual chair shifts won't affect our counts.
+- Replaced location ID system: Used direct location descriptions on the main collection sheet instead of forcing cross-referencing with a separate lookup key.
+- Removed floors 3 and 5: Excluded these floors because they only consist of a single table with 2-3 seats next to the elevator, which did not provide useful data for our study.
+- Expanded collection frequency: Scheduled data collection across multiple days and varying times of day to ensure we collect a higher volume of data points and detect meaningful patterns.
 
+*Revised Data Dictionary (Post-Pilot)*
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
 | `Date` | Temporal | Date of observation |
 | `Time` | Temporal | Time of observation |
 | `Location` | Categorical | Specific study area within UIC CDRLC |
-| `Weather Condition` | Categorical | External weather description |
-| `Weather Temperature` | Quantitative | Outdoor temperature in °F |
-| `Noise Level` | Quantitative | Average noise level across a 30-second interval |
-| `Occupancy` | Quantitative | Total number of people occupying the space |
-| `Table Availability` | Quantitative | Number of open, available tables |
-| `Seat Availability` | Quantitative | Number of available open seats |
-| `Outlet Access` | Quantitative | Number of usable power outlets (2 sockets = 1 outlet) |
-| `Window / Natural Light` | Categorical | Presence of direct natural sunlight (excluding interior glass or skylights) |
+| `Weather Condition` | Categorical | Description of outside weather |
+| `Weather Temperature` | Quantitative | Degree in Fahrenheit |
+| `Noise Level` | Quantitative | Average noise level across the span of 30 seconds |
+| `Occupancy` | Quantitative | Count number of people |
+| `Open Seats` | Quantitative | Count the number of open seats |
 
----
-
+**Full Data Collection Strategy**
+- Collection Strategy: To increase data points as suggested by our professor, data will be collected over more days and more times throughout the day to notice if there's any signal or pattern across the span of 1-2 days.
+- Dataset File: (./Data/Pilot_Collection_Data.csv)
 
 # Task 3: Data description and domain questions
 

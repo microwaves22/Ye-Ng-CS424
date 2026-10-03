@@ -1,0 +1,14 @@
+Time,Location ID,Location Description,Noise Level (Min),Noise Level (Mean),Noise Level (Max),Total Number of People,Nook Chairs available,Plastic chairs available,4 people table seating available,2 people table seating available,single person table available
+11:00,11,Area in front of stairs,49.7,54.4,65.8,28,-1,5,-1,-1,5
+11:00,12,Area in front of the lecture/conference rooms,43.1,52.2,59,9,,,,,
+11:00,13,Area in front of the Sandella cafe,54.6,64.5,77,5,,,,,
+11:00,14,CS Study Lounge Area,50.6,54.3,60.7,10,,,,,
+11:00,15,Area right of elevator,50.6,60.7,69.6,1,,,,,
+11:00,21,CS Study Lounge Quiet Area,41.8,48.9,63.6,6,,,,,
+11:00,22,CS Study Lounge Collaborative Area,42.9,51.5,62.4,15,,,,,
+11:00,23,Area right of elevator,45.9,52.1,58.3,1,,,,,
+11:00,24,Booked study rooms,43.8,47.4,52.1,9,,,,,
+11:00,31,Area right of elevator,48.5,52.6,55.7,4,,,,,
+11:00,41,Study lounge,49.9,57.7,64.1,1,,,,,
+11:00,42,Area right of elevator,46.2,50.4,61.5,2,,,,,
+11:00,43,Area between professor offices,49.5,51.8,58.4,1,,,,,
