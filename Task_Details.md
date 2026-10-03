@@ -85,14 +85,18 @@ To test workload and feasibility of the collection, the team split up and each c
   > *note: due to class time conflict Elizabeth did not cover all study spots*
 - Michelle: Covered all designated study spots on Floors 1-5 (time: ~30 minutes) and tested a subset excluding Floors 3 and 5 (times: ~15 minutes)
 
-At first, we recorded data using Google Sheets with a separate key mapping `Location ID` to `Location Description` (e.g., `11` for `Area in front of stairs`)
+At first, we recorded data using Google Sheets with a separate key mapping `Location ID` to `Location Description` (e.g., `11` for `Area in front of stairs`).
 
 ## Pilot Observations & Issues Found
 - Location ID Issue: Needing to cross-reference `Location ID` numbers with the `Location Descriptions` caused extra unnecessary mental load and slowed down the collection process. 
-- Enclosed Study Rooms: Initially, we planned to include the study rooms on the second floor that can be booked. However, because these spaces are enclosed, pre-booking is required, and there are multiple study rooms, recording occupancy and noise levels inside them did not align with our focus on open/shared study spaces.
-- Office Hour Study Spaces: Initially, we also planned to factor in all of the Office Hour areas on the second floor. Due to time constraints and the notion that these areas are specifically meant for students in those courses at specific tables, we decided they did not align with our focus on general open/shared study spaces.
-- Movable Furniture: Students frequently moved chairs between nearby tables. Trying to track exact counts per table was chaotic and created confusion when a chair was moved from one nearby study area to another.
-- Seating Types: We initially wanted to track detailed chair/table variations (e.g., 1-person tables, nook chairs, tall plastic chairs, ADA accessibility, sofa spots). However, capturing these granular seating types proved overly complex, time-consuming, and difficult to standardize across collectors.
+- Enclosed Study Rooms: Initially, we planned to include the study rooms on the second floor that can be booked. However, these spaces are enclosed and pre-booking is required.
+These rooms are already intended to provide private and quiet spaces to study, which don't add much value to our project since we're more interested in open or shared study spaces
+that tend to have more environmental variations to them throughout different days and times.
+- Office Hour Study Spaces: Initially, we also planned to factor in all of the Office Hour areas on the second floor. Due to time constraints and the fact that Office Hour spaces are
+meant for students to get help from Teaching Assistants rather than be designated areas for studying, we decided that they do not align with our focus on general open/shared study spaces.
+- Movable Furniture: Students frequently move chairs amongst tables, and they sometimes move them outside of designated rooms or spaces. Those phenomenon make it challenging to
+track exact chair counts, providing unncessary complications to our data collection process.
+- Seating Types: We initially wanted to track detailed chair/table variations (e.g., 1-person tables, nook chairs, tall plastic chairs, sofa spots, etc.). However, capturing these granular seating types proved overly complex, time-consuming, and difficult to standardize across collectors.
 
 ## Revisions & Professor Consultation
 
@@ -100,13 +104,14 @@ Following our pilot, we scheduled a meeting with our professor to discuss issues
 
 During our meeting, our professor provided key feedback to guide our strategy:
 - Increase Data Points: 30 observations isn't enough to capture meaningful variation. We need to collect across more days or more times throughout the day to notice if there’s any signal or pattern across the span of 1-2 days.
-- Simplify Attributes: Restrict the total amount of attributes so collecting frequent observations over time is feasible. Our professor recommended using the simplest approach possible—don't worry about people moving between rooms or furniture moving around.
+- Simplify Attributes: Shorten the total amount of attributes to make the process of frequently collecting observations more feasible. Our professor recommended using the simplest approach possible and to not worry about people moving between rooms or furniture moving around.
 - Summarize Metrics: Summarize attributes after occupancy down to 2-3 essential, less granular attributes: count number of people, count the number of open seats, and count the number of outlets.
 
 Based on our pilot findings and feedback from our professor, we made the following revisions:
-- Removed study rooms and Office hour study areas: Excluded booked study rooms and course-specific office hour tables to focus strictly on open/shared spaces.
-- Simplified seating and furniture: Stripped away complex chair types and table variations in favor of simpler counts: seat availability, people present, and outlet access.
-- Made zones bigger by merging close study areas: Combined adjacent areas where furniture easily moves around into unified zones so individual chair shifts won't affect our counts.
+- Removed study rooms and office hour study areas: Excluded booked study rooms and course-specific office hour tables to focus strictly on open/shared spaces.
+- Simplified seating and furniture: Stripped away complex chair types and table variations in favor of simpler counts: seat availability and people present.
+- Made study area zones bigger by merging nearby study areas: Combined adjacent areas where furniture easily moves around into unified zones so that individual chair shifts won't affect 
+our counts unless the chairs are removed from those areas entirely.
 - Replaced location ID system: Used direct location descriptions on the main collection sheet instead of forcing cross-referencing with a separate lookup key.
 - Removed floors 3 and 5: Excluded these floors because they only consist of a single table with 2-3 seats next to the elevator, which did not provide useful data for our study.
 - Expanded collection frequency: Scheduled data collection across multiple days and varying times of day to ensure we collect a higher volume of data points and detect meaningful patterns.
