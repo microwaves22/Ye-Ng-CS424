@@ -68,6 +68,110 @@ area or people standing instead of sitting.
 **Initial Data Dictionary**
 
 # Task 2: Pilot and data collection
+**Pilot Collection & Key Findings**
+
+For the Pilot test we split and did them both so we could gauge how much time it took to collect data. We collected Time, we originally put it on Google sheets and had separate sheet with area and location ID, but from it we realized it was hard to remember the location id and the location. we collected noise level (min, mean, max), total number of people. We did the following areas 11	Area in front of stairs
+ID  Location Description
+12	Area in front of the lecture/conference rooms
+13	Area in front of the Sandella cafe
+14	CS Study Lounge Area
+15	Area right of elevator
+21	CS Study Lounge Quiet Area
+22	CS Study Lounge Collaborative Area
+23	Area right of elevator
+24	Booked study rooms
+31	Area right of elevator
+41	Study lounge
+42	Area right of elevator
+43	Area between professor offices
+51	Area right of elevator
+We collected at 11 am 9/17/2026 in the UIC CDLRC Building. 
+
+some notes from the pilot: We will continue recording noise level for each observation
+20 mins for Elizabeth (all spots floors 1-2)
+30 mins for Michelle all areas (1,2,3,4,5)
+15 minutes for Michelle (all spots in the CS building excluding floors 3 and 5 and the private study rooms)
+Don’t include private study rooms. They’re already enclosed rooms that people book in advance
+To factor in students moving chairs we’ve concise super close proximity study areas together
+Note: where chairs are frequently seen moved. 
+In theory, the total number of chairs/tables stays the same within this space, even if someone moves furniture around
+
+we decided to schedule a meeting with our professor to discuss. We were planning to incorporate chair differeces and seating types, but didn't because we couldn't figure it out and were just waiting until we met up with our professor and later after the meeting we determined it would be best to not factor seating types/arrangements. 
+
+Post pilot but pre professor meeting: Attribute
+Type
+Description
+Date
+Temporal
+Date of observation
+Time
+Temporal
+Time of observation
+Location
+Categorical
+Location of the study area
+Weather Condition
+Categorical
+Description of outside weather
+Weather Temperature
+Quantitative
+Degree in Fahrenheit
+Noise Level
+Quantitative
+Average noise level across the span of 30 seconds
+Occupancy
+Quantitative
+Total number of occupants at a location
+1 Person Table Availability
+Quantitative
+Number of FULLY open tables for 1
+2 People Table Availability 
+Quantitative
+Number of FULLY open tables for 2
+3+ People Table Availability
+Quantitative
+Number of FULLY open tables for 3+
+Nook Chair Availability
+Quantitative
+Number of open seats
+Regular Plastic Chair
+Quantitative
+Number of open seats
+Tall Plastic Chair (Not ADA friendly)
+Quantitative
+Number of open seats
+Sofa Spot Availability
+Quantitative
+Number of empty soft seats (Note: each sofa holds 2 people)
+Outlet 
+Quantitative
+Number of Outlets in a Location (2 holes = 1 outlet; 4 holes = 2 outlets)
+Window Access
+Categorical
+Is there a to sunlight (it doesn’t count if window is the roof or if it’s into the building)
+1 Person Table Amount
+Quantitative
+Number of tables in a location
+2 People Table Amount
+Quantitative
+Number of tables in a location
+3+ People Table Amount
+Quantitative
+Number of tables in a location
+Nook Chair Amount
+Quantitative
+Number of chairs in a location
+Regular Plastic ChairAmount
+Quantitative
+Number of chairs in a location
+Tall Plastic Chair Amount (Not ADA friendly)
+Quantitative
+Number of chairs in a location
+Sofa Spot Amount
+Quantitative
+Number of chairs in a location
+
+
 
 # Task 3: Data description and domain questions
 
