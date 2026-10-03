@@ -46,31 +46,31 @@ or chairs, the tables and chairs getting moved around, and possibly miscounting 
 area or people standing instead of sitting.
 
 **Initial Data Dictionary**
-| Attribute                          | Type         | Description                                                   | Example                   |
-|------------------------------------|--------------|---------------------------------------------------------------|---------------------------|
-| date                               | Temporal     | Date of observation                                           | 09/17/2026                |
-| time                               | Temporal     | Time of observation                                           | 13:00                     |
-| location                           | Categorical  | Location of the study area                                    | 2nd Floor CS Study Lounge |
-| weather_condition                  | Categorical  | Description of the outside weather                            | Sunny                     |
-| weather_temperature                | Quantitative | Degree in Fahrenheit                                          | 75                        |
-| noise_level                        | Quantitative | Average noise level in decibels across the span of 30 seconds | 81.2                      |
-| occupancy                          | Quantitative | Total number of occupants at a location                       | 15                        |
-| single-person_tables               | Quantitative | Number of fully open tables for 1                             | 6                         |
-| two-person_tables                  | Quantitative | Number of fully open tables for 2                             | 3                         |
-| tables_for_multiple_people         | Quantitative | Number of fully open tables for 3+ people                     | 5                         |
-| nook_chair_availability            | Quantitative | Number of open nook seats                                     | 4                         |
-| regular_plastic_chair_availability | Quantitative | Number of open regular pastlic seats                          | 8                         |
-| tall_plastic_chair_availability    | Quantitative | Number of open tall plastic seats                             | 3                         |
-| sofa_spot_availability             | Quantitative | Number of empty soft seats                                    | 1                         |
-| outlets                            | Quantitative | Number of outlets at a location                               | 4                         |
-| window_access                      | Categorical  | Is there access to direct sunlight?                           | Yes                       |
-| number_of_single-person_tables     | Quantitative | Number of tables for 1 at a location                          | 5                         |
-| number_of_two-person_tables        | Quantitative | Number of tables for 2 at a location                          | 4                         |
-| number_of_multiple_people_tables   | Qunatitative | Number of tables for 3+ people at a location                  | 4                         |
-| number_of_nook_chairs              | Quantitative | Number of nook seats at a location                            | 7                         |
-| number_of_regular_plastic_chairs   | Quantitative | Number of regular plastic chairs at a location                | 4                         |
-| number_of_tall_plastic_chairs      | Quantitative | Number of tall plastic chairs at a location                   | 8                         |
-| number_of_sofa_spots               | Quantitative | Number of sofa spots at a location                            | 2                         |                                      
+| Attribute                           | Type         | Description                                                   | Example                   |
+|-------------------------------------|--------------|---------------------------------------------------------------|---------------------------|
+| `date`                              | Temporal     | Date of observation                                           | 9/17/2026                 |
+| `time`                              | Temporal     | Time of observation                                           | 13:00                     |
+| `location`                          | Categorical  | Location of the study area                                    | 2nd Floor CS Study Lounge |
+| `weather_condition`                 | Categorical  | Description of the outside weather                            | Sunny                     |
+| `weather_temperature`               | Quantitative | Degree in Fahrenheit                                          | 75                        |
+| `noise_level`                       | Quantitative | Average noise level in decibels across the span of 30 seconds | 81.2                      |
+| `occupancy`                         | Quantitative | Total number of occupants at a location                       | 15                        |
+| `single-person_tables`              | Quantitative | Number of fully open tables for 1                             | 6                         |
+| `two-person_tables`                 | Quantitative | Number of fully open tables for 2                             | 3                         |
+| `tables_for_multiple_people`        | Quantitative | Number of fully open tables for 3+ people                     | 5                         |
+| `nook_chair_availability`           | Quantitative | Number of open nook seats                                     | 4                         |
+| `regular_plastic_chair_availability`| Quantitative | Number of open regular pastlic seats                          | 8                         |
+| `tall_plastic_chair_availability`   | Quantitative | Number of open tall plastic seats                             | 3                         |
+| `sofa_spot_availability`            | Quantitative | Number of empty soft seats                                    | 1                         |
+| `outlets`                           | Quantitative | Number of outlets at a location                               | 4                         |
+| `window_access`                     | Categorical  | Is there access to direct sunlight?                           | Yes                       |
+| `number_of_single-person_tables`    | Quantitative | Number of tables for 1 at a location                          | 5                         |
+| `number_of_two-person_tables`       | Quantitative | Number of tables for 2 at a location                          | 4                         |
+| `number_of_multiple_people_tables`  | Qunatitative | Number of tables for 3+ people at a location                  | 4                         |
+| `number_of_nook_chairs`             | Quantitative | Number of nook seats at a location                            | 7                         |
+| `number_of_regular_plastic_chairs`  | Quantitative | Number of regular plastic chairs at a location                | 4                         |
+| `number_of_tall_plastic_chairs`     | Quantitative | Number of tall plastic chairs at a location                   | 8                         |
+| `number_of_sofa_spots`              | Quantitative | Number of sofa spots at a location                            | 2                         |                                      
 
 
 # Task 2: Pilot and data collection
@@ -111,16 +111,16 @@ Based on our pilot findings and feedback from our professor, we made the followi
 - Expanded collection frequency: Scheduled data collection across multiple days and varying times of day to ensure we collect a higher volume of data points and detect meaningful patterns.
 
 *Revised Data Dictionary (Post-Pilot)*
-| Attribute | Type | Description |
-| :--- | :--- | :--- |
-| `Date` | Temporal | Date of observation |
-| `Time` | Temporal | Time of observation |
-| `Location` | Categorical | Specific study area within UIC CDRLC |
-| `Weather Condition` | Categorical | Description of outside weather |
-| `Weather Temperature` | Quantitative | Degree in Fahrenheit |
-| `Noise Level` | Quantitative | Average noise level across the span of 30 seconds |
-| `Occupancy` | Quantitative | Count number of people |
-| `Open Seats` | Quantitative | Count the number of open seats |
+| Attribute | Type | Description | Example |
+| :--- | :--- | :--- | :--- |
+| `date` | Temporal | Date of observation | 9/17/2026 |
+| `time` | Temporal | Time of observation | 13:00 |
+| `location` | Categorical | Specific study area within UIC CDRLC | 2nd Floor CS Study Lounge Collaborative |
+| `weather_condition` | Categorical | Description of outside weather | Sunny |
+| `weather_temperature` | Quantitative | Degree in Fahrenheit | 75 |
+| `noise_level` | Quantitative | Average noise level in decibels across the span of 30 seconds | 81.2 |
+| `occupancy` | Quantitative | Total number of occupants at a location | 25 |
+| `open_seats` | Quantitative | Number of open seats at a location | 12 |
 
 **Full Data Collection Strategy**
 - Collection Strategy: To increase data points as suggested by our professor, data will be collected over more days and more times throughout the day to notice if there's any signal or pattern across the span of 1-2 days.
