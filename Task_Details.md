@@ -7,8 +7,8 @@
 - Add link to Google Sheets
 
 **Description of What is Desired to Observe and Why**
-- Our group is desiring to observe the University of Illinois-Chicago (UIC) Computer Design and Learning Resource Center (CDLRC). We will observe different selected locations of study spots around the building over multiple times and days.
-- Our group is desiring to do this because as Computer Science (CS) students we frequently study in CDLRC and want to know at what times will these locations have space to study and what its environment like.
+- Our group desires to observe the University of Illinois-Chicago's (UIC) Computer Design and Learning Resource Center (CDLRC). We want to observe the enviornment of different selected locations of study spots around the building across multiple times and days.
+- Just like many Computer Science (CS) students at UIC, we study in the CDLRC frequently and are curious as to what constitutes optimal study spots in that building, meaning that the enviornment can support the productivity of our academics and work.
 
 **Four Initial Domain Questions**
 - Around a certain time where are the most available spaces to study?
