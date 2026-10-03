@@ -18,55 +18,35 @@
 
 **Proposed Data Collection Process**
 
-An observation is constituted as having data for all of the following attributes: 
-- Date
-- Time
-- Location
-- Weather condition
-- Weather temperature
-- Noise level
-- Occupancy
-- Single-person tables
-- Two-person tables
-- Tables for 3+ people
-- Nook chair availability
-- Regular plastic chair availability
-- Tall plastic chair availability
-- Sofa spot availability
-- Number of outlets
-- Window access
-- Number of single-person tables
-- Number of two-person tables
-- Number of tables for 3+ people
-- Number of nook chairs
-- Number of regular plastic chairs
-- Number of tall plastic chairs
-- Number of sofa spots
-
-We want to take into account those observations because enviornmental factors and what different spaces have to offer are inherent
-factors that cause people to subconciously decide where they want to study. Admittedly, our list of attributes is very granular because
-we're not sure how the actual data collection experience will go and want to cover as many attributes as we can per observation. However,
-we will make modifications based on the outcomes later, if necessary.
+An observation is constituted as having data for all of the attributes that are described in the data dictionary below. We want to take into
+account those observations because enviornmental factors and what different spaces have to offer are inherent factors that cause people to
+subconciously decide where they want to study. Admittedly, our list of attributes is very granular because it's not feasible for us to fully
+anticipate or know how the actual data collection experience will go and what our findings will be, so we want to cover as many attributes as
+we can per observation for now. We will make adjustments based on the outcomes later, if necessary.
 
 Since our focus is on the CDRLC, all of the locations that we will visit will be in this building only. We've also identified 14 locations
 to collect data, and these locations are a mix of main or prominent study areas and smaller study spots that are in different corners of the
-building. We plan on collecting data at every hour of the weekday (Monday to Friday) starting from 9 AM and ending at 6 PM. The plan is to do
-this across five days. Repeating observations by visiting many locations for each hour of the timeframe we described will ensure that our data
-captures meaningful variation rather than a single snapshot. 
+building. We plan on collecting data at every hour of the weekday (Monday to Friday) starting from 9 AM and ending at 6 PM, which are the most
+common times that students are in the building. The plan is to collect data across five days. Repeating observations by visiting many locations
+for each hour of the timeframe we described will ensure that our data captures meaningful variation about each study spot rather than a single
+snapshot. For instance, the situation of study spots on Monday at 12 PM would most likely be different than the situation on Friday at 5 PM.
 
 In terms of dividing the work of data collection, our group of two members will split the work based on our schedule availability at different
 hours of the day. This ensures that at least one person is available to collect data at a particular time. Something else we've considered is the
 difficulty of having one person collect data at, for instance, 9 AM every day because the contraints of our schedules don't allow
 for that. One member might be available at 9 AM on Tuesday's and Thursday's only, so the other person would fill in for the other three days since
 they're available at that time on those days. Despite these circumstances, the group addressed them by collectively discussing our data collection
-methodology to ensure we're all on the same page and to minimize as much inconsistencies and human error as possible. 
+methodology to ensure we're all on the same page and to minimize as much inconsistencies and human error as possible. Some ways we ensure that our
+data collection process is the same is that we both use the same weather app and noise level recording app, we both record noise levels for exactly
+30 seconds and focus on recording the mean or average decibel value, and we have discussed how to count open vs. occupied seats or what constitutes
+particular chair or table types.
 
 Our collection process might introduce bias based on what we determine to be a group of students that are together, our personal definitions of tables
 or chairs, the tables and chairs getting moved around, and possibly miscounting people due to the natural movement of people leaving and entering an
 area or people standing instead of sitting.
 
 **Initial Data Dictionary**
-| Attribute | Type | Description | Example |
+| Attribute                          | Type         | Description                                                   | Example                   |
 |------------------------------------|--------------|---------------------------------------------------------------|---------------------------|
 | date                               | Temporal     | Date of observation                                           | 09/17/2026                |
 | time                               | Temporal     | Time of observation                                           | 13:00                     |
