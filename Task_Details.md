@@ -2,7 +2,7 @@
 ![Description of image](path/to/image.png) -->
 
 # Task #1: Observation and data collection plan
-**Primary Dataset:**
+**Primary Dataset**
 - Add path to CSV file
 - Add link to Google Sheets
 
@@ -17,6 +17,7 @@
 - Which study spaces best fit different study activites in the CDRLC?
 
 **Proposed Data Collection Process**
+
 An observation is constituted as having data for all of the following attributes: 
 - Date
 - Time
@@ -59,6 +60,10 @@ difficulty of having one person collect data at, for instance, 9 AM every day be
 for that. One member might be available at 9 AM on Tuesday's and Thursday's only, so the other person would fill in for the other three days since
 they're available at that time on those days. Despite these circumstances, the group addressed them by collectively discussing our data collection
 methodology to ensure we're all on the same page and to minimize as much inconsistencies and human error as possible. 
+
+Our collection process might introduce bias based on what we determine to be a group of students that are together, our personal definitions of tables
+or chairs, the tables and chairs getting moved around, and possibly miscounting people due to the natural movement of people leaving and entering an
+area or people standing instead of sitting.
 
 **Initial Data Dictionary**
 
