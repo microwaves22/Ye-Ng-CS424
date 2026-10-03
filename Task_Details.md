@@ -11,10 +11,10 @@
 - Just like many Computer Science (CS) students at UIC, we study in the CDLRC frequently and are curious as to what constitutes optimal study spots in that building, meaning that the enviornment can support the productivity of our academics and work.
 
 **Four Initial Domain Questions**
-- Around a certain time where are the most available spaces to study?
-- What spaces provide the studying quality I want; considering noise level?
-- What ammenities are near in these study locations?
-- Is the location a subjectively good study space?
+- Around a certain time, where are the most available spaces to study in the CDRLC?
+- Which spaces in the CDRLC provide the studying quality I want?
+- What ammenities are near these study locations in the CDRLC?
+- Which study spaces best fit different study activites in the CDRLC?
 
 **Proposed Data Collection Process**
 
