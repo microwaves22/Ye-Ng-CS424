@@ -70,107 +70,51 @@ area or people standing instead of sitting.
 # Task 2: Pilot and data collection
 **Pilot Collection & Key Findings**
 
-For the Pilot test we split and did them both so we could gauge how much time it took to collect data. We collected Time, we originally put it on Google sheets and had separate sheet with area and location ID, but from it we realized it was hard to remember the location id and the location. we collected noise level (min, mean, max), total number of people. We did the following areas 11	Area in front of stairs
-ID  Location Description
-12	Area in front of the lecture/conference rooms
-13	Area in front of the Sandella cafe
-14	CS Study Lounge Area
-15	Area right of elevator
-21	CS Study Lounge Quiet Area
-22	CS Study Lounge Collaborative Area
-23	Area right of elevator
-24	Booked study rooms
-31	Area right of elevator
-41	Study lounge
-42	Area right of elevator
-43	Area between professor offices
-51	Area right of elevator
-We collected at 11 am 9/17/2026 in the UIC CDLRC Building. 
+On September 17, 2026 at 11:00 AM, our team conducted a pilot collection at the University of Illinois-Chicago (UIC) Computer Design Research and Learning Center (CDRLC)
 
-some notes from the pilot: We will continue recording noise level for each observation
-20 mins for Elizabeth (all spots floors 1-2)
-30 mins for Michelle all areas (1,2,3,4,5)
-15 minutes for Michelle (all spots in the CS building excluding floors 3 and 5 and the private study rooms)
-Don’t include private study rooms. They’re already enclosed rooms that people book in advance
-To factor in students moving chairs we’ve concise super close proximity study areas together
-Note: where chairs are frequently seen moved. 
-In theory, the total number of chairs/tables stays the same within this space, even if someone moves furniture around
+**Collection Protocol & Timing**
+To test workload and feasibility of the collection, the team split up and each collected data across the different floors:
+- Elizabeth: Covered all designated study spots on Floors 1 and 2 (time: ~20 minutes)
+*note: due to class time conflict Elizabeth did not cover all study spots
+- Michelle: Covered all designated study spots on Floors 1-5 (time: ~30 minutes) and tested a subset excluding Floors 3 and 5 (times: ~15 minutes)
 
-we decided to schedule a meeting with our professor to discuss. We were planning to incorporate chair differeces and seating types, but didn't because we couldn't figure it out and were just waiting until we met up with our professor and later after the meeting we determined it would be best to not factor seating types/arrangements. 
+At first, we recorded data using Google Sheets with a separate key mapping `Location ID` to `Location Description` (e.g., `11` for `Area in front of stairs`)
 
-Post pilot but pre professor meeting: Attribute
-Type
-Description
-Date
-Temporal
-Date of observation
-Time
-Temporal
-Time of observation
-Location
-Categorical
-Location of the study area
-Weather Condition
-Categorical
-Description of outside weather
-Weather Temperature
-Quantitative
-Degree in Fahrenheit
-Noise Level
-Quantitative
-Average noise level across the span of 30 seconds
-Occupancy
-Quantitative
-Total number of occupants at a location
-1 Person Table Availability
-Quantitative
-Number of FULLY open tables for 1
-2 People Table Availability 
-Quantitative
-Number of FULLY open tables for 2
-3+ People Table Availability
-Quantitative
-Number of FULLY open tables for 3+
-Nook Chair Availability
-Quantitative
-Number of open seats
-Regular Plastic Chair
-Quantitative
-Number of open seats
-Tall Plastic Chair (Not ADA friendly)
-Quantitative
-Number of open seats
-Sofa Spot Availability
-Quantitative
-Number of empty soft seats (Note: each sofa holds 2 people)
-Outlet 
-Quantitative
-Number of Outlets in a Location (2 holes = 1 outlet; 4 holes = 2 outlets)
-Window Access
-Categorical
-Is there a to sunlight (it doesn’t count if window is the roof or if it’s into the building)
-1 Person Table Amount
-Quantitative
-Number of tables in a location
-2 People Table Amount
-Quantitative
-Number of tables in a location
-3+ People Table Amount
-Quantitative
-Number of tables in a location
-Nook Chair Amount
-Quantitative
-Number of chairs in a location
-Regular Plastic ChairAmount
-Quantitative
-Number of chairs in a location
-Tall Plastic Chair Amount (Not ADA friendly)
-Quantitative
-Number of chairs in a location
-Sofa Spot Amount
-Quantitative
-Number of chairs in a location
+**Pilot Observations & Issues Found**
+- Location ID Issue: Needing to cross-reference `Location ID` numbers with the `Location Descriptions` caused extra unnecessary mental load and slowed us down. 
+- Enclosed Study Rooms: Initially we planned to include the study rooms on the second floor that can be booked. However, because these spaces are enclosed, pre-booking is required, and there are multiple of the study rooms, recording the occupancy and noise levels inside them did not align with our focus on open/shared study spaces.
+- Office Hour Study Spaces: Initially we also planned to factor in all of the Office Hour areas on the second floor, but due to time and also the notion that it is meant for students in the courses at specific tables, we decided it did not align with our focus on open/shared study spaces.
+- Movable Furniture: students frequently moved chairs between nearby tables. Trying to track exact counts per table was chaotic, and also affected if two separate study areas we nearby and one chair was moved from one study area to another. Thus we decided to create bigger study areas by combining areas where furniture could easily be moved and change to counting open seats and people sitting.
+- Seating Types: We initially wanted to track chair/table variations (e.g., 1-person tables, nook chairs, tall plastic chairs, ADA accessibility, sofa spots). However, caputring these granular seating types was overly complex and difficultto standardize.
 
+**Revisions & Professor Consulation**
+Following our pilot, we scheduled a meeting with our professor to discuss issues that arose, how to simplify our attributes without loosing data, and more. 
+
+Based on our pilot findings and feedback from our professor we decided to make the following changes
+1. Remove study rooms and Office hour study areas
+2. simplified seating and furniture  to seat avaialble and people there. 
+3. make zones bigger by merging close study areas.
+4. replaced location Id system with direct location description.
+5. removed floors 3 and 5 because it was just a small area next to elevator and did not seem to provide useful as it was one table and 2-3 seating. 
+
+
+### Revised Data Dictionary (Post-Pilot)
+
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
+| `Date` | Temporal | Date of observation |
+| `Time` | Temporal | Time of observation |
+| `Location` | Categorical | Specific study area within UIC CDRLC |
+| `Weather Condition` | Categorical | External weather description |
+| `Weather Temperature` | Quantitative | Outdoor temperature in °F |
+| `Noise Level` | Quantitative | Average noise level across a 30-second interval |
+| `Occupancy` | Quantitative | Total number of people occupying the space |
+| `Table Availability` | Quantitative | Number of open, available tables |
+| `Seat Availability` | Quantitative | Number of available open seats |
+| `Outlet Access` | Quantitative | Number of usable power outlets (2 sockets = 1 outlet) |
+| `Window / Natural Light` | Categorical | Presence of direct natural sunlight (excluding interior glass or skylights) |
+
+---
 
 
 # Task 3: Data description and domain questions
