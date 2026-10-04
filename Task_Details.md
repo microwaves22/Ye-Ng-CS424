@@ -284,7 +284,16 @@ point, but this step will help us consider what constitutes appropriate visualiz
 # Task 6: Summarizing
 
 # Task 7: Collaboration Process
+ GOTTA COME BACK FOR DIS GAE
 
+ - communciated in person and online via facetiming, and texting.
+ - divided data colection equally (1/2)
+ - include link to calender for data collection
+ - made sure diff group member collected consistenyl by texting and telling. also met for the pilot testing to make sure we did same
+ - shared through google doc, and sheets. 
+ - divided or rotated tasks idk 
+ - worked well. getting things done, communication, challenges: conflict of schedule to gather data, conflict in deciding granularity of data collected. 
+ - i think we started with a lot of granularity and slowly moved to less over discussing and realizing our busy schedules. 
 
 # IDK where this goes: photos
 - notes converted with Canva fom heic to jpeg 
