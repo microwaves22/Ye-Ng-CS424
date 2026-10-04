@@ -226,7 +226,24 @@ point, but this step will help us consider what constitutes appropriate visualiz
 * **Differentiation:** 
   - Instead of other graphs that bring the data into numbers, this sketch utilizes spatial position to show physical distribution and arrangements that are hard to quantify or describe without a mental map of the building already.
 
-# Task 5: Visualization Sketches
+## Sketch 1.2: 
+  - Path: `.\Visualizations\`
+
+* **Main Idea:** 
+
+* **Domain Question Addressed:**
+  - Focuses on: 
+
+* **Attributes Represented:**
+  - 
+
+* **Marks & Visual Channels:**
+  - **Marks:** 
+  - **Channels:**
+
+* **Reflection:**
+  - 
+* **Differentiation:** 
 
 # Task 6: Summarizing
 
