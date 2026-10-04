@@ -204,7 +204,7 @@ visualizations answer questions the same way. Some are better suited than others
 point, but this step will help us consider what constitutes appropriate visualizations that meet what users are hoping to learn from our data.
 
 # Task 5: Visualization sketches
-## Sketch 1.1: 1st Floor Seating Layout
+## Sketch 1 - Michelle
   - Path: `.\Visualizations\Average dB pie colors.jpeg`
 
 * **Main Idea:** 
@@ -229,7 +229,7 @@ point, but this step will help us consider what constitutes appropriate visualiz
 * **Differentiation:** 
   - This differs from horizontal line graphs by being similar to something people are used to looking at, a clock, and using color to visual noise levels.
 
-## Sketch 1.2: 
+## Sketch 2 - Michelle
   - Path: `.\Visualizations\Occupancy and Temporal Data.jpeg`
 
 * **Main Idea:** 
@@ -254,7 +254,7 @@ point, but this step will help us consider what constitutes appropriate visualiz
 * **Differentiation:** 
   - The floorplan is nice because it can show was is hard to quantify like how nearby a study area is to another. It also shows how if one area has many people, a nearby area might not have as many.  
 
-## Sketch 1.3: 
+## Sketch 3 - Michelle
   - Path: `.\Visualizations\Occupancy and weather conditions.jpeg`
 
 * **Main Idea:** 
@@ -280,6 +280,14 @@ point, but this step will help us consider what constitutes appropriate visualiz
 
 * **Differentiation:** 
   - Instead of relying on subjectively boring abstract plots and bar graphs, this sketch uses a calender style matrix and qualitative faces, and weather icons to show trends.
+
+## Sketch 1 - Elizabeth
+![Visualization for Domain Question 2](Visualizations/DQ_2_Vis_Elizabeth.jpeg)
+This visualization answers this domain question: which locations in the CDRLC are the most reliable for finding open seating? This sketch is based on the matrix visualization structure where users can compare the average availability of various study 
+space locations by the size of the squares at different times of day. The marks are represented by squares, and the channel
+is represented by varying sizes of those squares. The bigger the size of the square, the higher the average seat availability,
+and vice versa for smaller squares. Some attributes that are contained in this sketch are location, time, and the aggregation
+of average open seats. This visualization is good for making comparisons across many locations and times within one visualization, and they are organized matrix-style. However, the sizes of the squares are not the most visually effective way to compare seat availabilities because it may be challenging to distinguish them from one another.
 
 # Task 6: Summarizing
 
