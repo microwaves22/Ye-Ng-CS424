@@ -176,7 +176,7 @@ Deciding how real-world observations became data points required creating a stan
     curious as to how attributes like poor weather condition and temperature impact the behavior of occupants, such as the utilization of study areas and seat availability.
 4. Refined Question: How does the popularity of different study spaces change throughout the day?
     - Original Quetion: Which study spaces best fit different study activities in the CDRLC?
-    - Reasoning: We changed the original question to a more interesting one after we collcted data because the new one is more insightful and focuses on the intersection of occupancy across various times and different locations. 
+    - Reasoning: We changed the original question to a more interesting one after we collcted data because the new one is more insightful and focuses on the intersection of occupancy across various times and different locations.
 
 # Task 4: Task Abstractions
 
