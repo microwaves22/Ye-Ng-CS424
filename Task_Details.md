@@ -85,14 +85,18 @@ To test workload and feasibility of the collection, the team split up and each c
   > *note: due to class time conflict Elizabeth did not cover all study spots*
 - Michelle: Covered all designated study spots on Floors 1-5 (time: ~30 minutes) and tested a subset excluding Floors 3 and 5 (times: ~15 minutes)
 
-At first, we recorded data using Google Sheets with a separate key mapping `Location ID` to `Location Description` (e.g., `11` for `Area in front of stairs`)
+At first, we recorded data using Google Sheets with a separate key mapping `Location ID` to `Location Description` (e.g., `11` for `Area in front of stairs`).
 
 ## Pilot Observations & Issues Found
 - Location ID Issue: Needing to cross-reference `Location ID` numbers with the `Location Descriptions` caused extra unnecessary mental load and slowed down the collection process. 
-- Enclosed Study Rooms: Initially, we planned to include the study rooms on the second floor that can be booked. However, because these spaces are enclosed, pre-booking is required, and there are multiple study rooms, recording occupancy and noise levels inside them did not align with our focus on open/shared study spaces.
-- Office Hour Study Spaces: Initially, we also planned to factor in all of the Office Hour areas on the second floor. Due to time constraints and the notion that these areas are specifically meant for students in those courses at specific tables, we decided they did not align with our focus on general open/shared study spaces.
-- Movable Furniture: Students frequently moved chairs between nearby tables. Trying to track exact counts per table was chaotic and created confusion when a chair was moved from one nearby study area to another.
-- Seating Types: We initially wanted to track detailed chair/table variations (e.g., 1-person tables, nook chairs, tall plastic chairs, ADA accessibility, sofa spots). However, capturing these granular seating types proved overly complex, time-consuming, and difficult to standardize across collectors.
+- Enclosed Study Rooms: Initially, we planned to include the study rooms on the second floor that can be booked. However, these spaces are enclosed and pre-booking is required.
+These rooms are already intended to provide private and quiet spaces to study, which don't add much value to our project since we're more interested in open or shared study spaces
+that tend to have more environmental variations to them throughout different days and times.
+- Office Hour Study Spaces: Initially, we also planned to factor in all of the Office Hour areas on the second floor. Due to time constraints and the fact that Office Hour spaces are
+meant for students to get help from Teaching Assistants rather than be designated areas for studying, we decided that they do not align with our focus on general open/shared study spaces.
+- Movable Furniture: Students frequently move chairs amongst tables, and they sometimes move them outside of designated rooms or spaces. Those phenomenon make it challenging to
+track exact chair counts, providing unncessary complications to our data collection process.
+- Seating Types: We initially wanted to track detailed chair/table variations (e.g., 1-person tables, nook chairs, tall plastic chairs, sofa spots, etc.). However, capturing these granular seating types proved overly complex, time-consuming, and difficult to standardize across collectors.
 
 ## Revisions & Professor Consultation
 
@@ -100,13 +104,14 @@ Following our pilot, we scheduled a meeting with our professor to discuss issues
 
 During our meeting, our professor provided key feedback to guide our strategy:
 - Increase Data Points: 30 observations isn't enough to capture meaningful variation. We need to collect across more days or more times throughout the day to notice if there’s any signal or pattern across the span of 1-2 days.
-- Simplify Attributes: Restrict the total amount of attributes so collecting frequent observations over time is feasible. Our professor recommended using the simplest approach possible—don't worry about people moving between rooms or furniture moving around.
+- Simplify Attributes: Shorten the total amount of attributes to make the process of frequently collecting observations more feasible. Our professor recommended using the simplest approach possible and to not worry about people moving between rooms or furniture moving around.
 - Summarize Metrics: Summarize attributes after occupancy down to 2-3 essential, less granular attributes: count number of people, count the number of open seats, and count the number of outlets.
 
 Based on our pilot findings and feedback from our professor, we made the following revisions:
-- Removed study rooms and Office hour study areas: Excluded booked study rooms and course-specific office hour tables to focus strictly on open/shared spaces.
-- Simplified seating and furniture: Stripped away complex chair types and table variations in favor of simpler counts: seat availability, people present, and outlet access.
-- Made zones bigger by merging close study areas: Combined adjacent areas where furniture easily moves around into unified zones so individual chair shifts won't affect our counts.
+- Removed study rooms and office hour study areas: Excluded booked study rooms and course-specific office hour tables to focus strictly on open/shared spaces.
+- Simplified seating and furniture: Stripped away complex chair types and table variations in favor of simpler counts: seat availability and people present.
+- Made study area zones bigger by merging nearby study areas: Combined adjacent areas where furniture easily moves around into unified zones so that individual chair shifts won't affect 
+our counts unless the chairs are removed from those areas entirely.
 - Replaced location ID system: Used direct location descriptions on the main collection sheet instead of forcing cross-referencing with a separate lookup key.
 - Removed floors 3 and 5: Excluded these floors because they only consist of a single table with 2-3 seats next to the elevator, which did not provide useful data for our study.
 - Expanded collection frequency: Scheduled data collection across multiple days and varying times of day to ensure we collect a higher volume of data points and detect meaningful patterns.
@@ -127,55 +132,76 @@ Based on our pilot findings and feedback from our professor, we made the followi
 - Collection Strategy: To increase data points as suggested by our professor, data will be collected over more days and more times throughout the day to notice if there's any signal or pattern across the span of 1-2 days.
 - Dataset File:[File Path] (./Data/Pilot_Collection_Data.csv)
 
-# Task 3: Data description and domain questions
+# Task 3: Data Description and Domain Questions
 
-## Dataset Overview & Collectin Process
+## Dataset Overview & Collection Process
 
-Data was collected over a two-week period from September 21, 2026 to October 2, 2026 (Monday to Friday). The dataset collected caputres spatial and temporal variations in noise and seating occupancy across five selected areas of CDRLC. The areas include: the Sandella Cafe seating, 1st Floor CS Lounge, Fron of Stairs area, 2nd Floor CS Study Lounge (split into Collaborative and Quiet sections), and the 4th Floor Balcony. Sampling occurred daily across five fixed time slots (9:00 AM, 11:00 AM, 1:00 PM, 3:00 PM, and 5:00 PM). In total 50 observation windows and 300 individual area data points.
+Data was collected over a two-week period from September 21, 2026 to October 2, 2026 (Monday's to Friday's only). The data we collected captures spatial and temporal variations in noise and seating occupancy across six selected areas of CDRLC. The areas include the Sandella Cafe seating, 1st floor lobby area, 1st floor CS study lounge, 2nd floor CS study lounge (split into collaborative and quiet sections), and 4th floor balcony area. Sampling occurred daily across five fixed time slots (9:00 AM, 11:00 AM, 1:00 PM, 3:00 PM, and 5:00 PM). In total 50 observation windows and 300 individual area data points.
 
-For every location and time slot, we recorded six attributes: Area Name, People Count, Open Seats Count, Average Noise Level (dB), Temperature (°F), and Weather Condition. Also a Notes section. Sound levels were caputured using 30-second average decibel readings with the Decibel X app, while ambient weather parameters were recorded from iPhone's weather app.
+For every date, location, and time, we recorded these attributes: weather condition, temperature (°F), average noise level (dB), number of people, and number of open seats. Sound levels were caputured using 30-second average decibel readings with the Decibel X app, while ambient weather parameters were recorded with Apple's weather app.
 
-To ensure consistent sampling, we established observational rules: chairs occupied by belongings were marked as occupied unless the owner was actively seated nearby, circle blue couches were recorded at a capacity of one person per circle, and long blue couches were evaluated at two people per stitched seat segment.
+To ensure consistent data collection, we established observational rules: chairs occupied by belongings were marked as occupied unless the owner was actively seated nearby, circle blue couches were recorded at a capacity of one person per circle, and long blue couches were evaluated at two people per stitched seat segment.
 
 ## Limitations and Biases
 
 Our dataset contains inherent sampling limitations and potential sources of bias:
 - Decibel Measurements: Capturing sound over a 30-second window means that even a brief burst of loud noise (e.g., someone dropping something, door closing, laughing loudly) could slightly skew the mean reading compared to ambient continuous volume. 
   > *Note this was attempted to be lowered by restarting recording if the noise subjectively really ruined the data*
-- Seating Assumptions: deciding whether unattended bags represented a temporarily open seat or a long-term open spot. This requires subjective judgment, but was attempted to limit based on obvious factors like an open laptop, or items on the table. (e.g., one person would typically not have 2 backpacks or 2 laptops)
-- Temporal scope: Collection was constrained to weekdays between 9:00 AM to 5:00PM, our data reflects peak academic hours, but misses evning study habits and weekend activity.
+- Seating Assumptions: deciding whether unattended bags represented a temporarily open seat or a long-term open spot. This requires subjective judgment but was attempted to limit based on obvious factors like an open laptop, or items on the table. (e.g., one person would typically not have 2 backpacks or 2 laptops)
+- Temporal scope: Collection was constrained to weekdays between 9:00 AM to 5:00PM, our data reflects peak academic hours, but misses evening study habits and weekend activity.
   > *Note this was due to group members conflict with school schedules, work schedules, living off campus, etc*
 
 ## Abstraction & Process Reflection
 
-Taking the dynamic physical spaces into rows and numeric values required compressing complex social environments into standardized attributes. Our dataset effectively captured quantitative trends for space usage, number of people, noise level, and outside weather.
+Taking the dynamic physical spaces into rows and numeric values required compressing complex social environments into standardized attributes. Our dataset effectively captures quantitative trends for space usage, number of people, noise level, and outside weather conditions and temperatures.
 
 Some qualitative nuances were lost in the abstraction:
-- Noise Quality: devibel metric captures sound pressure level, but loses type of noise a room has. For example some rooms had a higher sound pressure level, but it was due to the loud HVAC in the room rather than human conversation.
+- Noise Quality: decibel metrics capture sound pressure level but loses the type of noise a room has. For example, some rooms had a higher sound pressure level, but it was due to the loud HVAC in the room rather than human conversation.
 - Seating Dynamics: Recording people count and open seats count fails to capture group dynamics like people working together or alone. It also fails to capture what types of seating are available. If a table with four chairs only has one person sitting compared to a table with four chairs and no one sitting.
 
-Deciding how real-world observations became data points required creating a standard. For example, when individuals were standing we recorded them in people count and added in notes saying that they were standing so the open seats count baseline was not too affected. Also having set couch capacity based on stitching helped us have discrete numeric attributes.
+Deciding how real-world observations became data points required creating a standard. For example, when individuals were standing we recorded them in people count and added in notes saying that they were standing so the open seats count baseline was not too affected. Also, having set couch capacity based on stitching helped us have discrete numeric attributes.
 
 ## Refined Domain Questions
 
-1. Does the 2nd Floor Quiet Area consistently maintain lower decibel levels than collaborative spaces during peak hours (11:00 AM – 1:00 PM)?
+1. Refined Question: Which study spaces are best suited for focused, distraction-free studying?
     - Original Quetion: Which spaces in the CDRLC provide the studying quality I want?
-    - Why Changed: Quality is too subjective for visualization so narrowing it down to be more specific and measurable with decibel levels is helpful.
-    - Reasoning: This question tests how spaces more limited to individual seating controls sound levels when student traffic is highest.
-2. Refined Question: At what specific times during the day is seat scarcity most severe across all locations?
+    - Reasoning: We changed the question so that it dives deeper into what it means to have a quality study space. We were inspired by noise levels and occupancy because the degree of those are potential indicators of how well an area is for studying.
+2. Refined Question: Which locations in the CDRLC are the most reliable for finding open seating?
     - Original Question: Around a certain time, where are the most available spaces to study in the CDRLC?
-    - Why Changed: With structured data and timestamps it is more easier to visualize precise hourly open seating.
-    - Reasoning: This identifies peak times when there are many people in an area based on time and provides it for each area.
-3. How do external temperature and weather conditions impact the availability of seating?
+    - Reasoning: We're still staying on the topic of finding available seating, but we modified it to put more intentionality on discovering where students can place their hopes on finding a place to study without dealing with the frustration of going to a spot and having to leave immediately due to limited seat availability. We would most likely utilize open seat metrics across
+    different times, days, and locations to explore this question.
+3. Refined Question: Does the demand or usage of study spaces increase during poor outdoor conditions?
     - Original Quetion: What amenities are near these study locations in the CDRLC?
-    - Why Changed: We did not count amenities, but we did factor in weather data.
-    - Reasoning: This looks at how outdoor weather can affect seating by using temperature, weather condition, area, and the open seats count.
-4. Is there a correlation between the number of people and the sound level, or are certain places typically louder?
+    - Reasoning: We changed our question because after reflecting on our pilot, we decided to not consider amenities. However, we did factor in weather conditions and temperature, and we're
+    curious as to how attributes like poor weather condition and temperature impact the behavior of occupants, such as the utilization of study areas and seat availability.
+4. Refined Question: How does the popularity of different study spaces change throughout the day?
     - Original Quetion: Which study spaces best fit different study activities in the CDRLC?
-    - Why Changed: The student activity types and seating types were not tracked so this question is harder to answer.
-    - Reasoning: This helps us determine if noise level is affected by the number of people or if the room is generally louder.
+    - Reasoning: We changed the original question to a more interesting one after we collcted data because the new one is more insightful and focuses on the intersection of occupancy across various times and different locations. 
 
-# Task 4: Task abstractions
+# Task 4: Task Abstractions
+Abstract task 1: Identify locations that exhibit attributes associated with focused, distraction-free studying.
+The action is to identify, and the targets are multiple attributes. I mapped the task this way because the goal is to identify study space locations
+based on multiple attributes (like noise level and occupancy) rather than a single attribute. Multiple attributes help constitute the degree to which
+a location is focused and distraction-free for students.
+
+Abstract task 2: Compare seating availability across locations.
+The action is to compare, and the target is one attribute (with a focus on distribution). This task is mapped this way because the goal focuses on only
+one attribute (number of open seats), and those corresponding values are used to compare how they're distributed across different locations. Furthermore, the goal is
+to determine which locations have higher or lower seating availability.
+
+Abstract task 3: Compare study space usage across different outdoor conditions.
+The action is to compare, and the targets are multiple attributes (with a focus on dependency and correlation). I mapped the task this way because it involves
+comparing multiple attributes (like weather condition and temperature) with study space usage. The goal is to determine whether changes in outdoor conditions are
+associated with changes in study space usage, helping users determine if there are any correlations.
+
+Abstract task 4: Identify peak usage periods for different study spaces.
+The action is to identify, and the target is on trends. This task is mapped this way because its goal is to examine how study space usage changes over time
+and determine when usage reaches its highest levels. Trends is the most appropriate target because the task focuses on patterns and changes over time.
+
+Mapping domain questions to abstract tasks has reshaped our thinking by revealing what users are actually seeking in our project's visualizations. This abstraction step
+has also shifted our perspective for eventually evaluating the visualizations that may be most suitable for answering our domain questions. This is crucial since not all
+visualizations answer questions the same way. Some are better suited than others, depending on the question. We haven't necessarily settled on particular visualizations at this
+point, but this step will help us consider what constitutes appropriate visualizations that meet what users are hoping to learn from our data.
 
 # Task 5: Visualization sketches
 ## Sketch 1.1: 1st Floor Seating Layout
@@ -200,9 +226,11 @@ Deciding how real-world observations became data points required creating a stan
 * **Differentiation:** 
   - Instead of other graphs that bring the data into numbers, this sketch utilizes spatial position to show physical distribution and arrangements that are hard to quantify or describe without a mental map of the building already.
 
+# Task 5: Visualization Sketches
+
 # Task 6: Summarizing
 
-# Task 7: Collaboration process
+# Task 7: Collaboration Process
 
 
 # IDK where this goes: photos
