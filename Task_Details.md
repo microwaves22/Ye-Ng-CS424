@@ -163,28 +163,52 @@ Deciding how real-world observations became data points required creating a stan
 
 ## Refined Domain Questions
 
-1. Refined Quesiton: Which study spaces are best suited for focused, distraction-free studying?
+1. Refined Question: Which study spaces are best suited for focused, distraction-free studying?
     - Original Quetion: Which spaces in the CDRLC provide the studying quality I want?
     - Reasoning: We changed the question so that it dives deeper into what it means to have a quality study space. We were inspired by noise levels and occupancy because the degree of those are potential indicators of how well an area is for studying.
 2. Refined Question: Which locations in the CDRLC are the most reliable for finding open seating?
     - Original Question: Around a certain time, where are the most available spaces to study in the CDRLC?
     - Reasoning: We're still staying on the topic of finding available seating, but we modified it to put more intentionality on discovering where students can place their hopes on finding a place to study without dealing with the frustration of going to a spot and having to leave immediately due to limited seat availability. We would most likely utilize open seat metrics across
     different times, days, and locations to explore this question.
-3. Refined Question: Does the demand or usage of study spaces increase during poor external conditions?
+3. Refined Question: Does the demand or usage of study spaces increase during poor outdoor conditions?
     - Original Quetion: What amenities are near these study locations in the CDRLC?
     - Reasoning: We changed our question because after reflecting on our pilot, we decided to not consider amenities. However, we did factor in weather conditions and temperature, and we're
     curious as to how attributes like poor weather condition and temperature impact the behavior of occupants, such as the utilization of study areas and seat availability.
-4. Refined Qustion: How does the popularity of different study spaces change throughout the day?
+4. Refined Question: How does the popularity of different study spaces change throughout the day?
     - Original Quetion: Which study spaces best fit different study activities in the CDRLC?
-    - Reasoning: We changed the original question to a more interesting one after we collcted data because the new one focuses on the intersection of occupancy across various times and different locations.
+    - Reasoning: We changed the original question to a more interesting one after we collcted data because the new one is more insightful and focuses on the intersection of occupancy across various times and different locations. 
 
-# Task 4: Task abstractions
+# Task 4: Task Abstractions
 
-# Task 5: Visualization sketches
+Abstract task 1: Identify locations that exhibit attributes associated with focused, distraction-free studying.
+The action is to identify, and the targets are multiple attributes. I mapped the task this way because the goal is to identify study space locations
+based on multiple attributes (like noise level and occupancy) rather than a single attribute. Multiple attributes help constitute the degree to which
+a location is focused and distraction-free for students.
+
+Abstract task 2: Compare seating availability across locations.
+The action is to compare, and the target is one attribute (with a focus on distribution). This task is mapped this way because the goal focuses on only
+one attribute (number of open seats), and those corresponding values are used to compare how they're distributed across different locations. Furthermore, the goal is
+to determine which locations have higher or lower seating availability.
+
+Abstract task 3: Compare study space usage across different outdoor conditions.
+The action is to compare, and the targets are multiple attributes (with a focus on dependency and correlation). I mapped the task this way because it involves
+comparing multiple attributes (like weather condition and temperature) with study space usage. The goal is to determine whether changes in outdoor conditions are
+associated with changes in study space usage, helping users determine if there are any correlations.
+
+Abstract task 4: Identify peak usage periods for different study spaces.
+The action is to identify, and the target is on trends. This task is mapped this way because its goal is to examine how study space usage changes over time
+and determine when usage reaches its highest levels. Trends is the most appropriate target because the task focuses on patterns and changes over time.
+
+Mapping domain questions to abstract tasks has reshaped our thinking by revealing what users are actually seeking in our project's visualizations. This abstraction step
+has also shifted our perspective for eventually evaluating the visualizations that may be most suitable for answering our domain questions. This is crucial since not all
+visualizations answer questions the same way. Some are better suited than others, depending on the question. We haven't necessarily settled on particular visualizations at this
+point, but this step will help us consider what constitutes appropriate visualizations that meet what users are hoping to learn from our data.
+
+# Task 5: Visualization Sketches
 
 # Task 6: Summarizing
 
-# Task 7: Collaboration process
+# Task 7: Collaboration Process
 
 
 # IDK where this goes: photos
