@@ -205,45 +205,81 @@ point, but this step will help us consider what constitutes appropriate visualiz
 
 # Task 5: Visualization sketches
 ## Sketch 1.1: 1st Floor Seating Layout
-  - Path: `.\Visualizations\1st Floor Seating Layout`
+  - Path: `.\Visualizations\Average dB pie colors.jpeg`
 
-* **Main Idea:** This sketch maps the physical layout of the first floor (Sandella Cafe, 1st Floor CS Lounge, and 1st Floor Lobby area). Details include tables, chairs, seating, and separation of study areas from others on the first floor. It also shows different seating styles and what objects are nearby (e.g., doors, stairs, elevators)
+* **Main Idea:** 
+  - This sketch uses a circular radial "clock" diagram to represent the daily schedule across the five time slots. It is split like a pie chart and colored based on noise level.
 
 * **Domain Question Addressed:**
   - Focuses on: "Which study spaces are best suited for focused, distraction-free studying?"
 
 * **Attributes Represented:**
-  - Area Name, People Count, Open Seats Count, furniture/seating type (was not collected in regards to quantitative data)
+  - Time (9 AM, 11 AM, 1 PM, 3 PM, 5PM)
+  - Area Name
+  - Average Noise Level (dB)
 
 * **Marks & Visual Channels:**
-  - **Marks:** Points/Symbols (`t`, `t with backwards slash`, `t with line on top`, squares, rhombus', circles)
-  - **Channels:** Color Hue shows floor layout and study areas, shapes/symbols for furniture and seating
+  - **Marks:** Circles and Sector Arcs
+  - **Channels:** Angles with names separate times of the day and colors show the noise level.
 
 * **Reflection:**
-  - Mapping seating types directly onto the physical floorplan makes it easy to see what the study areas are and what tables/seating is identified with the area. It also shows nearby attributes like stairs, doors, elevators, hallways which can affect a study area.
-  - This plan prevents showing occupancy over time without having multiple maps. It also prevents showing multiple floors on one map. 
+  - This captures cyclic daily noise levels in areas at a glance, making it easy to see with the colors. It easily shows an area being on the quieter side because the colors remain similar.
+  - This contains hours of data not collected which wastes space. This can only have one circle per day per space so it is not efficient.
 
 * **Differentiation:** 
-  - Instead of other graphs that bring the data into numbers, this sketch utilizes spatial position to show physical distribution and arrangements that are hard to quantify or describe without a mental map of the building already.
+  - This differs from horizontal line graphs by being similar to something people are used to looking at, a clock, and using color to visual noise levels.
 
 ## Sketch 1.2: 
-  - Path: `.\Visualizations\`
+  - Path: `.\Visualizations\Occupancy and Temporal Data.jpeg`
 
 * **Main Idea:** 
+  -  This sketch uses a floorplan of the 1st Floor which includes: Sandella Cafe, CS Lounge, and Lobby Area, as a spatial reference. 
 
 * **Domain Question Addressed:**
-  - Focuses on: 
+  - Focuses on: How does the popularity of different study spaces change throughout the day?
 
 * **Attributes Represented:**
-  - 
+  - Area Name
+  - People Count
+  - Open Seats Count
 
 * **Marks & Visual Channels:**
-  - **Marks:** 
-  - **Channels:**
+  - **Marks:** Area Polygons, Bar
+  - **Channels:** Color represents location, area sliced represents taken seat count and lined portion represents open seats
+
+* **Reflection:** 
+  - Created a nice floorplan to show occupancy and also the occupancy of nearby study areas. A Floorplan overall would be nice to have if it contains all the data.
+  - Can only show one floor on one graph. Does not capture noise and is not optimal to show data.
+
+* **Differentiation:** 
+  - The floorplan is nice because it can show was is hard to quantify like how nearby a study area is to another. It also shows how if one area has many people, a nearby area might not have as many.  
+
+## Sketch 1.3: 
+  - Path: `.\Visualizations\Occupancy and weather conditions.jpeg`
+
+* **Main Idea:** 
+  - This sketch maps the relationship between daily outdoor weather and indoor study area usage. Each block displays a date and has the weather condition icon which is referenced on the weather key. The occupancy is represented by smiley faces or circles and colors.
+
+* **Domain Question Addressed:**
+  - Focuses on: Does the demand or usage of study spaces increase during poor outdoor conditions?
+
+* **Attributes Represented:**
+  - Weather Condition
+  - Date
+  - Area Name
+  - People Count
+  - Open Seats Count
+
+* **Marks & Visual Channels:**
+  - **Marks:** polygons, circles, icons
+  - **Channels:** sptial layout based on date and area, color of the circles to indicate people count or open seats, and expression for people count.
 
 * **Reflection:**
-  - 
+  - The concept of face sentiment is nice if neutral or frowns were included. The sketch is cute. Grouping by day (Tuesday, Thursday) allows for comparison between similar days and their weather conditions.
+  - It is cute, but not useful. It is a lot of visuals for little  amount of data provided. The amount of faces is hard to track rather than just incorporating the given number.
+
 * **Differentiation:** 
+  - Instead of relying on subjectively boring abstract plots and bar graphs, this sketch uses a calender style matrix and qualitative faces, and weather icons to show trends.
 
 # Task 6: Summarizing
 
