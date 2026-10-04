@@ -178,6 +178,27 @@ Deciding how real-world observations became data points required creating a stan
 # Task 4: Task abstractions
 
 # Task 5: Visualization sketches
+## Sketch 1.1: 1st Floor Seating Layout
+  - Path: 
+
+* **Main Idea:** This sketch maps the physical layout of the first floor (Sandella Cafe, 1st Floor CS Lounge, and 1st Floor Lobby area). Details include tables, chairs, seating, and separation of study areas from others on the first floor. It also shows different seating styles and what objects are nearby (e.g., doors, stairs, elevators)
+
+* **Domain Question Addressed:**
+  - Focuses on: "Which study spaces are best suited for focused, distraction-free studying?"
+
+* **Attributes Represented:**
+  - Area Name, People Count, Open Seats Count, furniture/seating type (was not collected in regards to quantitative data)
+
+* **Marks & Visual Channels:**
+  - **Marks:** Points/Symbols (`t`, `t with backwards slash`, `t with line on top`, squares, rhombus', circles)
+  - **Channels:** Color Hue shows floor layout and study areas, shapes/symbols for furniture and seating
+
+* **Reflection:**
+  - Mapping seating types directly onto the physical floorplan makes it easy to see what the study areas are and what tables/seating is identified with the area. It also shows nearby attributes like stairs, doors, elevators, hallways which can affect a study area.
+  - This plan prevents showing occupancy over time without having multiple maps. It also prevents showing multiple floors on one map. 
+
+* **Differentiation:** 
+  - Instead of other graphs that bring the data into numbers, this sketch utilizes spatial position to show physical distribution and arrangements that are hard to quantify or describe without a mental map of the building already.
 
 # Task 6: Summarizing
 
