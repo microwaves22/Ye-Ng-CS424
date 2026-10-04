@@ -289,6 +289,11 @@ is represented by varying sizes of those squares. The bigger the size of the squ
 and vice versa for smaller squares. Some attributes that are contained in this sketch are location, time, and the aggregation
 of average open seats. This visualization is good for making comparisons across many locations and times within one visualization, and they are organized matrix-style. However, the sizes of the squares are not the most visually effective way to compare seat availabilities because it may be challenging to distinguish them from one another.
 
+## Sketch 2 - Elizabeth
+![Visualization for Domain Question 3](Visualizations/DQ_3_Vis_Elizabeth.jpeg)
+This visualization answers this domain question: does the demand or usage of study spaces change during poor outdoor conditions?
+This sketch is based on a scatterplot where users can see how occupancy rates are affected by both temperature and weather conditions, and each point on the plot represents an observation. The marks are points, and the channels are horizontal and vertical positions and color. Furthermore, the attributes that are being represented are temperature, open seats (calculated as a percentage), and weather condition. This sketch is great for identifying potential correlations or associations in a single view, but it's weak for getting a deeper understanding of the impact of outdoor circumstances on particular locations since the sketch doesn't show that level of granularity. There's also high potential for this scatterplot to get hard to read and interpret when there are large amounts of observations, and it's possible for many points to overlap. It might be beneficial to perform some sort of aggregation on the observations as well as perform faceting to make the sketch appear much cleaner.
+
 # Task 6: Summarizing
 
 # Task 7: Collaboration Process
