@@ -184,10 +184,10 @@ The action is to identify, and the targets are multiple attributes. I mapped the
 based on multiple attributes (like noise level and occupancy) rather than a single attribute. Multiple attributes help constitute the degree to which
 a location is focused and distraction-free for students.
 
-Abstract task 2: Compare seating availability across locations.
-The action is to compare, and the target is one attribute (with a focus on distribution). This task is mapped this way because the goal focuses on only
-one attribute (number of open seats), and those corresponding values are used to compare how they're distributed across different locations. Furthermore, the goal is
-to determine which locations have higher or lower seating availability.
+Abstract task 2: Compare the distribution of seating availability across locations.
+The action is to compare, and the target is one attribute (with a focus on distribution). This task is mapped this way because the goal is to evaluate how seating 
+availability (the attribute to focus on) varies across locations. By comparing distributions, both the overall availability and consistency of seats are revealed, which
+help users determine which locations are the most reliable for finding open seating.
 
 Abstract task 3: Compare study space usage across different outdoor conditions.
 The action is to compare, and the targets are multiple attributes (with a focus on dependency and correlation). I mapped the task this way because it involves
