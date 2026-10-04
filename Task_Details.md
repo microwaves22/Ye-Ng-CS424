@@ -170,11 +170,11 @@ Deciding how real-world observations became data points required creating a stan
     - Original Question: Around a certain time, where are the most available spaces to study in the CDRLC?
     - Reasoning: We're still staying on the topic of finding available seating, but we modified it to put more intentionality on discovering where students can place their hopes on finding a place to study without dealing with the frustration of going to a spot and having to leave immediately due to limited seat availability. We would most likely utilize open seat metrics across
     different times, days, and locations to explore this question.
-3. Refined Question: Does the demand or usage of study spaces increase during poor outdoor conditions?
+3. Refined Question: Does the demand or usage of study spaces change during poor outdoor conditions?
     - Original Quetion: What amenities are near these study locations in the CDRLC?
     - Reasoning: We changed our question because after reflecting on our pilot, we decided to not consider amenities. However, we did factor in weather conditions and temperature, and we're
     curious as to how attributes like poor weather condition and temperature impact the behavior of occupants, such as the utilization of study areas and seat availability.
-4. Refined Question: How does the popularity of different study spaces change throughout the day?
+4. Refined Question: How does the popularity of different study spaces change?
     - Original Quetion: Which study spaces best fit different study activities in the CDRLC?
     - Reasoning: We changed the original question to a more interesting one after we collcted data because the new one is more insightful and focuses on the intersection of occupancy across various times and different locations.
 
@@ -236,7 +236,7 @@ point, but this step will help us consider what constitutes appropriate visualiz
   -  This sketch uses a floorplan of the 1st Floor which includes: Sandella Cafe, CS Lounge, and Lobby Area, as a spatial reference. 
 
 * **Domain Question Addressed:**
-  - Focuses on: How does the popularity of different study spaces change throughout the day?
+  - Focuses on: How does the popularity of different study spaces change?
 
 * **Attributes Represented:**
   - Area Name
@@ -261,7 +261,7 @@ point, but this step will help us consider what constitutes appropriate visualiz
   - This sketch maps the relationship between daily outdoor weather and indoor study area usage. Each block displays a date and has the weather condition icon which is referenced on the weather key. The occupancy is represented by smiley faces or circles and colors.
 
 * **Domain Question Addressed:**
-  - Focuses on: Does the demand or usage of study spaces increase during poor outdoor conditions?
+  - Focuses on: Does the demand or usage of study spaces change during poor outdoor conditions?
 
 * **Attributes Represented:**
   - Weather Condition
