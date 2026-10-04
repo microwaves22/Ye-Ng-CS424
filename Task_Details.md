@@ -294,6 +294,10 @@ This sketch is based on a scatterplot where users can see how occupancy rates ar
 ![Visualization for Domain Question 4](Visualizations/DQ_4_Vis_Elizabeth.jpeg)
 This visualization answers this domain question: how does the popularity of different study spots change? This sketch is a heatmap that shows varying average occupany levels across locations and times, providing insight into the locations that tend to be more or less frequently used than others. The marks are the squares of the grid, and the channel is color with different color intensities representing different occupany levels. The attributes that are included in this heatmap are location, time, and open seats (aggregated as averages across times). This sketch is good for making large comparisons across many locations and showing trends over time. However, it's limited by its inability to display precise values and trends over days (which may hide important variation). 
 
+## Refined Sketch 1 - Elizabeth
+![Refined Visualization for Domain Question 2](Visualizations/DQ_2_Vis_Refined_Elizabeth.jpeg)
+This visualization answers this domain question: which locations in the CDRLC are the most reliable for finding open seats? The relevant attributes of this visualization are location, time, date, occupancy, and open seats. The marks that are used are polygons (referring to each study spot), and the channels are color (showing seat availability rate levels) and size (indicating how large each study spot is). People can look at this visualization to determine which spots provide consistent and reliable amounts of open seats over time, making their trek to a particular study area more worthwhile. This prevents them from having to go to a study spot only to be disappointed that there are little to no spots and that they have to try their luck elsewhere. Users of this visualization can also view observed times for each relevant floor level of the CDRLC all at once by weekday, and they have the option to toggle by the day (Monday - Friday). This allows them to make more granular comparisons about open seats.
+
 # Task 6: Summarizing
 
 # Task 7: Collaboration Process
