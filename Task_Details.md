@@ -205,7 +205,7 @@ point, but this step will help us consider what constitutes appropriate visualiz
 
 # Task 5: Visualization sketches
 ## Sketch 1 - Michelle
-  - Path: `.\Visualizations\Average dB pie colors.jpeg`
+![Visualization for Domain Question 1](Visualizations/Average dB pie colors.jpeg)
 
 * **Main Idea:** 
   - This sketch uses a circular radial "clock" diagram to represent the daily schedule across the five time slots. It is split like a pie chart and colored based on noise level.
@@ -230,7 +230,7 @@ point, but this step will help us consider what constitutes appropriate visualiz
   - This differs from horizontal line graphs by being similar to something people are used to looking at, a clock, and using color to visual noise levels.
 
 ## Sketch 2 - Michelle
-  - Path: `.\Visualizations\Occupancy and Temporal Data.jpeg`
+![Visualization for Domain Question 4](Visualizations/Occupancy and Temporal Data.jpeg)
 
 * **Main Idea:** 
   -  This sketch uses a floorplan of the 1st Floor which includes: Sandella Cafe, CS Lounge, and Lobby Area, as a spatial reference. 
@@ -255,7 +255,7 @@ point, but this step will help us consider what constitutes appropriate visualiz
   - The floorplan is nice because it can show was is hard to quantify like how nearby a study area is to another. It also shows how if one area has many people, a nearby area might not have as many.  
 
 ## Sketch 3 - Michelle
-  - Path: `.\Visualizations\Occupancy and weather conditions.jpeg`
+![Visualization for Domain Question 3](Visualizations/Occupancy and weather conditions.jpeg)
 
 * **Main Idea:** 
   - This sketch maps the relationship between daily outdoor weather and indoor study area usage. Each block displays a date and has the weather condition icon which is referenced on the weather key. The occupancy is represented by smiley faces or circles and colors.
