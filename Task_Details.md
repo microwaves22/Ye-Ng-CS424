@@ -4,8 +4,8 @@
 # Task #1: Observation and data collection plan
 
 ## Primary Datasets
-- Data/Study_Spot_Data_1.csv
-- Data/Weather_Data_1.csv
+- [Study Spots Data](Data/Study_Spot_Data_1.csv)
+- [Outdoor Conditions Data](Data/Weather_Data_1.csv)
 - ![Link to Google Sheets](https://docs.google.com/spreadsheets/d/1kPfpt8VzsofgehPeB3OIRECaAapwIVqHasqaJXrZmyE/edit?usp=sharing)
 
 ## Description of What is Desired to Observe and Why
