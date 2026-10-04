@@ -179,7 +179,7 @@ Deciding how real-world observations became data points required creating a stan
 
 # Task 5: Visualization sketches
 ## Sketch 1.1: 1st Floor Seating Layout
-  - Path: 
+  - Path: `.\Visualizations\1st Floor Seating Layout`
 
 * **Main Idea:** This sketch maps the physical layout of the first floor (Sandella Cafe, 1st Floor CS Lounge, and 1st Floor Lobby area). Details include tables, chairs, seating, and separation of study areas from others on the first floor. It also shows different seating styles and what objects are nearby (e.g., doors, stairs, elevators)
 
