@@ -19,7 +19,7 @@
 
 ## Proposed Data Collection Process
 
-An observation is constituted as having data for all of the attributes that are described in the data dictionary below. We want to take into
+An observation is constituted as a visit to a study spot location, where we will record the attributes that we've listed in our data dictionary below. We want to take into
 account those observations because enviornmental factors and what different spaces have to offer are inherent factors that cause people to
 subconciously decide where they want to study. Admittedly, our list of attributes is very granular because it's not feasible for us to fully
 anticipate or know how the actual data collection experience will go and what our findings will be, so we want to cover as many attributes as
