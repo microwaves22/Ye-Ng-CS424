@@ -114,7 +114,7 @@ Based on our pilot findings and feedback from our professor, we made the followi
 our counts unless the chairs are removed from those areas entirely.
 - Replaced location ID system: Used direct location descriptions on the main collection sheet instead of forcing cross-referencing with a separate lookup key.
 - Removed floors 3 and 5: Excluded these floors because they only consist of a single table with 2-3 seats next to the elevator, which did not provide useful data for our study.
-- Expanded collection frequency: Scheduled data collection across multiple days and varying times of day to ensure we collect a higher volume of data points and detect meaningful patterns.
+- Expanded collection frequency: Scheduled data collection across multiple days and varying times of day to ensure we collect a higher volume of data points and detect meaningful patterns. We also realized that we can't collect a sufficient quantity of observations within the time we were given to do Assignment 1, so we decided to reduce our times to focus on collecting data every other hour of the day as our schedule better permits. To account for this adjustment, we will collect data over more weeks, making the data collection process more realistic over longer periods of time.
 
 ## Revised Data Dictionary (Post-Pilot)
 | Attribute | Type | Description | Example |
