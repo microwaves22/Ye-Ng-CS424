@@ -130,8 +130,8 @@ our counts unless the chairs are removed from those areas entirely.
 | `open_seats` | Quantitative | Number of open seats at a location | 12 |
 
 ## Full Data Collection Strategy
-- Collection Strategy: To increase data points as suggested by our professor, data will be collected over more days and more times throughout the day to notice if there's any signal or pattern across the span of 1-2 days.
-- Dataset File:[File Path] (./Data/Pilot_Collection_Data.csv)
+- Collection Strategy: To increase data points, as suggested by our professor, data will be collected over more days to notice if there's any signal or pattern across the span of 1-2 days.
+- Dataset File: [Pilot Dataset](Data/Pilot_Collection_Data.csv)
 
 # Task 3: Data Description and Domain Questions
 
