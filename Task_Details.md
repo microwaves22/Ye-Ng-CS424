@@ -1,7 +1,7 @@
 <!-- # for main headers, ** for bold text, - or * for bullet points, and | for tables
 ![Description of image](path/to/image.png) -->
 
-# Task #1: Observation and data collection plan
+# Task 1: Observation and data collection plan
 
 ## Primary Datasets
 - [Study Spots Data](Data/Study_Spot_Data_1.csv)
@@ -313,7 +313,3 @@ Our group created a variety of visualization designs, which revealed varying str
  - divided or rotated tasks idk 
  - worked well. getting things done, communication, challenges: conflict of schedule to gather data, conflict in deciding granularity of data collected. 
  - i think we started with a lot of granularity and slowly moved to less over discussing and realizing our busy schedules. 
-
-# IDK where this goes: photos
-- notes converted with Canva fom heic to jpeg 
-- hiding people's faces w/ Canva editing
