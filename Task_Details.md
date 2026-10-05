@@ -1,10 +1,11 @@
 <!-- # for main headers, ** for bold text, - or * for bullet points, and | for tables
 ![Description of image](path/to/image.png) -->
 
-# Task #1: Observation and data collection plan
+# Task 1: Observation and data collection plan
 
-## Primary Dataset
-- Add path to CSV file
+## Primary Datasets
+- [Study Spots Data](Data/Study_Spot_Data_1.csv)
+- [Outdoor Conditions Data](Data/Weather_Data_1.csv)
 - ![Link to Google Sheets](https://docs.google.com/spreadsheets/d/1kPfpt8VzsofgehPeB3OIRECaAapwIVqHasqaJXrZmyE/edit?usp=sharing)
 
 ## Description of What is Desired to Observe and Why
@@ -114,7 +115,7 @@ Based on our pilot findings and feedback from our professor, we made the followi
 our counts unless the chairs are removed from those areas entirely.
 - Replaced location ID system: Used direct location descriptions on the main collection sheet instead of forcing cross-referencing with a separate lookup key.
 - Removed floors 3 and 5: Excluded these floors because they only consist of a single table with 2-3 seats next to the elevator, which did not provide useful data for our study.
-- Expanded collection frequency: Scheduled data collection across multiple days and varying times of day to ensure we collect a higher volume of data points and detect meaningful patterns.
+- Expanded collection frequency: Scheduled data collection across multiple days and varying times of day to ensure we collect a higher volume of data points and detect meaningful patterns. We also realized that we can't collect a sufficient quantity of observations within the time we were given to do Assignment 1, so we decided to reduce our times to focus on collecting data every other hour of the day as our schedule better permits. To account for this adjustment, we will collect data over more weeks, making the data collection process more realistic over longer periods of time.
 
 ## Revised Data Dictionary (Post-Pilot)
 | Attribute | Type | Description | Example |
@@ -129,8 +130,8 @@ our counts unless the chairs are removed from those areas entirely.
 | `open_seats` | Quantitative | Number of open seats at a location | 12 |
 
 ## Full Data Collection Strategy
-- Collection Strategy: To increase data points as suggested by our professor, data will be collected over more days and more times throughout the day to notice if there's any signal or pattern across the span of 1-2 days.
-- Dataset File:[File Path] (./Data/Pilot_Collection_Data.csv)
+- Collection Strategy: To increase data points, as suggested by our professor, data will be collected over more days to notice if there's any signal or pattern across the span of 1-2 days.
+- Dataset File: [Pilot Dataset](Data/Pilot_Collection_Data.csv)
 
 # Task 3: Data Description and Domain Questions
 
@@ -235,9 +236,10 @@ This visualization answers this domain question: how does the popularity of diff
 
 ## Refined Sketch 1 - Elizabeth
 ![Refined Visualization for Domain Question 2](Visualizations/DQ_2_Vis_Refined_Elizabeth.jpeg)
-This visualization answers this domain question: which locations in the CDRLC are the most reliable for finding open seats? The relevant attributes of this visualization are location, time, date, occupancy, and open seats. The marks that are used are polygons (referring to each study spot), and the channels are color (showing seat availability rate levels) and size (indicating how large each study spot is). People can look at this visualization to determine which spots provide consistent and reliable amounts of open seats over time, making their trek to a particular study area more worthwhile. This prevents them from having to go to a study spot only to be disappointed that there are little to no spots and that they have to try their luck elsewhere. Users of this visualization can also view observed times for each relevant floor level of the CDRLC all at once by weekday, and they have the option to toggle by the day (Monday - Friday). This allows them to make more granular comparisons about open seats.
+This visualization answers this domain question: which locations in the CDRLC are the most reliable for finding open seats? The relevant attributes of this visualization are location, time, date, occupancy, and open seats. The marks that are used are polygons (referring to each study spot), and the channels are color (showing seat availability rate levels) and size (indicating how large each study spot is). People can look at this visualization to determine which spots provide consistent and reliable amounts of open seats over time, making their trek to a particular study area more worthwhile. This prevents them from having to go to a study spot only to be disappointed that there are little to no spots and that they have to try their luck elsewhere. Users of this visualization can also view observed times for each relevant floor level of the CDRLC all at once by weekday, and they have the option to toggle by the day (Monday - Friday). This allows them to make more granular comparisons about open seats. Since this sketch is also a refinement of my original version, I switched the circle sizes to a channel by colors because it's easier to distinguish the availability rates that way.
 
 # Task 6: Summarizing
+Our group created a variety of visualization designs, which revealed varying strengths and weaknesses of each design. One of the key lessons learned from this experience is the importance of faceting and creating multiple views. This method helps with increasing readability when overplotting occurs. It's best to do this in combination with some form of aggregation because it's not scalable to create individual views for each observation when we may have hundreds of them. It's more insightful to perform an aggregation, like finding the average of an attribute, to help condense the number of views that get created. However, a trade-off of aggregations is the possibility of losing complex or important signals. Another finding we identified is that color gradients are expressive when they're used to show different degrees of seat availability or seat occupancy (in comparison to size of marks), so it's something we most likely will incorporate in future visualizations. Our group also explored spatial visualizations by incorporating sketches of the CDRLC's floor plans. Since our topic is on study spots, viewers might value seeing where the study spots we're providing insight on are located spatially, especially if they're moving from one location to another based on what they learn from a visualization. Additionally, this exercise has made us wonder if there are other attributes we should consider in future iterations of data collection. This may help us feel less limited by the types of visualizations we can create since we would have more attributes to work with, potentially increasing our visualizations' complexity.
 
 # Task 7: Collaboration Process
   Throughout the collaboration process for Task 7, our group maintained consistent and open communication using a combination of in-person discussions after class, as well as FaceTime calls and text messaging for updates or quick check-ins. Data collection was divided almost equally (50/50) between group members, with schedules coordinated and kept accountable through a shared calendar (https://calendar.google.com/calendar/u/0?cid=YjE2YTU3M2UyNDFhZTBmNTMzMTZkODcwYTdhYjYzZDBlMDYwMmFlOTk1NTNkOTZmNWZkMWNkNzM3MWQ1NGFjZEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t). To establish consistency in our observations, we first conducted in-person pilot testing prior to the main data collection phase to align our techniques, followed by ongoing text check-ins to ensure all data was recorded using identical formats and criteria. For artifact and media sharing, we leveraged digital workspaces such as Google Docs and Google Sheets for text and datasets, while utilizing Canva to convert raw visual artifacts from .heic to .jpeg and to blur or hide faces in photos for privacy protection. Our task division and iteration workflow evolved dynamically: initial brainstorming occurred jointly in person and over video calls, while sketching and design involved creating individual versions that were later merged during joint review sessions to integrate feedback. Overall, this collaborative structure worked remarkably well by enhancing productivity through clearly defined tasks and preventing misunderstandings via transparent communication. However, we did face challenges, particularly regarding scheduling conflicts for live data collection and an initial attempt to collect data at an overly high level of granularity; upon discussing the heavy workload, we collectively decided to lower the granularity to fit our constrained schedules. Ultimately, this group dynamic directly shaped our project by steering us toward a streamlined, realistic data collection method during pilot testing and enabling us to refine our final visual designs cohesively and privacy-consciously through joint sketch reviews and shared digital tools.
