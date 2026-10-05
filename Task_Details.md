@@ -313,3 +313,5 @@ Our group created a variety of visualization designs, which revealed varying str
  - divided or rotated tasks idk 
  - worked well. getting things done, communication, challenges: conflict of schedule to gather data, conflict in deciding granularity of data collected. 
  - i think we started with a lot of granularity and slowly moved to less over discussing and realizing our busy schedules. 
+ - Elizabeth's new notes (briefly speak on these too please):
+ - split up tasks, created our own sketches, discussed what we learned from our data and the data collection process and experience which was an iterative process to improve. overall process was very iterative and required frequent discussions on decision-making and appraoches to move forward with. it might be better to meet in-person more for future work sessions to make the discussion process more efficient. this might be easier and smoother than communicating online via call or text.
