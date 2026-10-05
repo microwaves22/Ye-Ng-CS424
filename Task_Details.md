@@ -206,80 +206,19 @@ point, but this step will help us consider what constitutes appropriate visualiz
 # Task 5: Visualization sketches
 ## Sketch 1 - Michelle
 ![Visualization for Domain Question 1](Visualizations/Average_dB_pie_colors.jpeg)
-
-* **Main Idea:** 
-  - This sketch uses a circular radial "clock" diagram to represent the daily schedule across the five time slots. It is split like a pie chart and colored based on noise level.
-
-* **Domain Question Addressed:**
-  - Focuses on: "Which study spaces are best suited for focused, distraction-free studying?"
-
-* **Attributes Represented:**
-  - Time (9 AM, 11 AM, 1 PM, 3 PM, 5PM)
-  - Area Name
-  - Average Noise Level (dB)
-
-* **Marks & Visual Channels:**
-  - **Marks:** Circles and Sector Arcs
-  - **Channels:** Angles with names separate times of the day and colors show the noise level.
-
-* **Reflection:**
-  - This captures cyclic daily noise levels in areas at a glance, making it easy to see with the colors. It easily shows an area being on the quieter side because the colors remain similar.
-  - This contains hours of data not collected which wastes space. This can only have one circle per day per space so it is not efficient.
-
-* **Differentiation:** 
-  - This differs from horizontal line graphs by being similar to something people are used to looking at, a clock, and using color to visual noise levels.
+This visualization answers this domain question: Which study spaces are best suited for focused, distraction-free studying? This sketch is based on a circular radial clock structure where users can evaluate noise trends across the day by looking at sector arcs mapped to specific time windows from 9 AM to 5 PM. This sketch adds an intuitive temporal framework by shaping the layout like a familiar 12-hour clock face to show how quiet or loud a study space stays over time. The marks of this visualization are represented by sector arcs, and the channels are represented by angles separating times of day and color hues encoding average decibel levels. Some attributes that are contained in this sketch are time, area name, and average noise level in decibels. This visualization is good for capturing daily cyclic noise patterns at a glance, making it easy to spot quiet study windows when colors remain consistent across time slots. What could be better about this sketch is its spatial efficiency and scale. It includes hours where data was not collected, which wastes valuable visual space, and it can only represent a single room on a single day per drawing. This makes multi-space comparisons cumbersome and limits the user's ability to view broader temporal patterns across the entire building at once.
 
 ## Sketch 2 - Michelle
 ![Visualization for Domain Question 4](Visualizations/Occupancy_and_Temporal_Data.jpeg)
-
-* **Main Idea:** 
-  -  This sketch uses a floorplan of the 1st Floor which includes: Sandella Cafe, CS Lounge, and Lobby Area, as a spatial reference. 
-
-* **Domain Question Addressed:**
-  - Focuses on: How does the popularity of different study spaces change?
-
-* **Attributes Represented:**
-  - Area Name
-  - People Count
-  - Open Seats Count
-
-* **Marks & Visual Channels:**
-  - **Marks:** Area Polygons, Bar
-  - **Channels:** Color represents location, area sliced represents taken seat count and lined portion represents open seats
-
-* **Reflection:** 
-  - Created a nice floorplan to show occupancy and also the occupancy of nearby study areas. A Floorplan overall would be nice to have if it contains all the data.
-  - Can only show one floor on one graph. Does not capture noise and is not optimal to show data.
-
-* **Differentiation:** 
-  - The floorplan is nice because it can show was is hard to quantify like how nearby a study area is to another. It also shows how if one area has many people, a nearby area might not have as many.  
+This visualization answers this domain question: How does the popularity of different study spaces change? This sketch is based on a spatial floorplan layout of the 1st Floor—including Sandella Cafe, the CS Lounge, and the Lobby Area—where users can examine seating density across adjacent study zones. This sketch adds spatial context to room occupancy by embedding segmented bar shapes directly inside drawn room boundaries to show filled versus open capacity. The marks of this visualization are represented by area polygons and segmented bars, and the channels are represented by color hue for room location and line fills for seat status. Some attributes that are contained in this sketch are area name, people count, and open seats count. This visualization is good for showing real-world spatial relationships that standard charts miss, such as how physical proximity between zones impacts crowd overflow from a busy room into a nearby hallway. What could be better about this sketch is its scope and attribute coverage. It is restricted to a single architectural floor per drawing, omits noise data entirely, and struggles to display changes across different time slots without cluttering the map. This limits the user's ability to track dynamic daily shifts or make multi-floor comparisons easily. 
 
 ## Sketch 3 - Michelle
 ![Visualization for Domain Question 3](Visualizations/Occupancy_and_weather_conditions.jpeg)
+This visualization answers this domain question: Does the demand or usage of study spaces change during poor outdoor conditions? This sketch is based on a calendar-style matrix structure comparing matching weekdays, such as Tuesdays and Thursdays, alongside outdoor weather indicators. This sketch adds a qualitative, human-friendly layer to occupancy tracking by placing weather icons at the top of each date block and using colored circle glyphs with smiley faces to represent crowd levels. The marks of this visualization are represented by container polygons, circle glyphs, and symbolic icons, and the channels are represented by spatial layout by date and area, circle color hue, and facial expression for seat availability. Some attributes that are contained in this sketch are weather condition, date, area name, people count, and open seats count. This visualization is good for making side-by-side day comparisons and presenting behavioral trends in an engaging, easy-to-read calendar format. What could be better about this sketch is its visual density and efficiency. Tracking and counting individual face glyphs across multiple date blocks is difficult and less precise than reading raw numerical values. Using so many repetitive graphics for a small amount of underlying data creates visual clutter, making it harder for the user to perform quick quantitative comparisons across different weather conditions.
 
-* **Main Idea:** 
-  - This sketch maps the relationship between daily outdoor weather and indoor study area usage. Each block displays a date and has the weather condition icon which is referenced on the weather key. The occupancy is represented by smiley faces or circles and colors.
-
-* **Domain Question Addressed:**
-  - Focuses on: Does the demand or usage of study spaces change during poor outdoor conditions?
-
-* **Attributes Represented:**
-  - Weather Condition
-  - Date
-  - Area Name
-  - People Count
-  - Open Seats Count
-
-* **Marks & Visual Channels:**
-  - **Marks:** polygons, circles, icons
-  - **Channels:** sptial layout based on date and area, color of the circles to indicate people count or open seats, and expression for people count.
-
-* **Reflection:**
-  - The concept of face sentiment is nice if neutral or frowns were included. The sketch is cute. Grouping by day (Tuesday, Thursday) allows for comparison between similar days and their weather conditions.
-  - It is cute, but not useful. It is a lot of visuals for little  amount of data provided. The amount of faces is hard to track rather than just incorporating the given number.
-
-* **Differentiation:** 
-  - Instead of relying on subjectively boring abstract plots and bar graphs, this sketch uses a calender style matrix and qualitative faces, and weather icons to show trends.
+## Refined Sketch 2 - Michelle
+![Refined Visualization for Domain Question 4](Visualizations/revised_occupancy.jpeg)
+This visualization addresses the primary domain task of determining which study locations in the CDRLC offer the best combination of open seating and a quiet environment for focused studying. The relevant attributes represented in this sketch include Area Name for spatial locations, Open Seats Count and People Count for room occupancy, and Average Noise Level in decibels for acoustic intensity. The marks are defined by area polygons for architectural boundaries and individual point marks forming a dot chart within each room polygon. These data points are encoded through several visual channels: spatial position maps room layouts and physical proximity, color hues distinguish individual study zones, dot density represents crowd volume where scattered point clusters show the number of occupants, direct text labels display exact capacity ratios, and speaker icons with varying wave counts signal noise levels. From this visualization, a user can immediately identify which study areas balance open seating with a low-noise environment while observing how physical structural context; such as proximity to busy stairwells or cafe entrances—directly impacts ambient noise and causes crowd overflow into nearby spaces.
 
 ## Sketch 1 - Elizabeth
 ![Visualization for Domain Question 2](Visualizations/DQ_2_Vis_Elizabeth.jpeg)
@@ -301,17 +240,4 @@ This visualization answers this domain question: which locations in the CDRLC ar
 # Task 6: Summarizing
 
 # Task 7: Collaboration Process
- GOTTA COME BACK FOR DIS GAE
-
- - communciated in person and online via facetiming, and texting.
- - divided data colection equally (1/2)
- - include link to calender for data collection
- - made sure diff group member collected consistenyl by texting and telling. also met for the pilot testing to make sure we did same
- - shared through google doc, and sheets. 
- - divided or rotated tasks idk 
- - worked well. getting things done, communication, challenges: conflict of schedule to gather data, conflict in deciding granularity of data collected. 
- - i think we started with a lot of granularity and slowly moved to less over discussing and realizing our busy schedules. 
-
-# IDK where this goes: photos
-- notes converted with Canva fom heic to jpeg 
-- hiding people's faces w/ Canva editing
+  Throughout the collaboration process for Task 7, our group maintained consistent and open communication using a combination of in-person discussions after class, as well as FaceTime calls and text messaging for updates or quick check-ins. Data collection was divided almost equally (50/50) between group members, with schedules coordinated and kept accountable through a shared calendar (https://calendar.google.com/calendar/u/0?cid=YjE2YTU3M2UyNDFhZTBmNTMzMTZkODcwYTdhYjYzZDBlMDYwMmFlOTk1NTNkOTZmNWZkMWNkNzM3MWQ1NGFjZEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t). To establish consistency in our observations, we first conducted in-person pilot testing prior to the main data collection phase to align our techniques, followed by ongoing text check-ins to ensure all data was recorded using identical formats and criteria. For artifact and media sharing, we leveraged digital workspaces such as Google Docs and Google Sheets for text and datasets, while utilizing Canva to convert raw visual artifacts from .heic to .jpeg and to blur or hide faces in photos for privacy protection. Our task division and iteration workflow evolved dynamically: initial brainstorming occurred jointly in person and over video calls, while sketching and design involved creating individual versions that were later merged during joint review sessions to integrate feedback. Overall, this collaborative structure worked remarkably well by enhancing productivity through clearly defined tasks and preventing misunderstandings via transparent communication. However, we did face challenges, particularly regarding scheduling conflicts for live data collection and an initial attempt to collect data at an overly high level of granularity; upon discussing the heavy workload, we collectively decided to lower the granularity to fit our constrained schedules. Ultimately, this group dynamic directly shaped our project by steering us toward a streamlined, realistic data collection method during pilot testing and enabling us to refine our final visual designs cohesively and privacy-consciously through joint sketch reviews and shared digital tools.
