@@ -4,10 +4,12 @@ the attributes available in the dataset. We narrowed our broad question about di
 specific exploration of the relationship between noise and available seating, expanded our popularity question to focus
 on occupancy patterns across time and location, and replaced our weather-focused question with a comparison of high-traffic
 and low-traffic study spaces. That being said, we're moving forward with the following questions:
+
 - Which study spaces are the most reliable for finding available space?
 - Are the quietest study spaces also the hardest spaces to find a seat?
 - How do occupancy patterns vary across location, time of day, and day of week?
 - How do high-traffic and low-traffic study spaces differ from one another?
+
 Additionally, we collected more observations to expand our dataset.
 
 # Task 2: Prepare the data
