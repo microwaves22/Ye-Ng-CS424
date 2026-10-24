@@ -1,0 +1,451 @@
+date,time,location,noise_level,occupancy,open_seats,weather_temperature,weather_condition,capacity,occupancy_rate,availability_rate,day_of_week,traffic_level
+2026-09-21,9:00,1st Floor Sandella Cafe,56.5,0,9,60,Rainy,9,0.0,1.0,Monday,High Traffic
+2026-09-21,9:00,1st Floor Lobby Area,49.2,17,24,60,Rainy,41,0.415,0.585,Monday,High Traffic
+2026-09-21,9:00,1st Floor CS Study Lounge,54.2,5,41,60,Rainy,46,0.109,0.891,Monday,Low Traffic
+2026-09-21,9:00,2nd Floor CS Study Lounge Collaborative,64.9,18,22,60,Rainy,40,0.45,0.55,Monday,Low Traffic
+2026-09-21,9:00,2nd Floor CS Study Lounge Quiet,50.2,3,8,60,Rainy,11,0.273,0.727,Monday,Low Traffic
+2026-09-21,9:00,4th Floor Study lounge,47.5,4,10,60,Rainy,14,0.286,0.714,Monday,Low Traffic
+2026-09-21,11:00,1st Floor Sandella Cafe,64.4,5,4,62,Partly cloudy,9,0.556,0.444,Monday,High Traffic
+2026-09-21,11:00,1st Floor Lobby Area,55.7,26,13,62,Partly cloudy,39,0.667,0.333,Monday,High Traffic
+2026-09-21,11:00,1st Floor CS Study Lounge,53.2,18,25,62,Partly cloudy,43,0.419,0.581,Monday,Low Traffic
+2026-09-21,11:00,2nd Floor CS Study Lounge Collaborative,53.4,23,18,62,Partly cloudy,41,0.561,0.439,Monday,Low Traffic
+2026-09-21,11:00,2nd Floor CS Study Lounge Quiet,46.2,7,4,62,Partly cloudy,11,0.636,0.364,Monday,Low Traffic
+2026-09-21,11:00,4th Floor Study lounge,51.9,8,6,62,Partly cloudy,14,0.571,0.429,Monday,Low Traffic
+2026-09-21,13:00,1st Floor Sandella Cafe,66.1,7,2,64,Partly cloudy,9,0.778,0.222,Monday,High Traffic
+2026-09-21,13:00,1st Floor Lobby Area,52.1,32,9,64,Partly cloudy,41,0.78,0.22,Monday,High Traffic
+2026-09-21,13:00,1st Floor CS Study Lounge,55.3,20,18,64,Partly cloudy,38,0.526,0.474,Monday,Low Traffic
+2026-09-21,13:00,2nd Floor CS Study Lounge Collaborative,58.0,24,15,64,Partly cloudy,39,0.615,0.385,Monday,Low Traffic
+2026-09-21,13:00,2nd Floor CS Study Lounge Quiet,51.9,11,0,64,Partly cloudy,11,1.0,0.0,Monday,Low Traffic
+2026-09-21,13:00,4th Floor Study lounge,49.2,7,7,64,Partly cloudy,14,0.5,0.5,Monday,Low Traffic
+2026-09-21,15:00,1st Floor Sandella Cafe,63.9,6,3,65,Sunny,9,0.667,0.333,Monday,High Traffic
+2026-09-21,15:00,1st Floor Lobby Area,49.2,24,16,65,Sunny,40,0.6,0.4,Monday,High Traffic
+2026-09-21,15:00,1st Floor CS Study Lounge,52.0,9,31,65,Sunny,40,0.225,0.775,Monday,Low Traffic
+2026-09-21,15:00,2nd Floor CS Study Lounge Collaborative,62.5,27,14,65,Sunny,41,0.659,0.341,Monday,Low Traffic
+2026-09-21,15:00,2nd Floor CS Study Lounge Quiet,54.5,8,3,65,Sunny,11,0.727,0.273,Monday,Low Traffic
+2026-09-21,15:00,4th Floor Study lounge,51.9,7,7,65,Sunny,14,0.5,0.5,Monday,Low Traffic
+2026-09-21,17:00,1st Floor Sandella Cafe,53.4,0,9,64,Sunny,9,0.0,1.0,Monday,High Traffic
+2026-09-21,17:00,1st Floor Lobby Area,53.9,14,27,64,Sunny,41,0.341,0.659,Monday,High Traffic
+2026-09-21,17:00,1st Floor CS Study Lounge,50.8,5,37,64,Sunny,42,0.119,0.881,Monday,Low Traffic
+2026-09-21,17:00,2nd Floor CS Study Lounge Collaborative,60.3,17,23,64,Sunny,40,0.425,0.575,Monday,Low Traffic
+2026-09-21,17:00,2nd Floor CS Study Lounge Quiet,45.0,5,6,64,Sunny,11,0.455,0.545,Monday,Low Traffic
+2026-09-21,17:00,4th Floor Study lounge,50.3,5,9,64,Sunny,14,0.357,0.643,Monday,Low Traffic
+2026-09-22,9:00,1st Floor Sandella Cafe,51.5,5,4,59,Sunny,9,0.556,0.444,Tuesday,High Traffic
+2026-09-22,9:00,1st Floor Lobby Area,59.5,17,21,59,Sunny,38,0.447,0.553,Tuesday,High Traffic
+2026-09-22,9:00,1st Floor CS Study Lounge,53.7,4,38,59,Sunny,42,0.095,0.905,Tuesday,Low Traffic
+2026-09-22,9:00,2nd Floor CS Study Lounge Collaborative,52.5,9,32,59,Sunny,41,0.22,0.78,Tuesday,Low Traffic
+2026-09-22,9:00,2nd Floor CS Study Lounge Quiet,58.1,1,10,59,Sunny,11,0.091,0.909,Tuesday,Low Traffic
+2026-09-22,9:00,4th Floor Study lounge,51.7,6,8,59,Sunny,14,0.429,0.571,Tuesday,Low Traffic
+2026-09-22,11:00,1st Floor Sandella Cafe,64.0,6,3,59,Cloudy,9,0.667,0.333,Tuesday,High Traffic
+2026-09-22,11:00,1st Floor Lobby Area,55.6,23,18,59,Cloudy,41,0.561,0.439,Tuesday,High Traffic
+2026-09-22,11:00,1st Floor CS Study Lounge,53.8,12,30,59,Cloudy,42,0.286,0.714,Tuesday,Low Traffic
+2026-09-22,11:00,2nd Floor CS Study Lounge Collaborative,58.9,24,17,59,Cloudy,41,0.585,0.415,Tuesday,Low Traffic
+2026-09-22,11:00,2nd Floor CS Study Lounge Quiet,52.2,11,0,59,Cloudy,11,1.0,0.0,Tuesday,Low Traffic
+2026-09-22,11:00,4th Floor Study lounge,52.5,7,7,59,Cloudy,14,0.5,0.5,Tuesday,Low Traffic
+2026-09-22,13:00,1st Floor Sandella Cafe,64.4,7,2,61,Cloudy,9,0.778,0.222,Tuesday,High Traffic
+2026-09-22,13:00,1st Floor Lobby Area,50.1,27,13,61,Cloudy,40,0.675,0.325,Tuesday,High Traffic
+2026-09-22,13:00,1st Floor CS Study Lounge,54.5,16,23,61,Cloudy,39,0.41,0.59,Tuesday,Low Traffic
+2026-09-22,13:00,2nd Floor CS Study Lounge Collaborative,54.0,33,8,61,Cloudy,41,0.805,0.195,Tuesday,Low Traffic
+2026-09-22,13:00,2nd Floor CS Study Lounge Quiet,56.9,11,0,61,Cloudy,11,1.0,0.0,Tuesday,Low Traffic
+2026-09-22,13:00,4th Floor Study lounge,53.2,10,4,61,Cloudy,14,0.714,0.286,Tuesday,Low Traffic
+2026-09-22,15:00,1st Floor Sandella Cafe,57.4,6,3,63,Cloudy,9,0.667,0.333,Tuesday,High Traffic
+2026-09-22,15:00,1st Floor Lobby Area,51.6,27,13,63,Cloudy,40,0.675,0.325,Tuesday,High Traffic
+2026-09-22,15:00,1st Floor CS Study Lounge,61.2,19,21,63,Cloudy,40,0.475,0.525,Tuesday,Low Traffic
+2026-09-22,15:00,2nd Floor CS Study Lounge Collaborative,64.1,32,9,63,Cloudy,41,0.78,0.22,Tuesday,Low Traffic
+2026-09-22,15:00,2nd Floor CS Study Lounge Quiet,58.7,10,1,63,Cloudy,11,0.909,0.091,Tuesday,Low Traffic
+2026-09-22,15:00,4th Floor Study lounge,49.2,8,6,63,Cloudy,14,0.571,0.429,Tuesday,Low Traffic
+2026-09-22,17:00,1st Floor Sandella Cafe,56.9,2,7,63,Sunny,9,0.222,0.778,Tuesday,High Traffic
+2026-09-22,17:00,1st Floor Lobby Area,53.9,20,20,63,Sunny,40,0.5,0.5,Tuesday,High Traffic
+2026-09-22,17:00,1st Floor CS Study Lounge,58.2,11,36,63,Sunny,47,0.234,0.766,Tuesday,Low Traffic
+2026-09-22,17:00,2nd Floor CS Study Lounge Collaborative,53.4,21,20,63,Sunny,41,0.512,0.488,Tuesday,Low Traffic
+2026-09-22,17:00,2nd Floor CS Study Lounge Quiet,49.4,10,1,63,Sunny,11,0.909,0.091,Tuesday,Low Traffic
+2026-09-22,17:00,4th Floor Study lounge,52.7,8,6,63,Sunny,14,0.571,0.429,Tuesday,Low Traffic
+2026-09-23,9:00,1st Floor Sandella Cafe,56.1,2,7,60,Partly cloudy,9,0.222,0.778,Wednesday,High Traffic
+2026-09-23,9:00,1st Floor Lobby Area,48.1,19,20,60,Partly cloudy,39,0.487,0.513,Wednesday,High Traffic
+2026-09-23,9:00,1st Floor CS Study Lounge,54.5,7,34,60,Partly cloudy,41,0.171,0.829,Wednesday,Low Traffic
+2026-09-23,9:00,2nd Floor CS Study Lounge Collaborative,47.0,14,27,60,Partly cloudy,41,0.341,0.659,Wednesday,Low Traffic
+2026-09-23,9:00,2nd Floor CS Study Lounge Quiet,46.7,1,10,60,Partly cloudy,11,0.091,0.909,Wednesday,Low Traffic
+2026-09-23,9:00,4th Floor Study lounge,47.6,3,11,60,Partly cloudy,14,0.214,0.786,Wednesday,Low Traffic
+2026-09-23,11:00,1st Floor Sandella Cafe,62.6,5,4,62,Partly cloudy,9,0.556,0.444,Wednesday,High Traffic
+2026-09-23,11:00,1st Floor Lobby Area,52.9,28,12,62,Partly cloudy,40,0.7,0.3,Wednesday,High Traffic
+2026-09-23,11:00,1st Floor CS Study Lounge,61.5,11,30,62,Partly cloudy,41,0.268,0.732,Wednesday,Low Traffic
+2026-09-23,11:00,2nd Floor CS Study Lounge Collaborative,51.7,24,16,62,Partly cloudy,40,0.6,0.4,Wednesday,Low Traffic
+2026-09-23,11:00,2nd Floor CS Study Lounge Quiet,48.4,7,4,62,Partly cloudy,11,0.636,0.364,Wednesday,Low Traffic
+2026-09-23,11:00,4th Floor Study lounge,53.2,8,6,62,Partly cloudy,14,0.571,0.429,Wednesday,Low Traffic
+2026-09-23,13:00,1st Floor Sandella Cafe,61.5,6,3,67,Cloudy,9,0.667,0.333,Wednesday,High Traffic
+2026-09-23,13:00,1st Floor Lobby Area,56.8,31,10,67,Cloudy,41,0.756,0.244,Wednesday,High Traffic
+2026-09-23,13:00,1st Floor CS Study Lounge,53.5,17,24,67,Cloudy,41,0.415,0.585,Wednesday,Low Traffic
+2026-09-23,13:00,2nd Floor CS Study Lounge Collaborative,59.2,25,18,67,Cloudy,43,0.581,0.419,Wednesday,Low Traffic
+2026-09-23,13:00,2nd Floor CS Study Lounge Quiet,51.0,10,1,67,Cloudy,11,0.909,0.091,Wednesday,Low Traffic
+2026-09-23,13:00,4th Floor Study lounge,52.5,5,9,67,Cloudy,14,0.357,0.643,Wednesday,Low Traffic
+2026-09-23,15:00,1st Floor Sandella Cafe,62.0,2,9,64,Cloudy,11,0.182,0.818,Wednesday,High Traffic
+2026-09-23,15:00,1st Floor Lobby Area,52.8,29,11,64,Cloudy,40,0.725,0.275,Wednesday,High Traffic
+2026-09-23,15:00,1st Floor CS Study Lounge,54.0,12,29,64,Cloudy,41,0.293,0.707,Wednesday,Low Traffic
+2026-09-23,15:00,2nd Floor CS Study Lounge Collaborative,57.3,29,11,64,Cloudy,40,0.725,0.275,Wednesday,Low Traffic
+2026-09-23,15:00,2nd Floor CS Study Lounge Quiet,47.3,11,0,64,Cloudy,11,1.0,0.0,Wednesday,Low Traffic
+2026-09-23,15:00,4th Floor Study lounge,52.7,3,11,64,Cloudy,14,0.214,0.786,Wednesday,Low Traffic
+2026-09-23,17:00,1st Floor Sandella Cafe,53.9,2,7,65,Cloudy,9,0.222,0.778,Wednesday,High Traffic
+2026-09-23,17:00,1st Floor Lobby Area,61.8,23,20,65,Cloudy,43,0.535,0.465,Wednesday,High Traffic
+2026-09-23,17:00,1st Floor CS Study Lounge,63.1,13,30,65,Cloudy,43,0.302,0.698,Wednesday,Low Traffic
+2026-09-23,17:00,2nd Floor CS Study Lounge Collaborative,59.5,16,25,65,Cloudy,41,0.39,0.61,Wednesday,Low Traffic
+2026-09-23,17:00,2nd Floor CS Study Lounge Quiet,50.0,3,8,65,Cloudy,11,0.273,0.727,Wednesday,Low Traffic
+2026-09-23,17:00,4th Floor Study lounge,59.2,5,9,65,Cloudy,14,0.357,0.643,Wednesday,Low Traffic
+2026-09-24,9:00,1st Floor Sandella Cafe,59.2,0,9,62,Cloudy,9,0.0,1.0,Thursday,High Traffic
+2026-09-24,9:00,1st Floor Lobby Area,53.1,14,26,62,Cloudy,40,0.35,0.65,Thursday,High Traffic
+2026-09-24,9:00,1st Floor CS Study Lounge,56.2,5,37,62,Cloudy,42,0.119,0.881,Thursday,Low Traffic
+2026-09-24,9:00,2nd Floor CS Study Lounge Collaborative,51.0,3,38,62,Cloudy,41,0.073,0.927,Thursday,Low Traffic
+2026-09-24,9:00,2nd Floor CS Study Lounge Quiet,43.8,2,9,62,Cloudy,11,0.182,0.818,Thursday,Low Traffic
+2026-09-24,9:00,4th Floor Study lounge,51.3,3,11,62,Cloudy,14,0.214,0.786,Thursday,Low Traffic
+2026-09-24,11:00,1st Floor Sandella Cafe,59.4,2,8,63,Cloudy,10,0.2,0.8,Thursday,High Traffic
+2026-09-24,11:00,1st Floor Lobby Area,56.4,25,14,63,Cloudy,39,0.641,0.359,Thursday,High Traffic
+2026-09-24,11:00,1st Floor CS Study Lounge,57.3,10,33,63,Cloudy,43,0.233,0.767,Thursday,Low Traffic
+2026-09-24,11:00,2nd Floor CS Study Lounge Collaborative,60.4,17,25,63,Cloudy,42,0.405,0.595,Thursday,Low Traffic
+2026-09-24,11:00,2nd Floor CS Study Lounge Quiet,50.2,7,4,63,Cloudy,11,0.636,0.364,Thursday,Low Traffic
+2026-09-24,11:00,4th Floor Study lounge,57.7,8,6,63,Cloudy,14,0.571,0.429,Thursday,Low Traffic
+2026-09-24,13:00,1st Floor Sandella Cafe,61.0,4,5,68,Sunny,9,0.444,0.556,Thursday,High Traffic
+2026-09-24,13:00,1st Floor Lobby Area,53.4,26,15,68,Sunny,41,0.634,0.366,Thursday,High Traffic
+2026-09-24,13:00,1st Floor CS Study Lounge,63.4,19,22,68,Sunny,41,0.463,0.537,Thursday,Low Traffic
+2026-09-24,13:00,2nd Floor CS Study Lounge Collaborative,51.4,18,20,68,Sunny,38,0.474,0.526,Thursday,Low Traffic
+2026-09-24,13:00,2nd Floor CS Study Lounge Quiet,44.5,10,1,68,Sunny,11,0.909,0.091,Thursday,Low Traffic
+2026-09-24,13:00,4th Floor Study lounge,51.4,8,6,68,Sunny,14,0.571,0.429,Thursday,Low Traffic
+2026-09-24,15:00,1st Floor Sandella Cafe,61.7,4,5,68,Sunny,9,0.444,0.556,Thursday,High Traffic
+2026-09-24,15:00,1st Floor Lobby Area,62.6,31,10,68,Sunny,41,0.756,0.244,Thursday,High Traffic
+2026-09-24,15:00,1st Floor CS Study Lounge,58.6,15,26,68,Sunny,41,0.366,0.634,Thursday,Low Traffic
+2026-09-24,15:00,2nd Floor CS Study Lounge Collaborative,60.2,25,15,68,Sunny,40,0.625,0.375,Thursday,Low Traffic
+2026-09-24,15:00,2nd Floor CS Study Lounge Quiet,59.5,10,1,68,Sunny,11,0.909,0.091,Thursday,Low Traffic
+2026-09-24,15:00,4th Floor Study lounge,51.8,7,6,68,Sunny,13,0.538,0.462,Thursday,Low Traffic
+2026-09-24,17:00,1st Floor Sandella Cafe,55.5,2,7,68,Partly cloudy,9,0.222,0.778,Thursday,High Traffic
+2026-09-24,17:00,1st Floor Lobby Area,59.1,17,24,68,Partly cloudy,41,0.415,0.585,Thursday,High Traffic
+2026-09-24,17:00,1st Floor CS Study Lounge,55.5,5,36,68,Partly cloudy,41,0.122,0.878,Thursday,Low Traffic
+2026-09-24,17:00,2nd Floor CS Study Lounge Collaborative,58.8,13,27,68,Partly cloudy,40,0.325,0.675,Thursday,Low Traffic
+2026-09-24,17:00,2nd Floor CS Study Lounge Quiet,50.4,3,8,68,Partly cloudy,11,0.273,0.727,Thursday,Low Traffic
+2026-09-24,17:00,4th Floor Study lounge,53.9,4,10,68,Partly cloudy,14,0.286,0.714,Thursday,Low Traffic
+2026-09-25,9:00,1st Floor Sandella Cafe,55.7,2,7,60,Cloudy,9,0.222,0.778,Friday,High Traffic
+2026-09-25,9:00,1st Floor Lobby Area,49.4,20,21,60,Cloudy,41,0.488,0.512,Friday,High Traffic
+2026-09-25,9:00,1st Floor CS Study Lounge,53.5,7,34,60,Cloudy,41,0.171,0.829,Friday,Low Traffic
+2026-09-25,9:00,2nd Floor CS Study Lounge Collaborative,44.0,3,38,60,Cloudy,41,0.073,0.927,Friday,Low Traffic
+2026-09-25,9:00,2nd Floor CS Study Lounge Quiet,41.5,1,10,60,Cloudy,11,0.091,0.909,Friday,Low Traffic
+2026-09-25,9:00,4th Floor Study lounge,52.4,4,10,60,Cloudy,14,0.286,0.714,Friday,Low Traffic
+2026-09-25,11:00,1st Floor Sandella Cafe,58.3,3,6,61,Cloudy,9,0.333,0.667,Friday,High Traffic
+2026-09-25,11:00,1st Floor Lobby Area,57.7,23,19,61,Cloudy,42,0.548,0.452,Friday,High Traffic
+2026-09-25,11:00,1st Floor CS Study Lounge,53.8,10,30,61,Cloudy,40,0.25,0.75,Friday,Low Traffic
+2026-09-25,11:00,2nd Floor CS Study Lounge Collaborative,51.2,13,24,61,Cloudy,37,0.351,0.649,Friday,Low Traffic
+2026-09-25,11:00,2nd Floor CS Study Lounge Quiet,48.8,7,4,61,Cloudy,11,0.636,0.364,Friday,Low Traffic
+2026-09-25,11:00,4th Floor Study lounge,51.0,4,10,61,Cloudy,14,0.286,0.714,Friday,Low Traffic
+2026-09-25,13:00,1st Floor Sandella Cafe,58.4,5,4,64,Partly cloudy,9,0.556,0.444,Friday,High Traffic
+2026-09-25,13:00,1st Floor Lobby Area,51.2,24,16,64,Partly cloudy,40,0.6,0.4,Friday,High Traffic
+2026-09-25,13:00,1st Floor CS Study Lounge,56.8,9,32,64,Partly cloudy,41,0.22,0.78,Friday,Low Traffic
+2026-09-25,13:00,2nd Floor CS Study Lounge Collaborative,47.0,16,24,64,Partly cloudy,40,0.4,0.6,Friday,Low Traffic
+2026-09-25,13:00,2nd Floor CS Study Lounge Quiet,50.2,9,2,64,Partly cloudy,11,0.818,0.182,Friday,Low Traffic
+2026-09-25,13:00,4th Floor Study lounge,52.8,8,6,64,Partly cloudy,14,0.571,0.429,Friday,Low Traffic
+2026-09-25,15:00,1st Floor Sandella Cafe,57.8,1,8,65,Cloudy,9,0.111,0.889,Friday,High Traffic
+2026-09-25,15:00,1st Floor Lobby Area,53.5,27,14,65,Cloudy,41,0.659,0.341,Friday,High Traffic
+2026-09-25,15:00,1st Floor CS Study Lounge,54.0,9,32,65,Cloudy,41,0.22,0.78,Friday,Low Traffic
+2026-09-25,15:00,2nd Floor CS Study Lounge Collaborative,52.2,14,27,65,Cloudy,41,0.341,0.659,Friday,Low Traffic
+2026-09-25,15:00,2nd Floor CS Study Lounge Quiet,50.7,1,10,65,Cloudy,11,0.091,0.909,Friday,Low Traffic
+2026-09-25,15:00,4th Floor Study lounge,55.7,5,9,65,Cloudy,14,0.357,0.643,Friday,Low Traffic
+2026-09-25,17:00,1st Floor Sandella Cafe,56.2,0,9,64,Partly cloudy,9,0.0,1.0,Friday,High Traffic
+2026-09-25,17:00,1st Floor Lobby Area,50.9,12,29,64,Partly cloudy,41,0.293,0.707,Friday,High Traffic
+2026-09-25,17:00,1st Floor CS Study Lounge,54.1,4,38,64,Partly cloudy,42,0.095,0.905,Friday,Low Traffic
+2026-09-25,17:00,2nd Floor CS Study Lounge Collaborative,50.3,13,28,64,Partly cloudy,41,0.317,0.683,Friday,Low Traffic
+2026-09-25,17:00,2nd Floor CS Study Lounge Quiet,45.2,1,10,64,Partly cloudy,11,0.091,0.909,Friday,Low Traffic
+2026-09-25,17:00,4th Floor Study lounge,54.8,5,9,64,Partly cloudy,14,0.357,0.643,Friday,Low Traffic
+2026-09-28,9:00,1st Floor Sandella Cafe,54.4,0,9,61,Sunny,9,0.0,1.0,Monday,High Traffic
+2026-09-28,9:00,1st Floor Lobby Area,50.4,21,17,61,Sunny,38,0.553,0.447,Monday,High Traffic
+2026-09-28,9:00,1st Floor CS Study Lounge,53.4,4,37,61,Sunny,41,0.098,0.902,Monday,Low Traffic
+2026-09-28,9:00,2nd Floor CS Study Lounge Collaborative,61.6,15,26,61,Sunny,41,0.366,0.634,Monday,Low Traffic
+2026-09-28,9:00,2nd Floor CS Study Lounge Quiet,47.2,5,6,61,Sunny,11,0.455,0.545,Monday,Low Traffic
+2026-09-28,9:00,4th Floor Study lounge,48.0,5,9,61,Sunny,14,0.357,0.643,Monday,Low Traffic
+2026-09-28,11:00,1st Floor Sandella Cafe,59.1,8,1,66,Partly cloudy,9,0.889,0.111,Monday,High Traffic
+2026-09-28,11:00,1st Floor Lobby Area,54.2,26,14,66,Partly cloudy,40,0.65,0.35,Monday,High Traffic
+2026-09-28,11:00,1st Floor CS Study Lounge,54.8,16,26,66,Partly cloudy,42,0.381,0.619,Monday,Low Traffic
+2026-09-28,11:00,2nd Floor CS Study Lounge Collaborative,53.9,25,17,66,Partly cloudy,42,0.595,0.405,Monday,Low Traffic
+2026-09-28,11:00,2nd Floor CS Study Lounge Quiet,48.3,7,4,66,Partly cloudy,11,0.636,0.364,Monday,Low Traffic
+2026-09-28,11:00,4th Floor Study lounge,53.5,6,8,66,Partly cloudy,14,0.429,0.571,Monday,Low Traffic
+2026-09-28,13:00,1st Floor Sandella Cafe,62.1,8,1,69,Sunny,9,0.889,0.111,Monday,High Traffic
+2026-09-28,13:00,1st Floor Lobby Area,55.4,24,15,69,Sunny,39,0.615,0.385,Monday,High Traffic
+2026-09-28,13:00,1st Floor CS Study Lounge,54.6,21,19,69,Sunny,40,0.525,0.475,Monday,Low Traffic
+2026-09-28,13:00,2nd Floor CS Study Lounge Collaborative,55.9,24,16,69,Sunny,40,0.6,0.4,Monday,Low Traffic
+2026-09-28,13:00,2nd Floor CS Study Lounge Quiet,50.3,8,3,69,Sunny,11,0.727,0.273,Monday,Low Traffic
+2026-09-28,13:00,4th Floor Study lounge,55.1,8,4,69,Sunny,12,0.667,0.333,Monday,Low Traffic
+2026-09-28,15:00,1st Floor Sandella Cafe,59.2,6,3,70,Sunny,9,0.667,0.333,Monday,High Traffic
+2026-09-28,15:00,1st Floor Lobby Area,56.4,30,10,70,Sunny,40,0.75,0.25,Monday,High Traffic
+2026-09-28,15:00,1st Floor CS Study Lounge,57.6,14,26,70,Sunny,40,0.35,0.65,Monday,Low Traffic
+2026-09-28,15:00,2nd Floor CS Study Lounge Collaborative,52.9,16,24,70,Sunny,40,0.4,0.6,Monday,Low Traffic
+2026-09-28,15:00,2nd Floor CS Study Lounge Quiet,49.0,10,1,70,Sunny,11,0.909,0.091,Monday,Low Traffic
+2026-09-28,15:00,4th Floor Study lounge,51.2,5,9,70,Sunny,14,0.357,0.643,Monday,Low Traffic
+2026-09-28,17:00,1st Floor Sandella Cafe,51.2,0,9,68,Sunny,9,0.0,1.0,Monday,High Traffic
+2026-09-28,17:00,1st Floor Lobby Area,48.3,3,37,68,Sunny,40,0.075,0.925,Monday,High Traffic
+2026-09-28,17:00,1st Floor CS Study Lounge,50.4,2,40,68,Sunny,42,0.048,0.952,Monday,Low Traffic
+2026-09-28,17:00,2nd Floor CS Study Lounge Collaborative,54.3,5,36,68,Sunny,41,0.122,0.878,Monday,Low Traffic
+2026-09-28,17:00,2nd Floor CS Study Lounge Quiet,44.5,0,11,68,Sunny,11,0.0,1.0,Monday,Low Traffic
+2026-09-28,17:00,4th Floor Study lounge,50.3,1,13,68,Sunny,14,0.071,0.929,Monday,Low Traffic
+2026-09-29,9:00,1st Floor Sandella Cafe,55.3,4,5,61,Sunny,9,0.444,0.556,Tuesday,High Traffic
+2026-09-29,9:00,1st Floor Lobby Area,52.5,22,20,61,Sunny,42,0.524,0.476,Tuesday,High Traffic
+2026-09-29,9:00,1st Floor CS Study Lounge,53.2,5,37,61,Sunny,42,0.119,0.881,Tuesday,Low Traffic
+2026-09-29,9:00,2nd Floor CS Study Lounge Collaborative,60.3,15,25,61,Sunny,40,0.375,0.625,Tuesday,Low Traffic
+2026-09-29,9:00,2nd Floor CS Study Lounge Quiet,52.5,5,7,61,Sunny,12,0.417,0.583,Tuesday,Low Traffic
+2026-09-29,9:00,4th Floor Study lounge,48.6,4,10,61,Sunny,14,0.286,0.714,Tuesday,Low Traffic
+2026-09-29,11:00,1st Floor Sandella Cafe,62.0,8,1,67,Sunny,9,0.889,0.111,Tuesday,High Traffic
+2026-09-29,11:00,1st Floor Lobby Area,49.7,22,20,67,Sunny,42,0.524,0.476,Tuesday,High Traffic
+2026-09-29,11:00,1st Floor CS Study Lounge,53.8,14,28,67,Sunny,42,0.333,0.667,Tuesday,Low Traffic
+2026-09-29,11:00,2nd Floor CS Study Lounge Collaborative,53.4,17,23,67,Sunny,40,0.425,0.575,Tuesday,Low Traffic
+2026-09-29,11:00,2nd Floor CS Study Lounge Quiet,43.5,11,0,67,Sunny,11,1.0,0.0,Tuesday,Low Traffic
+2026-09-29,11:00,4th Floor Study lounge,50.0,11,3,67,Sunny,14,0.786,0.214,Tuesday,Low Traffic
+2026-09-29,13:00,1st Floor Sandella Cafe,61.4,4,5,71,Sunny,9,0.444,0.556,Tuesday,High Traffic
+2026-09-29,13:00,1st Floor Lobby Area,56.0,30,10,71,Sunny,40,0.75,0.25,Tuesday,High Traffic
+2026-09-29,13:00,1st Floor CS Study Lounge,54.6,14,27,71,Sunny,41,0.341,0.659,Tuesday,Low Traffic
+2026-09-29,13:00,2nd Floor CS Study Lounge Collaborative,49.8,23,18,71,Sunny,41,0.561,0.439,Tuesday,Low Traffic
+2026-09-29,13:00,2nd Floor CS Study Lounge Quiet,43.4,11,0,71,Sunny,11,1.0,0.0,Tuesday,Low Traffic
+2026-09-29,13:00,4th Floor Study lounge,53.4,9,5,71,Sunny,14,0.643,0.357,Tuesday,Low Traffic
+2026-09-29,15:00,1st Floor Sandella Cafe,66.1,6,3,74,Partly cloudy,9,0.667,0.333,Tuesday,High Traffic
+2026-09-29,15:00,1st Floor Lobby Area,60.4,33,7,74,Partly cloudy,40,0.825,0.175,Tuesday,High Traffic
+2026-09-29,15:00,1st Floor CS Study Lounge,62.6,13,27,74,Partly cloudy,40,0.325,0.675,Tuesday,Low Traffic
+2026-09-29,15:00,2nd Floor CS Study Lounge Collaborative,62.7,21,20,74,Partly cloudy,41,0.512,0.488,Tuesday,Low Traffic
+2026-09-29,15:00,2nd Floor CS Study Lounge Quiet,58.2,9,2,74,Partly cloudy,11,0.818,0.182,Tuesday,Low Traffic
+2026-09-29,15:00,4th Floor Study lounge,68.3,8,6,74,Partly cloudy,14,0.571,0.429,Tuesday,Low Traffic
+2026-09-29,17:00,1st Floor Sandella Cafe,67.0,7,2,72,Cloudy,9,0.778,0.222,Tuesday,High Traffic
+2026-09-29,17:00,1st Floor Lobby Area,61.2,20,20,72,Cloudy,40,0.5,0.5,Tuesday,High Traffic
+2026-09-29,17:00,1st Floor CS Study Lounge,63.3,19,21,72,Cloudy,40,0.475,0.525,Tuesday,Low Traffic
+2026-09-29,17:00,2nd Floor CS Study Lounge Collaborative,65.2,16,25,72,Cloudy,41,0.39,0.61,Tuesday,Low Traffic
+2026-09-29,17:00,2nd Floor CS Study Lounge Quiet,59.2,1,10,72,Cloudy,11,0.091,0.909,Tuesday,Low Traffic
+2026-09-29,17:00,4th Floor Study lounge,68.3,5,9,72,Cloudy,14,0.357,0.643,Tuesday,Low Traffic
+2026-09-30,9:00,1st Floor Sandella Cafe,53.6,2,7,61,Rainy,9,0.222,0.778,Wednesday,High Traffic
+2026-09-30,9:00,1st Floor Lobby Area,50.5,20,19,61,Rainy,39,0.513,0.487,Wednesday,High Traffic
+2026-09-30,9:00,1st Floor CS Study Lounge,57.1,11,30,61,Rainy,41,0.268,0.732,Wednesday,Low Traffic
+2026-09-30,9:00,2nd Floor CS Study Lounge Collaborative,47.3,20,18,61,Rainy,38,0.526,0.474,Wednesday,Low Traffic
+2026-09-30,9:00,2nd Floor CS Study Lounge Quiet,38.6,4,7,61,Rainy,11,0.364,0.636,Wednesday,Low Traffic
+2026-09-30,9:00,4th Floor Study lounge,48.0,3,9,61,Rainy,12,0.25,0.75,Wednesday,Low Traffic
+2026-09-30,11:00,1st Floor Sandella Cafe,57.5,7,1,62,Rainy,8,0.875,0.125,Wednesday,High Traffic
+2026-09-30,11:00,1st Floor Lobby Area,64.3,30,12,62,Rainy,42,0.714,0.286,Wednesday,High Traffic
+2026-09-30,11:00,1st Floor CS Study Lounge,59.9,15,26,62,Rainy,41,0.366,0.634,Wednesday,Low Traffic
+2026-09-30,11:00,2nd Floor CS Study Lounge Collaborative,57.9,20,18,62,Rainy,38,0.526,0.474,Wednesday,Low Traffic
+2026-09-30,11:00,2nd Floor CS Study Lounge Quiet,50.2,9,2,62,Rainy,11,0.818,0.182,Wednesday,Low Traffic
+2026-09-30,11:00,4th Floor Study lounge,55.0,6,8,62,Rainy,14,0.429,0.571,Wednesday,Low Traffic
+2026-09-30,13:00,1st Floor Sandella Cafe,64.6,9,0,64,Rainy,9,1.0,0.0,Wednesday,High Traffic
+2026-09-30,13:00,1st Floor Lobby Area,59.6,27,19,64,Rainy,46,0.587,0.413,Wednesday,High Traffic
+2026-09-30,13:00,1st Floor CS Study Lounge,57.5,26,15,64,Rainy,41,0.634,0.366,Wednesday,Low Traffic
+2026-09-30,13:00,2nd Floor CS Study Lounge Collaborative,49.8,27,11,64,Rainy,38,0.711,0.289,Wednesday,Low Traffic
+2026-09-30,13:00,2nd Floor CS Study Lounge Quiet,51.4,10,1,64,Rainy,11,0.909,0.091,Wednesday,Low Traffic
+2026-09-30,13:00,4th Floor Study lounge,54.7,7,7,64,Rainy,14,0.5,0.5,Wednesday,Low Traffic
+2026-09-30,15:00,1st Floor Sandella Cafe,57.7,4,4,67,Rainy,8,0.5,0.5,Wednesday,High Traffic
+2026-09-30,15:00,1st Floor Lobby Area,53.4,28,18,67,Rainy,46,0.609,0.391,Wednesday,High Traffic
+2026-09-30,15:00,1st Floor CS Study Lounge,55.6,13,28,67,Rainy,41,0.317,0.683,Wednesday,Low Traffic
+2026-09-30,15:00,2nd Floor CS Study Lounge Collaborative,50.5,23,15,67,Rainy,38,0.605,0.395,Wednesday,Low Traffic
+2026-09-30,15:00,2nd Floor CS Study Lounge Quiet,40.4,10,1,67,Rainy,11,0.909,0.091,Wednesday,Low Traffic
+2026-09-30,15:00,4th Floor Study lounge,51.2,8,6,67,Rainy,14,0.571,0.429,Wednesday,Low Traffic
+2026-09-30,17:00,1st Floor Sandella Cafe,53.3,0,9,66,Rainy,9,0.0,1.0,Wednesday,High Traffic
+2026-09-30,17:00,1st Floor Lobby Area,52.4,20,20,66,Rainy,40,0.5,0.5,Wednesday,High Traffic
+2026-09-30,17:00,1st Floor CS Study Lounge,62.3,10,31,66,Rainy,41,0.244,0.756,Wednesday,Low Traffic
+2026-09-30,17:00,2nd Floor CS Study Lounge Collaborative,59.2,21,20,66,Rainy,41,0.512,0.488,Wednesday,Low Traffic
+2026-09-30,17:00,2nd Floor CS Study Lounge Quiet,54.0,4,7,66,Rainy,11,0.364,0.636,Wednesday,Low Traffic
+2026-09-30,17:00,4th Floor Study lounge,55.8,6,8,66,Rainy,14,0.429,0.571,Wednesday,Low Traffic
+2026-10-01,9:00,1st Floor Sandella Cafe,55.3,2,7,67,Cloudy,9,0.222,0.778,Thursday,High Traffic
+2026-10-01,9:00,1st Floor Lobby Area,53.4,18,20,67,Cloudy,38,0.474,0.526,Thursday,High Traffic
+2026-10-01,9:00,1st Floor CS Study Lounge,55.2,0,42,67,Cloudy,42,0.0,1.0,Thursday,Low Traffic
+2026-10-01,9:00,2nd Floor CS Study Lounge Collaborative,44.7,9,31,67,Cloudy,40,0.225,0.775,Thursday,Low Traffic
+2026-10-01,9:00,2nd Floor CS Study Lounge Quiet,44.1,2,9,67,Cloudy,11,0.182,0.818,Thursday,Low Traffic
+2026-10-01,9:00,4th Floor Study lounge,47.8,5,10,67,Cloudy,15,0.333,0.667,Thursday,Low Traffic
+2026-10-01,11:00,1st Floor Sandella Cafe,56.4,7,2,69,Cloudy,9,0.778,0.222,Thursday,High Traffic
+2026-10-01,11:00,1st Floor Lobby Area,53.3,25,13,69,Cloudy,38,0.658,0.342,Thursday,High Traffic
+2026-10-01,11:00,1st Floor CS Study Lounge,54.9,6,36,69,Cloudy,42,0.143,0.857,Thursday,Low Traffic
+2026-10-01,11:00,2nd Floor CS Study Lounge Collaborative,49.2,16,24,69,Cloudy,40,0.4,0.6,Thursday,Low Traffic
+2026-10-01,11:00,2nd Floor CS Study Lounge Quiet,48.2,6,5,69,Cloudy,11,0.545,0.455,Thursday,Low Traffic
+2026-10-01,11:00,4th Floor Study lounge,52.2,3,12,69,Cloudy,15,0.2,0.8,Thursday,Low Traffic
+2026-10-01,13:00,1st Floor Sandella Cafe,57.7,8,1,72,Rainy,9,0.889,0.111,Thursday,High Traffic
+2026-10-01,13:00,1st Floor Lobby Area,55.6,27,12,72,Rainy,39,0.692,0.308,Thursday,High Traffic
+2026-10-01,13:00,1st Floor CS Study Lounge,56.5,16,24,72,Rainy,40,0.4,0.6,Thursday,Low Traffic
+2026-10-01,13:00,2nd Floor CS Study Lounge Collaborative,55.1,18,22,72,Rainy,40,0.45,0.55,Thursday,Low Traffic
+2026-10-01,13:00,2nd Floor CS Study Lounge Quiet,49.4,10,1,72,Rainy,11,0.909,0.091,Thursday,Low Traffic
+2026-10-01,13:00,4th Floor Study lounge,53.8,5,9,72,Rainy,14,0.357,0.643,Thursday,Low Traffic
+2026-10-01,15:00,1st Floor Sandella Cafe,58.1,4,5,70,Rainy,9,0.444,0.556,Thursday,High Traffic
+2026-10-01,15:00,1st Floor Lobby Area,53.4,30,12,70,Rainy,42,0.714,0.286,Thursday,High Traffic
+2026-10-01,15:00,1st Floor CS Study Lounge,60.6,17,23,70,Rainy,40,0.425,0.575,Thursday,Low Traffic
+2026-10-01,15:00,2nd Floor CS Study Lounge Collaborative,57.3,25,21,70,Rainy,46,0.543,0.457,Thursday,Low Traffic
+2026-10-01,15:00,2nd Floor CS Study Lounge Quiet,47.7,11,0,70,Rainy,11,1.0,0.0,Thursday,Low Traffic
+2026-10-01,15:00,4th Floor Study lounge,57.5,8,7,70,Rainy,15,0.533,0.467,Thursday,Low Traffic
+2026-10-01,17:00,1st Floor Sandella Cafe,52.3,0,9,66,Rainy,9,0.0,1.0,Thursday,High Traffic
+2026-10-01,17:00,1st Floor Lobby Area,54.3,14,26,66,Rainy,40,0.35,0.65,Thursday,High Traffic
+2026-10-01,17:00,1st Floor CS Study Lounge,55.4,3,38,66,Rainy,41,0.073,0.927,Thursday,Low Traffic
+2026-10-01,17:00,2nd Floor CS Study Lounge Collaborative,55.6,15,26,66,Rainy,41,0.366,0.634,Thursday,Low Traffic
+2026-10-01,17:00,2nd Floor CS Study Lounge Quiet,54.5,1,10,66,Rainy,11,0.091,0.909,Thursday,Low Traffic
+2026-10-01,17:00,4th Floor Study lounge,54.8,2,13,66,Rainy,15,0.133,0.867,Thursday,Low Traffic
+2026-10-02,9:00,1st Floor Sandella Cafe,60.1,1,8,59,Sunny,9,0.111,0.889,Friday,High Traffic
+2026-10-02,9:00,1st Floor Lobby Area,52.3,18,24,59,Sunny,42,0.429,0.571,Friday,High Traffic
+2026-10-02,9:00,1st Floor CS Study Lounge,53.8,7,34,59,Sunny,41,0.171,0.829,Friday,Low Traffic
+2026-10-02,9:00,2nd Floor CS Study Lounge Collaborative,49.8,6,33,59,Sunny,39,0.154,0.846,Friday,Low Traffic
+2026-10-02,9:00,2nd Floor CS Study Lounge Quiet,41.3,4,7,59,Sunny,11,0.364,0.636,Friday,Low Traffic
+2026-10-02,9:00,4th Floor Study lounge,45.8,2,13,59,Sunny,15,0.133,0.867,Friday,Low Traffic
+2026-10-02,11:00,1st Floor Sandella Cafe,57.6,4,4,61,Sunny,8,0.5,0.5,Friday,High Traffic
+2026-10-02,11:00,1st Floor Lobby Area,56.2,28,17,61,Sunny,45,0.622,0.378,Friday,High Traffic
+2026-10-02,11:00,1st Floor CS Study Lounge,55.0,9,33,61,Sunny,42,0.214,0.786,Friday,Low Traffic
+2026-10-02,11:00,2nd Floor CS Study Lounge Collaborative,54.8,18,21,61,Sunny,39,0.462,0.538,Friday,Low Traffic
+2026-10-02,11:00,2nd Floor CS Study Lounge Quiet,54.4,8,3,61,Sunny,11,0.727,0.273,Friday,Low Traffic
+2026-10-02,11:00,4th Floor Study lounge,55.6,5,9,61,Sunny,14,0.357,0.643,Friday,Low Traffic
+2026-10-02,13:00,1st Floor Sandella Cafe,60.2,5,3,63,Sunny,8,0.625,0.375,Friday,High Traffic
+2026-10-02,13:00,1st Floor Lobby Area,54.8,29,14,63,Sunny,43,0.674,0.326,Friday,High Traffic
+2026-10-02,13:00,1st Floor CS Study Lounge,56.3,12,30,63,Sunny,42,0.286,0.714,Friday,Low Traffic
+2026-10-02,13:00,2nd Floor CS Study Lounge Collaborative,53.1,20,19,63,Sunny,39,0.513,0.487,Friday,Low Traffic
+2026-10-02,13:00,2nd Floor CS Study Lounge Quiet,49.7,9,2,63,Sunny,11,0.818,0.182,Friday,Low Traffic
+2026-10-02,13:00,4th Floor Study lounge,53.4,7,7,63,Sunny,14,0.5,0.5,Friday,Low Traffic
+2026-10-02,15:00,1st Floor Sandella Cafe,58.7,2,7,62,Sunny,9,0.222,0.778,Friday,High Traffic
+2026-10-02,15:00,1st Floor Lobby Area,52.9,27,14,62,Sunny,41,0.659,0.341,Friday,High Traffic
+2026-10-02,15:00,1st Floor CS Study Lounge,54.6,10,32,62,Sunny,42,0.238,0.762,Friday,Low Traffic
+2026-10-02,15:00,2nd Floor CS Study Lounge Collaborative,51.8,16,23,62,Sunny,39,0.41,0.59,Friday,Low Traffic
+2026-10-02,15:00,2nd Floor CS Study Lounge Quiet,48.5,4,7,62,Sunny,11,0.364,0.636,Friday,Low Traffic
+2026-10-02,15:00,4th Floor Study lounge,54.2,5,9,62,Sunny,14,0.357,0.643,Friday,Low Traffic
+2026-10-02,17:00,1st Floor Sandella Cafe,55.4,1,8,61,Sunny,9,0.111,0.889,Friday,High Traffic
+2026-10-02,17:00,1st Floor Lobby Area,51.6,11,30,61,Sunny,41,0.268,0.732,Friday,High Traffic
+2026-10-02,17:00,1st Floor CS Study Lounge,53.2,2,40,61,Sunny,42,0.048,0.952,Friday,Low Traffic
+2026-10-02,17:00,2nd Floor CS Study Lounge Collaborative,50.1,14,26,61,Sunny,40,0.35,0.65,Friday,Low Traffic
+2026-10-02,17:00,2nd Floor CS Study Lounge Quiet,44.8,1,10,61,Sunny,11,0.091,0.909,Friday,Low Traffic
+2026-10-02,17:00,4th Floor Study lounge,51.7,3,11,61,Sunny,14,0.214,0.786,Friday,Low Traffic
+2026-10-05,9:00,1st Floor Sandella Cafe,57.2,3,6,52,Rainy,9,0.333,0.667,Monday,High Traffic
+2026-10-05,9:00,1st Floor Lobby Area,52.4,21,20,52,Rainy,41,0.512,0.488,Monday,High Traffic
+2026-10-05,9:00,1st Floor CS Study Lounge,55.6,9,33,52,Rainy,42,0.214,0.786,Monday,Low Traffic
+2026-10-05,9:00,2nd Floor CS Study Lounge Collaborative,55.8,18,23,52,Rainy,41,0.439,0.561,Monday,Low Traffic
+2026-10-05,9:00,2nd Floor CS Study Lounge Quiet,48.6,5,6,52,Rainy,11,0.455,0.545,Monday,Low Traffic
+2026-10-05,9:00,4th Floor Study lounge,49.8,5,9,52,Rainy,14,0.357,0.643,Monday,Low Traffic
+2026-10-05,11:00,1st Floor Sandella Cafe,63.1,7,2,55,Rainy,9,0.778,0.222,Monday,High Traffic
+2026-10-05,11:00,1st Floor Lobby Area,57.3,29,12,55,Rainy,41,0.707,0.293,Monday,High Traffic
+2026-10-05,11:00,1st Floor CS Study Lounge,57.4,18,24,55,Rainy,42,0.429,0.571,Monday,Low Traffic
+2026-10-05,11:00,2nd Floor CS Study Lounge Collaborative,59.4,25,16,55,Rainy,41,0.61,0.39,Monday,Low Traffic
+2026-10-05,11:00,2nd Floor CS Study Lounge Quiet,51.8,9,2,55,Rainy,11,0.818,0.182,Monday,Low Traffic
+2026-10-05,11:00,4th Floor Study lounge,55.4,8,6,55,Rainy,14,0.571,0.429,Monday,Low Traffic
+2026-10-05,13:00,1st Floor Sandella Cafe,66.2,8,1,57,Rainy,9,0.889,0.111,Monday,High Traffic
+2026-10-05,13:00,1st Floor Lobby Area,59.8,33,8,57,Rainy,41,0.805,0.195,Monday,High Traffic
+2026-10-05,13:00,1st Floor CS Study Lounge,59.1,21,21,57,Rainy,42,0.5,0.5,Monday,Low Traffic
+2026-10-05,13:00,2nd Floor CS Study Lounge Collaborative,62.3,31,10,57,Rainy,41,0.756,0.244,Monday,Low Traffic
+2026-10-05,13:00,2nd Floor CS Study Lounge Quiet,54.2,11,0,57,Rainy,11,1.0,0.0,Monday,Low Traffic
+2026-10-05,13:00,4th Floor Study lounge,57.3,10,4,57,Rainy,14,0.714,0.286,Monday,Low Traffic
+2026-10-05,15:00,1st Floor Sandella Cafe,61.4,5,4,58,Rainy,9,0.556,0.444,Monday,High Traffic
+2026-10-05,15:00,1st Floor Lobby Area,56.9,28,13,58,Rainy,41,0.683,0.317,Monday,High Traffic
+2026-10-05,15:00,1st Floor CS Study Lounge,56.8,17,25,58,Rainy,42,0.405,0.595,Monday,Low Traffic
+2026-10-05,15:00,2nd Floor CS Study Lounge Collaborative,60.1,26,15,58,Rainy,41,0.634,0.366,Monday,Low Traffic
+2026-10-05,15:00,2nd Floor CS Study Lounge Quiet,52.1,10,1,58,Rainy,11,0.909,0.091,Monday,Low Traffic
+2026-10-05,15:00,4th Floor Study lounge,54.9,8,6,58,Rainy,14,0.571,0.429,Monday,Low Traffic
+2026-10-05,17:00,1st Floor Sandella Cafe,54.7,1,8,56,Rainy,9,0.111,0.889,Monday,High Traffic
+2026-10-05,17:00,1st Floor Lobby Area,53.5,17,24,56,Rainy,41,0.415,0.585,Monday,High Traffic
+2026-10-05,17:00,1st Floor CS Study Lounge,54.2,10,32,56,Rainy,42,0.238,0.762,Monday,Low Traffic
+2026-10-05,17:00,2nd Floor CS Study Lounge Collaborative,56.8,18,23,56,Rainy,41,0.439,0.561,Monday,Low Traffic
+2026-10-05,17:00,2nd Floor CS Study Lounge Quiet,47.6,4,7,56,Rainy,11,0.364,0.636,Monday,Low Traffic
+2026-10-05,17:00,4th Floor Study lounge,51.8,5,9,56,Rainy,14,0.357,0.643,Monday,Low Traffic
+2026-10-06,9:00,1st Floor Sandella Cafe,56.3,2,7,50,Rainy,9,0.222,0.778,Tuesday,High Traffic
+2026-10-06,9:00,1st Floor Lobby Area,51.4,19,22,50,Rainy,41,0.463,0.537,Tuesday,High Traffic
+2026-10-06,9:00,1st Floor CS Study Lounge,54.8,7,35,50,Rainy,42,0.167,0.833,Tuesday,Low Traffic
+2026-10-06,9:00,2nd Floor CS Study Lounge Collaborative,53.9,15,26,50,Rainy,41,0.366,0.634,Tuesday,Low Traffic
+2026-10-06,9:00,2nd Floor CS Study Lounge Quiet,46.7,4,7,50,Rainy,11,0.364,0.636,Tuesday,Low Traffic
+2026-10-06,9:00,4th Floor Study lounge,48.7,4,10,50,Rainy,14,0.286,0.714,Tuesday,Low Traffic
+2026-10-06,11:00,1st Floor Sandella Cafe,61.8,6,3,53,Rainy,9,0.667,0.333,Tuesday,High Traffic
+2026-10-06,11:00,1st Floor Lobby Area,55.9,26,15,53,Rainy,41,0.634,0.366,Tuesday,High Traffic
+2026-10-06,11:00,1st Floor CS Study Lounge,56.3,15,27,53,Rainy,42,0.357,0.643,Tuesday,Low Traffic
+2026-10-06,11:00,2nd Floor CS Study Lounge Collaborative,57.8,23,18,53,Rainy,41,0.561,0.439,Tuesday,Low Traffic
+2026-10-06,11:00,2nd Floor CS Study Lounge Quiet,50.5,8,3,53,Rainy,11,0.727,0.273,Tuesday,Low Traffic
+2026-10-06,11:00,4th Floor Study lounge,53.6,7,7,53,Rainy,14,0.5,0.5,Tuesday,Low Traffic
+2026-10-06,13:00,1st Floor Sandella Cafe,64.1,7,2,55,Cloudy,9,0.778,0.222,Tuesday,High Traffic
+2026-10-06,13:00,1st Floor Lobby Area,57.5,30,11,55,Cloudy,41,0.732,0.268,Tuesday,High Traffic
+2026-10-06,13:00,1st Floor CS Study Lounge,58.2,18,24,55,Cloudy,42,0.429,0.571,Tuesday,Low Traffic
+2026-10-06,13:00,2nd Floor CS Study Lounge Collaborative,59.1,28,13,55,Cloudy,41,0.683,0.317,Tuesday,Low Traffic
+2026-10-06,13:00,2nd Floor CS Study Lounge Quiet,53.4,10,1,55,Cloudy,11,0.909,0.091,Tuesday,Low Traffic
+2026-10-06,13:00,4th Floor Study lounge,55.8,9,5,55,Cloudy,14,0.643,0.357,Tuesday,Low Traffic
+2026-10-06,15:00,1st Floor Sandella Cafe,59.7,4,5,56,Cloudy,9,0.444,0.556,Tuesday,High Traffic
+2026-10-06,15:00,1st Floor Lobby Area,54.3,25,16,56,Cloudy,41,0.61,0.39,Tuesday,High Traffic
+2026-10-06,15:00,1st Floor CS Study Lounge,56.7,16,26,56,Cloudy,42,0.381,0.619,Tuesday,Low Traffic
+2026-10-06,15:00,2nd Floor CS Study Lounge Collaborative,57.5,22,19,56,Cloudy,41,0.537,0.463,Tuesday,Low Traffic
+2026-10-06,15:00,2nd Floor CS Study Lounge Quiet,49.8,9,2,56,Cloudy,11,0.818,0.182,Tuesday,Low Traffic
+2026-10-06,15:00,4th Floor Study lounge,53.1,7,7,56,Cloudy,14,0.5,0.5,Tuesday,Low Traffic
+2026-10-06,17:00,1st Floor Sandella Cafe,53.6,1,8,54,Cloudy,9,0.111,0.889,Tuesday,High Traffic
+2026-10-06,17:00,1st Floor Lobby Area,52.8,15,26,54,Cloudy,41,0.366,0.634,Tuesday,High Traffic
+2026-10-06,17:00,1st Floor CS Study Lounge,53.7,8,34,54,Cloudy,42,0.19,0.81,Tuesday,Low Traffic
+2026-10-06,17:00,2nd Floor CS Study Lounge Collaborative,55.9,16,25,54,Cloudy,41,0.39,0.61,Tuesday,Low Traffic
+2026-10-06,17:00,2nd Floor CS Study Lounge Quiet,46.4,3,8,54,Cloudy,11,0.273,0.727,Tuesday,Low Traffic
+2026-10-06,17:00,4th Floor Study lounge,50.5,4,10,54,Cloudy,14,0.286,0.714,Tuesday,Low Traffic
+2026-10-07,9:00,1st Floor Sandella Cafe,55.8,2,7,48,Rainy,9,0.222,0.778,Wednesday,High Traffic
+2026-10-07,9:00,1st Floor Lobby Area,52.1,20,21,48,Rainy,41,0.488,0.512,Wednesday,High Traffic
+2026-10-07,9:00,1st Floor CS Study Lounge,55.2,8,34,48,Rainy,42,0.19,0.81,Wednesday,Low Traffic
+2026-10-07,9:00,2nd Floor CS Study Lounge Collaborative,56.4,17,24,48,Rainy,41,0.415,0.585,Wednesday,Low Traffic
+2026-10-07,9:00,2nd Floor CS Study Lounge Quiet,47.8,5,6,48,Rainy,11,0.455,0.545,Wednesday,Low Traffic
+2026-10-07,9:00,4th Floor Study lounge,49.3,5,9,48,Rainy,14,0.357,0.643,Wednesday,Low Traffic
+2026-10-07,11:00,1st Floor Sandella Cafe,63.5,7,2,51,Rainy,9,0.778,0.222,Wednesday,High Traffic
+2026-10-07,11:00,1st Floor Lobby Area,56.7,28,13,51,Rainy,41,0.683,0.317,Wednesday,High Traffic
+2026-10-07,11:00,1st Floor CS Study Lounge,57.9,17,25,51,Rainy,42,0.405,0.595,Wednesday,Low Traffic
+2026-10-07,11:00,2nd Floor CS Study Lounge Collaborative,60.2,26,15,51,Rainy,41,0.634,0.366,Wednesday,Low Traffic
+2026-10-07,11:00,2nd Floor CS Study Lounge Quiet,52.4,9,2,51,Rainy,11,0.818,0.182,Wednesday,Low Traffic
+2026-10-07,11:00,4th Floor Study lounge,54.8,8,6,51,Rainy,14,0.571,0.429,Wednesday,Low Traffic
+2026-10-07,13:00,1st Floor Sandella Cafe,66.8,8,1,54,Cloudy,9,0.889,0.111,Wednesday,High Traffic
+2026-10-07,13:00,1st Floor Lobby Area,60.5,34,7,54,Cloudy,41,0.829,0.171,Wednesday,High Traffic
+2026-10-07,13:00,1st Floor CS Study Lounge,60.7,23,19,54,Cloudy,42,0.548,0.452,Wednesday,Low Traffic
+2026-10-07,13:00,2nd Floor CS Study Lounge Collaborative,63.5,32,9,54,Cloudy,41,0.78,0.22,Wednesday,Low Traffic
+2026-10-07,13:00,2nd Floor CS Study Lounge Quiet,54.7,11,0,54,Cloudy,11,1.0,0.0,Wednesday,Low Traffic
+2026-10-07,13:00,4th Floor Study lounge,57.1,10,4,54,Cloudy,14,0.714,0.286,Wednesday,Low Traffic
+2026-10-07,15:00,1st Floor Sandella Cafe,62.3,6,3,55,Cloudy,9,0.667,0.333,Wednesday,High Traffic
+2026-10-07,15:00,1st Floor Lobby Area,57.8,30,11,55,Cloudy,41,0.732,0.268,Wednesday,High Traffic
+2026-10-07,15:00,1st Floor CS Study Lounge,58.6,19,23,55,Cloudy,42,0.452,0.548,Wednesday,Low Traffic
+2026-10-07,15:00,2nd Floor CS Study Lounge Collaborative,61.1,28,13,55,Cloudy,41,0.683,0.317,Wednesday,Low Traffic
+2026-10-07,15:00,2nd Floor CS Study Lounge Quiet,53.1,10,1,55,Cloudy,11,0.909,0.091,Wednesday,Low Traffic
+2026-10-07,15:00,4th Floor Study lounge,55.2,8,6,55,Cloudy,14,0.571,0.429,Wednesday,Low Traffic
+2026-10-07,17:00,1st Floor Sandella Cafe,54.5,1,8,53,Cloudy,9,0.111,0.889,Wednesday,High Traffic
+2026-10-07,17:00,1st Floor Lobby Area,53.4,16,25,53,Cloudy,41,0.39,0.61,Wednesday,High Traffic
+2026-10-07,17:00,1st Floor CS Study Lounge,54.8,9,33,53,Cloudy,42,0.214,0.786,Wednesday,Low Traffic
+2026-10-07,17:00,2nd Floor CS Study Lounge Collaborative,57.3,17,24,53,Cloudy,41,0.415,0.585,Wednesday,Low Traffic
+2026-10-07,17:00,2nd Floor CS Study Lounge Quiet,47.1,4,7,53,Cloudy,11,0.364,0.636,Wednesday,Low Traffic
+2026-10-07,17:00,4th Floor Study lounge,51.2,5,9,53,Cloudy,14,0.357,0.643,Wednesday,Low Traffic
+2026-10-08,9:00,1st Floor Sandella Cafe,54.9,1,8,50,Cloudy,9,0.111,0.889,Thursday,High Traffic
+2026-10-08,9:00,1st Floor Lobby Area,51.3,18,23,50,Cloudy,41,0.439,0.561,Thursday,High Traffic
+2026-10-08,9:00,1st Floor CS Study Lounge,54.5,6,36,50,Cloudy,42,0.143,0.857,Thursday,Low Traffic
+2026-10-08,9:00,2nd Floor CS Study Lounge Collaborative,54.8,14,27,50,Cloudy,41,0.341,0.659,Thursday,Low Traffic
+2026-10-08,9:00,2nd Floor CS Study Lounge Quiet,46.2,4,7,50,Cloudy,11,0.364,0.636,Thursday,Low Traffic
+2026-10-08,9:00,4th Floor Study lounge,48.6,4,10,50,Cloudy,14,0.286,0.714,Thursday,Low Traffic
+2026-10-08,11:00,1st Floor Sandella Cafe,61.9,6,3,55,Cloudy,9,0.667,0.333,Thursday,High Traffic
+2026-10-08,11:00,1st Floor Lobby Area,55.4,25,16,55,Cloudy,41,0.61,0.39,Thursday,High Traffic
+2026-10-08,11:00,1st Floor CS Study Lounge,56.4,15,27,55,Cloudy,42,0.357,0.643,Thursday,Low Traffic
+2026-10-08,11:00,2nd Floor CS Study Lounge Collaborative,58.4,22,19,55,Cloudy,41,0.537,0.463,Thursday,Low Traffic
+2026-10-08,11:00,2nd Floor CS Study Lounge Quiet,50.8,8,3,55,Cloudy,11,0.727,0.273,Thursday,Low Traffic
+2026-10-08,11:00,4th Floor Study lounge,53.7,7,7,55,Cloudy,14,0.5,0.5,Thursday,Low Traffic
+2026-10-08,13:00,1st Floor Sandella Cafe,64.7,7,2,58,Partly cloudy,9,0.778,0.222,Thursday,High Traffic
+2026-10-08,13:00,1st Floor Lobby Area,58.2,29,12,58,Partly cloudy,41,0.707,0.293,Thursday,High Traffic
+2026-10-08,13:00,1st Floor CS Study Lounge,58.7,19,23,58,Partly cloudy,42,0.452,0.548,Thursday,Low Traffic
+2026-10-08,13:00,2nd Floor CS Study Lounge Collaborative,60.6,27,14,58,Partly cloudy,41,0.659,0.341,Thursday,Low Traffic
+2026-10-08,13:00,2nd Floor CS Study Lounge Quiet,53.2,10,1,58,Partly cloudy,11,0.909,0.091,Thursday,Low Traffic
+2026-10-08,13:00,4th Floor Study lounge,55.9,9,5,58,Partly cloudy,14,0.643,0.357,Thursday,Low Traffic
+2026-10-08,15:00,1st Floor Sandella Cafe,60.8,5,4,60,Partly cloudy,9,0.556,0.444,Thursday,High Traffic
+2026-10-08,15:00,1st Floor Lobby Area,55.7,26,15,60,Partly cloudy,41,0.634,0.366,Thursday,High Traffic
+2026-10-08,15:00,1st Floor CS Study Lounge,57.1,16,26,60,Partly cloudy,42,0.381,0.619,Thursday,Low Traffic
+2026-10-08,15:00,2nd Floor CS Study Lounge Collaborative,58.3,23,18,60,Partly cloudy,41,0.561,0.439,Thursday,Low Traffic
+2026-10-08,15:00,2nd Floor CS Study Lounge Quiet,50.6,9,2,60,Partly cloudy,11,0.818,0.182,Thursday,Low Traffic
+2026-10-08,15:00,4th Floor Study lounge,53.8,7,7,60,Partly cloudy,14,0.5,0.5,Thursday,Low Traffic
+2026-10-08,17:00,1st Floor Sandella Cafe,53.8,1,8,58,Cloudy,9,0.111,0.889,Thursday,High Traffic
+2026-10-08,17:00,1st Floor Lobby Area,52.7,14,27,58,Cloudy,41,0.341,0.659,Thursday,High Traffic
+2026-10-08,17:00,1st Floor CS Study Lounge,54.1,7,35,58,Cloudy,42,0.167,0.833,Thursday,Low Traffic
+2026-10-08,17:00,2nd Floor CS Study Lounge Collaborative,55.8,15,26,58,Cloudy,41,0.366,0.634,Thursday,Low Traffic
+2026-10-08,17:00,2nd Floor CS Study Lounge Quiet,46.5,3,8,58,Cloudy,11,0.273,0.727,Thursday,Low Traffic
+2026-10-08,17:00,4th Floor Study lounge,50.4,4,10,58,Cloudy,14,0.286,0.714,Thursday,Low Traffic
+2026-10-09,9:00,1st Floor Sandella Cafe,54.7,1,8,52,Partly cloudy,9,0.111,0.889,Friday,High Traffic
+2026-10-09,9:00,1st Floor Lobby Area,50.8,17,24,52,Partly cloudy,41,0.415,0.585,Friday,High Traffic
+2026-10-09,9:00,1st Floor CS Study Lounge,53.9,6,36,52,Partly cloudy,42,0.143,0.857,Friday,Low Traffic
+2026-10-09,9:00,2nd Floor CS Study Lounge Collaborative,50.4,8,33,52,Partly cloudy,41,0.195,0.805,Friday,Low Traffic
+2026-10-09,9:00,2nd Floor CS Study Lounge Quiet,43.9,3,8,52,Partly cloudy,11,0.273,0.727,Friday,Low Traffic
+2026-10-09,9:00,4th Floor Study lounge,47.2,3,11,52,Partly cloudy,14,0.214,0.786,Friday,Low Traffic
+2026-10-09,11:00,1st Floor Sandella Cafe,58.9,4,5,58,Sunny,9,0.444,0.556,Friday,High Traffic
+2026-10-09,11:00,1st Floor Lobby Area,54.7,24,17,58,Sunny,41,0.585,0.415,Friday,High Traffic
+2026-10-09,11:00,1st Floor CS Study Lounge,55.2,11,31,58,Sunny,42,0.262,0.738,Friday,Low Traffic
+2026-10-09,11:00,2nd Floor CS Study Lounge Collaborative,54.6,17,24,58,Sunny,41,0.415,0.585,Friday,Low Traffic
+2026-10-09,11:00,2nd Floor CS Study Lounge Quiet,49.1,7,4,58,Sunny,11,0.636,0.364,Friday,Low Traffic
+2026-10-09,11:00,4th Floor Study lounge,52.4,5,9,58,Sunny,14,0.357,0.643,Friday,Low Traffic
+2026-10-09,13:00,1st Floor Sandella Cafe,61.8,6,3,62,Sunny,9,0.667,0.333,Friday,High Traffic
+2026-10-09,13:00,1st Floor Lobby Area,56.8,28,13,62,Sunny,41,0.683,0.317,Friday,High Traffic
+2026-10-09,13:00,1st Floor CS Study Lounge,56.9,15,27,62,Sunny,42,0.357,0.643,Friday,Low Traffic
+2026-10-09,13:00,2nd Floor CS Study Lounge Collaborative,57.5,22,19,62,Sunny,41,0.537,0.463,Friday,Low Traffic
+2026-10-09,13:00,2nd Floor CS Study Lounge Quiet,51.7,9,2,62,Sunny,11,0.818,0.182,Friday,Low Traffic
+2026-10-09,13:00,4th Floor Study lounge,54.6,8,6,62,Sunny,14,0.571,0.429,Friday,Low Traffic
+2026-10-09,15:00,1st Floor Sandella Cafe,58.6,3,6,64,Sunny,9,0.333,0.667,Friday,High Traffic
+2026-10-09,15:00,1st Floor Lobby Area,53.8,23,18,64,Sunny,41,0.561,0.439,Friday,High Traffic
+2026-10-09,15:00,1st Floor CS Study Lounge,54.8,10,32,64,Sunny,42,0.238,0.762,Friday,Low Traffic
+2026-10-09,15:00,2nd Floor CS Study Lounge Collaborative,53.9,16,25,64,Sunny,41,0.39,0.61,Friday,Low Traffic
+2026-10-09,15:00,2nd Floor CS Study Lounge Quiet,48.8,6,5,64,Sunny,11,0.545,0.455,Friday,Low Traffic
+2026-10-09,15:00,4th Floor Study lounge,52.1,5,9,64,Sunny,14,0.357,0.643,Friday,Low Traffic
+2026-10-09,17:00,1st Floor Sandella Cafe,54.2,1,8,61,Partly cloudy,9,0.111,0.889,Friday,High Traffic
+2026-10-09,17:00,1st Floor Lobby Area,50.9,10,31,61,Partly cloudy,41,0.244,0.756,Friday,High Traffic
+2026-10-09,17:00,1st Floor CS Study Lounge,53.1,3,39,61,Partly cloudy,42,0.071,0.929,Friday,Low Traffic
+2026-10-09,17:00,2nd Floor CS Study Lounge Collaborative,50.8,10,31,61,Partly cloudy,41,0.244,0.756,Friday,Low Traffic
+2026-10-09,17:00,2nd Floor CS Study Lounge Quiet,44.7,1,10,61,Partly cloudy,11,0.091,0.909,Friday,Low Traffic
+2026-10-09,17:00,4th Floor Study lounge,49.3,3,11,61,Partly cloudy,14,0.214,0.786,Friday,Low Traffic
