@@ -56,6 +56,9 @@ This visualization supports the question "Are the quietest study spaces also the
 ## Visualization #2
 We believe that this visualization would benefit from interaction, specifically details-on-demand. By simply looking at the scatterplot's points, it's generally not straightforward to determine exact values. To address this, we want to implement the ability to display additional information when a user hovers their cursor over a point. That information would include study spot location, average availability rate, availability variability, average occupancy rate, and traffic level. This interaction would also allow users to quickly inspect the data without the additional information cluttering the overall view of the data.
 
+## Visualization #3
+This visualization uses two coordinated views, which displays separate ranked bar charts for average noise level and average availability rate. The two charts show the same study spaces ordered by different criteria, allowing users to compare rankings side-by-side. This supports our task of determining whether quieter study spaces also tend to have lower seat availability. Furthermore, we decided to not add an interaction because the visualization is already very straightforward and doesn't need actions like filtering or selecting. Overcomplicating the visualization doesn't seem like it will improve the comparision task.
+
 # Task 6: Iterate and Refine
 
 ## Visualization #2
