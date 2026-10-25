@@ -35,12 +35,10 @@ What was notices was that during high traffic periods the median occupancy rate 
 
 Also during high traffic periods it is louder with the median noise level around 56, compared to a median of 53-54 during low traffic. There is a couple of outliers in the low traffic category where a few are around 38 and 41, which means it was even quieter.  
 
+# Task 4: Implement Visualization Alternatives
 
+# Task 5: Interaction and Multiple Views
 
-# Task 4: Implement visualization alternatives
+# Task 6: Iterate and Refine
 
-# Task 5: Interaction and multiple views
-
-# Task 6: Iterate and refine
-
-# Task 7: Current design
+# Task 7: Current Design
