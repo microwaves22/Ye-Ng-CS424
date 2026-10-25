@@ -59,6 +59,10 @@ We believe that this visualization would benefit from interaction, specifically 
 # Task 6: Iterate and Refine
 
 ## Visualization #2
+Iteration 1: Details-on-Demand Interaction
+A problem we noticed is that it was difficult to determine exact values from the original scatterplot. To address that, we added those values and extra information to each point to improve readability. We also made the visualization interactive, meaning that users can hover their cursor over each point to display the additional details. This helps reduce clutter while making the visualization more informative and supporting more precise comparisions between study locations.
 
+Iteration 2: Reliability Quadrants
+Another problem we discovered is that the visualization didn't clearly indicate which locations were more or less reliable. As a result, we added horizontal and vertical grid lines at the mean availability and mean variability values, creating four interpretation regions. We also included labels identifying the "Most Reliable" and "Least Reliable" regions. The overarching purpose of making those changes were to make it easier to identify study spaces with above-average availability and below-average availability, assisting users with interpreting reliability quickly and consistently.
 
 # Task 7: Current Design
