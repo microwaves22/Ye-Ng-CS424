@@ -46,6 +46,11 @@ Attempting to redo this for Curio
  - 502 error
  - offline twice within 10 minutes
 
+ ## Visualization #2
+![Task 4 Visualization 2](Visualizations_2/task4_vis2.png)
+
+
+
 # Task 5: Interaction and Multiple Views
 
 # Task 6: Iterate and Refine
