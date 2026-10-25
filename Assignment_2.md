@@ -13,13 +13,7 @@ We used Pandas to prepare and transform our data in this [notebook](Notebooks/Ta
 
 # Task 3: Explore the data
 ## Exploratory Visualization 1
-This line graph compares time and occupancy rates across different study spaces. We wanted to explore our question, "How do occupancy patterns vary across location, time of day, and day of week?" The distribution can help identify whether there is a relationship between time and seat availability, as well as study space patterns.
-
-During 13:00 most of the study spaces have their highest occupancy rate and then drop at 17:00. Also, the second Floor CS Study Lounge (Quiet) has its highest peak overall at 13:00 with being over 90% occupancy. The first Floor CS Study Lounge stays consisently at the bottom, showing the lowest average occupancy rates across every single time. 
-
-A note, which could potentially contribute is that is has the most seat availability of all study spaces. In correspondence to this note, capacity summary was obtained and supports seat capacity being a major counfounding variable.
-
-A general trend is seen with occupancy starting lower in the morning at 9:00, and then increasing quickly by early afternoon, and then decreasing quickly by 17:00.
+We wanted to explore how occupancy rates change throughout the day across different study spaces. We noticed that most study spaces had higher occupancy rates around 13:00 and lower rates by 17:00. The Second Floor CS Study Lounge (Quiet) had its highest occupancy at 13:00, reaching over 90%. On the otherhand, the First FLoor CS Study Lounge generally had lower occupancy rates than the other study spaces. We also noticed that occupancy rates were generally lower at 9:00, but then increased by late morning/early afternoon, and then decreased by 17:00.
 
 ## Exploratory Visualization 2
 This scatterplot compares noise levels with seat availability rates across different study spaces. We wanted to explore our question, "Are the quietest study spaces also the hardest spaces to find a seat?" The distribution of points can help identify whether there is a relationship between noise level and seat availability, as well as if certain study spaces show different patterns. 
