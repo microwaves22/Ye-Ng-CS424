@@ -38,8 +38,8 @@ Also during high traffic periods it is louder with the median noise level around
 # Task 4: Implement Visualization Alternatives
 ## Visualization #1
 ![Task 4 Visualization 1](Visualizations_2/task4_vis1.png)
-This heat map approaches the question, "How do occupancy patterns vary across location, time of day, and day of week?" This is based off of the sketch from assignment #1 of a heatmap. The heatmap shows an average occupancy rate across different 
 
+This heat map approaches the question, "How do occupancy patterns vary across location, time of day, and day of week?" This is based off of the sketch from assignment #1 of a heatmap. The heatmap shows an average occupancy rate across different 
 
 Attempting to redo this for Curio
  - lost account; use username + password and said it was wrong
