@@ -36,6 +36,14 @@ What was notices was that during high traffic periods the median occupancy rate 
 Also during high traffic periods it is louder with the median noise level around 56, compared to a median of 53-54 during low traffic. There is a couple of outliers in the low traffic category where a few are around 38 and 41, which means it was even quieter.  
 
 # Task 4: Implement Visualization Alternatives
+## Visualization #1
+This heat map approaches the question, "How do occupancy patterns vary across location, time of day, and day of week?" This is based off of the sketch from assignment #1 of a heatmap. The heatmap shows an average occupancy rate across different 
+
+
+Attempting to redo this for Curio
+ - lost account; use username + password and said it was wrong
+ - 502 error
+ - offline twice within 10 minutes
 
 # Task 5: Interaction and Multiple Views
 
