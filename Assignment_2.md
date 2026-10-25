@@ -49,6 +49,7 @@ Attempting to redo this for Curio
  ## Visualization #2
 ![Task 4 Visualization 2](Visualizations_2/task4_vis2.png)
 
+This scatterplot addresses the question "Which study spaces are the most reliable for finding available space?" We used this approach because reliability can be determined by comparing average (mean) availability rates to availability variability (standard deviation), allowing us to view both availability and consistency across different locations. The dimensions of a scatterplot allow us to easily view those simultaneously. To elaborate, the most reliable locations would balance both high average availability and low availability variability. That being said, the attributes we used in this visualization are location, availability rate, average availability rate, and the standard deviation of availability rate. We used average availability rate to represent how often seats are typically available and standard deviation to measure how much availability fluctuates across observations. The marks we used are points, which represent locations in the CDRLC. The channels are position (x and y) and colors for each point. Furthermore, this scatterplot is an entirely new design that we didn't sketch in Assignment 1. We didn't want to implement our original sketch for this question because in that sketch, we used the sizes of circles to represent different availability rates on a spatial map, but it's harder to distinguish those visually.
 
 
 # Task 5: Interaction and Multiple Views
