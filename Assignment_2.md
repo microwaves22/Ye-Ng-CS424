@@ -15,7 +15,9 @@ We used Pandas to prepare and transform our data in this [notebook](Notebooks/Ta
 ## Exploratory Visualization 1
 This line graph compares time and occupancy rates across different study spaces. We wanted to explore our question, "How do occupancy patterns vary across location, time of day, and day of week?" The distribution can help identify whether there is a relationship between time and seat availability, as well as study space patterns.
 
-During 13:00 most of the study spaces have their highest occupancy rate and then drop at 17:00. Also, the second Floor CS Study Lounge (Quiet) has its highest peak overall at 13:00 with being over 90% occupancy. The first Floor CS Study Lounge stays consisently at the bottom, showing the lowest average occupancy rates across every single time. A note, which could potentially contribute is that is has the most seat availability of all study spaces.
+During 13:00 most of the study spaces have their highest occupancy rate and then drop at 17:00. Also, the second Floor CS Study Lounge (Quiet) has its highest peak overall at 13:00 with being over 90% occupancy. The first Floor CS Study Lounge stays consisently at the bottom, showing the lowest average occupancy rates across every single time. 
+
+A note, which could potentially contribute is that is has the most seat availability of all study spaces. In correspondence to this note, capacity summary was obtained and supports seat capacity being a major counfounding variable.
 
 A general trend is seen with occupancy starting lower in the morning at 9:00, and then increasing quickly by early afternoon, and then decreasing quickly by 17:00.
 
@@ -32,6 +34,8 @@ This box plot compares occupancy rate and traffic level with noise level and tra
 What was notices was that during high traffic periods the median occupancy rate is around 55% whereas low traffic periods drop to a median of around 40%. Also, the entire box for high traffic is shifted upward, which means that students typically are taking majority of the seats during this time. On the otherhand, low traffic periods see more lower occupancy.
 
 Also during high traffic periods it is louder with the median noise level around 56, compared to a median of 53-54 during low traffic. There is a couple of outliers in the low traffic category where a few are around 38 and 41, which means it was even quieter.  
+
+
 
 # Task 4: Implement visualization alternatives
 
