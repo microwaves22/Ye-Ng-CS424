@@ -59,6 +59,7 @@ This visualization supports the question "Are the quietest study spaces also the
 
 # Task 5: Interaction and Multiple Views
 
+
 # Task 6: Iterate and Refine
 
 # Task 7: Current Design
