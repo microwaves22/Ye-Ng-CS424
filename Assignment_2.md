@@ -14,6 +14,13 @@ We used Pandas to prepare and transform our data in this [notebook](Notebooks/Ta
 # Task 3: Explore the data
 ## Exploratory Visualization 1
 
+## Exploratory Visualization 2
+This scatterplot compares noise levels with seat availability rates across different study spaces. We wanted to explore our question, "Are the quietest study spaces also the hardest spaces to find a seat?" The distribution of points can help identify whether there is a relationship between noise level and seat availability, as well as if certain study spaces show different patterns. 
+
+Some notices pertaining noise, in the second floor CS Study Lounge (Quiet) is futher to the left, which supports generally lower noise levels ~(38dB - 50dB). Whereas in the first Floor Sandella Cafe and first Floor Lobby Area are futher to the right, closer to 69dB.
+
+Some notices pertaining seat availability, the second Floor CS Study Lounge and Sandella Cafe show low seat avability the most compared to other locations. A note, which potentially contributes to this is that they have less seats than the other study areas, but fourth Floor Study Lounge is an outlier in this.
+
 
 # Task 4: Implement visualization alternatives
 
