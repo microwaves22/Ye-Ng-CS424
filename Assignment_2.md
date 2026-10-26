@@ -45,10 +45,42 @@ This scatterplot addresses the question "Which study spaces are the most reliabl
 
 This visualization supports the question "Are the quietest study spaces also the hardest spaces to find a seat?" We used this approach to compare rankings of study spaces based on average noise level and average seat availability side-by-side. The data attributes that this visualization uses are location, average noise level, and average availability rate. The marks we used are bars, and the channels are length of the bars to represent average noise level or average availability rate and vertical positions to rank the study spaces by attributes. There are also two charts that are side-by-side to aid with making attribute comparisions. Although we initially considered creating a scatterplot visualization, we realized that we wanted a unique visualization that emphasized ranking and direct comparisions between study spaces. Therefore, creating ranked bar charts was the most straightforward way of accomplishing this. However, one thing we noticed is that this visualization involves aggregation, which is a source of uncertainty because we aren't able to see more detailed variation of the data over time or days. This is something we may potentially address in the upcoming tasks.
 
-
 # Task 5: Interaction and Multiple Views
 
 
+## Visualization #2
+We believe that this visualization would benefit from interaction, specifically details-on-demand. By simply looking at the scatterplot's points, it's generally not straightforward to determine exact values. To address this, we want to implement the ability to display additional information when a user hovers their cursor over a point. That information would include study spot location, average availability rate, availability variability, average occupancy rate, and traffic level. This interaction would also allow users to quickly inspect the data without the additional information cluttering the overall view of the data.
+
+## Visualization #3
+This visualization uses two coordinated views, which displays separate ranked bar charts for average noise level and average availability rate. The two charts show the same study spaces ordered by different criteria, allowing users to compare rankings side-by-side. This supports our task of determining whether quieter study spaces also tend to have lower seat availability. Furthermore, we also want to incorporate a details-on-demand through hovering. We want to move forward with this approach because we noticed how some of the bars have similar lengths, making it hard to determine exact values from visual inspection alone. Implementing this would look like users hovering over a bar and the exact average noise level or average availability rate getting displayed. This would help users make more precise value comparisons while maintaining a clean visualization look.
+
 # Task 6: Iterate and Refine
+
+## Visualization #2
+![Task 6 Visualization 2](Visualizations_2/task_6_vis_2.png)
+
+Note: You can access the refined visualization at [this notebook](Notebooks/Vis_2.ipynb)
+
+Iteration 1: Details-on-Demand Interaction
+
+A problem we noticed is that it was difficult to determine exact values from the original scatterplot. To address that, we added those values and extra information to each point to improve readability. We also made the visualization interactive, meaning that users can hover their cursor over each point to display the additional details. This helps reduce clutter while making the visualization more informative and supporting more precise comparisions between study locations.
+
+Iteration 2: Reliability Quadrants
+
+Another problem we discovered is that the visualization didn't clearly indicate which locations were more or less reliable. As a result, we added horizontal and vertical grid lines at the mean availability and mean variability values, creating four interpretation regions. We also included labels identifying the "Most Reliable" and "Least Reliable" regions. The overarching purpose of making those changes were to make it easier to identify study spaces with above-average availability and below-average availability, assisting users with interpreting reliability quickly and consistently.
+
+## Visualization #3
+![Task 6 Visualization 3](Visualizations_2/task_6_vis_3.png)
+
+Note: You can access the refined visualization at [this notebook](Notebooks/Vis_3.ipynb)
+
+Iteration 1: Details-on-Demand Interaction
+
+A problem we observed is that many study spaces have similar bar lengths, making it difficult to determine exact values from looking at the bar lengths alone. We fixed this by making the bar charts interactive, allowing users to hover over each bar, which displays exact average noise level or availability rate for the selected study location. This allows users to make more precise comparisons between locations without adding more labels that could clutter the visualizations.
+
+Iteration 2: Consistent Color Encoding Across Views
+
+Another problem we discovered is that users had to repeatedly locate the same study space in both the noise ranking and availability ranking when making comparisons. We fixed this by adding another channel of color. To be more specific, we assigned a consistent color to each study space across both ranking charts. That way, the same location is represented by the same color in both views. This is helpful because it strengthens the relationship between the two views and makes it easier to compare how a study space ranks across noise level and availability.
+
 
 # Task 7: Current Design
