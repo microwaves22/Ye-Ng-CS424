@@ -25,6 +25,9 @@ This scatterplot compares noise levels with seat availability rates across diffe
 ## Exploratory Visualization 3
 We wanted to explore occupancy rates and noise levels, and how they change or differ across study space's surrounding traffic. We created two box plots to explore how occupancy rates and noise levels differ between study spaces near high-traffic areas, such as cafes, elevators, entrances, and hallways, and study spaces near low-traffic areas, such as enclosed spaces. We noticed that high-traffic spaces have a higher median occupancy rate of around 55%, compared to 40% for low-traffic spaces. Noise levels were also slightly higher in high-traffic spaces, with a median of around 56dB compared to 54dB. We also noticed a few unusually low and high noirse measurements in the low-traffic group.
 
+## Exploratory Visualization 4
+We wanted to explore which specific study spaces offer the highest and lowest overall seat availability across all observation times. We created a horizontal bar chart ranking each study space by its average availability rate. We noticed that the 1st Floor CS Study Lounge had the highest average seat availability by a notable margin, reaching over 70%. In contrast, the 2nd Floor CS Study Lounge Quiet had the lowest availability at around 40%, closely followed by the 1st Floor Lobby Area at roughly 43%. The 4th Floor Study Lounge, 1st Floor Sandella Cafe, and 2nd Floor CS Study Lounge Collaborative formed a middle tier with average availability rates ranging between 50% and 60%.    
+
 # Task 4: Implement Visualization Alternatives
 ## Visualization #1
 ![Task 4 Visualization 1](Visualizations_2/task4_vis1.png)
@@ -47,11 +50,9 @@ This visualization supports the question "Are the quietest study spaces also the
 # Task 5: Interaction and Multiple Views
 ## Visualization #1
 
-## Visualization #1
-
 [Visualization reference](Notebooks/Vis_1.ipynb)
 
-
+We believe this visualization could benefit from filtering, allowing users to focus on specific days or time periods. This would make it easier to examine occupancy patterns without having to view all the data at once. We also considered adding details-on-demand through hovering, which could display the exact average occupancy rate for a specific day and time. However, since the heatmap is intended to provide a general overview of occupancy patterns, keeping the visualization relatively simple would help users identify broader trends without unnecessary clutter.
 
 ## Visualization #2
 
@@ -92,6 +93,5 @@ A problem we observed is that many study spaces have similar bar lengths, making
 Iteration 2: Consistent Color Encoding Across Views
 
 Another problem we discovered is that users had to repeatedly locate the same study space in both the noise ranking and availability ranking when making comparisons. We fixed this by adding another channel of color. To be more specific, we assigned a consistent color to each study space across both ranking charts. That way, the same location is represented by the same color in both views. This is helpful because it strengthens the relationship between the two views and makes it easier to compare how a study space ranks across noise level and availability.
-
 
 # Task 7: Current Design
