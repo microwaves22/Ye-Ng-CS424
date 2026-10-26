@@ -39,7 +39,7 @@ This visualization supports the question "Are the quietest study spaces also the
 
 # Task 5: Interaction and Multiple Views
 ## Visualization #1
-
+We believe this visualization could benefit from filtering, allowing users to focus on specific days or time periods. This would make it easier to examine occupancy patterns without having to view all the data at once. We also considered adding details-on-demand through hovering, which could display the exact average occupancy rate for a specific day and time. However, since the heatmap is intended to provide a general overview of occupancy patterns, keeping the visualization relatively simple would help users identify broader trends without unnecessary clutter.
 
 ## Visualization #2
 We believe that this visualization would benefit from interaction, specifically details-on-demand. By simply looking at the scatterplot's points, it's generally not straightforward to determine exact values. To address this, we want to implement the ability to display additional information when a user hovers their cursor over a point. That information would include study spot location, average availability rate, availability variability, average occupancy rate, and traffic level. This interaction would also allow users to quickly inspect the data without the additional information cluttering the overall view of the data.
@@ -74,6 +74,5 @@ A problem we observed is that many study spaces have similar bar lengths, making
 Iteration 2: Consistent Color Encoding Across Views
 
 Another problem we discovered is that users had to repeatedly locate the same study space in both the noise ranking and availability ranking when making comparisons. We fixed this by adding another channel of color. To be more specific, we assigned a consistent color to each study space across both ranking charts. That way, the same location is represented by the same color in both views. This is helpful because it strengthens the relationship between the two views and makes it easier to compare how a study space ranks across noise level and availability.
-
 
 # Task 7: Current Design
