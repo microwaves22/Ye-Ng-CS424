@@ -22,11 +22,7 @@ This scatterplot compares noise levels with seat availability rates across diffe
 Another finding is that the Second Floor CS Study Lounge and Sandella Cafe showed lower seat availability than most of the other locations. We also noticed that theses study spaces have fewer seats than some of the other study areas, although the Fourth Floor Study Lounge was an exception to this pattern.
 
 ## Exploratory Visualization 3
-This box plot compares occupancy rate and traffic level with noise level and traffic level. We wanted to explore our question, "How do high-traffic and low-traffic study spaces differ from one another?" This allows us to compare occupancy rate and noise level on separate plots, but still allowing easy accessible comparison.
-
-What was notices was that during high traffic periods the median occupancy rate is around 55% whereas low traffic periods drop to a median of around 40%. Also, the entire box for high traffic is shifted upward, which means that students typically are taking majority of the seats during this time. On the otherhand, low traffic periods see more lower occupancy.
-
-Also during high traffic periods it is louder with the median noise level around 56, compared to a median of 53-54 during low traffic. There is a couple of outliers in the low traffic category where a few are around 38 and 41, which means it was even quieter.  
+We wanted to explore occupancy rates and noice level d  
 
 # Task 4: Implement Visualization Alternatives
 ## Visualization #1
