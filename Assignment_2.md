@@ -17,12 +17,10 @@ We wanted to explore how occupancy rates change throughout the day across differ
 
 ## Exploratory Visualization 2
 
-This scatterplot compares noise levels with seat availability rates across different study spaces. We wanted to explore seat availability and noise level's relationship. We noticed that the Second Floor CS Study Lounge (Quiet) was farther to the left, with noise levels around 38-50dB. On the otherhand, the First Floor Sandella Cafe and First Floor Lobby Area were farther to the right, with noise levels closer to 69dB.
-
-Another finding is that the Second Floor CS Study Lounge and Sandella Cafe showed lower seat availability than most of the other locations. We also noticed that theses study spaces have fewer seats than some of the other study areas, although the Fourth Floor Study Lounge was an exception to this pattern.
+This scatterplot compares noise levels with seat availability rates across different study spaces. We wanted to explore seat availability and noise level's relationship. We noticed that the Second Floor CS Study Lounge (Quiet) was farther to the left, with noise levels around 38-50dB. On the otherhand, the First Floor Sandella Cafe and First Floor Lobby Area were farther to the right, with noise levels closer to 69dB. Another finding is that the Second Floor CS Study Lounge and Sandella Cafe showed lower seat availability than most of the other locations. We also noticed that theses study spaces have fewer seats than some of the other study areas, although the Fourth Floor Study Lounge was an exception to this pattern.
 
 ## Exploratory Visualization 3
-We wanted to explore occupancy rates and noice level d  
+We wanted to explore occupancy rates and noise levels, and how they change or differ across study space's surrounding traffic. We created two box plots to explore how occupancy rates and noise levels differ between study spaces near high-traffic areas, such as cafes, elevators, entrances, and hallways, and study spaces near low-traffic areas, such as enclosed spaces. We noticed that high-traffic spaces have a higher median occupancy rate of around 55%, compared to 40% for low-traffic spaces. Noise levels were also slightly higher in high-traffic spaces, with a median of around 56dB compared to 54dB. We also noticed a few unusually low and high noirse measurements in the low-traffic group.
 
 # Task 4: Implement Visualization Alternatives
 ## Visualization #1
