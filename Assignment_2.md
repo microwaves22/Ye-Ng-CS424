@@ -59,6 +59,8 @@ This visualization uses two coordinated views, which displays separate ranked ba
 ## Visualization #2
 ![Task 6 Visualization 2](Visualizations_2/task_6_vis_2.png)
 
+Note: You can access the refined visualization at [this notebook](Notebooks/Vis_2.ipynb)
+
 Iteration 1: Details-on-Demand Interaction
 
 A problem we noticed is that it was difficult to determine exact values from the original scatterplot. To address that, we added those values and extra information to each point to improve readability. We also made the visualization interactive, meaning that users can hover their cursor over each point to display the additional details. This helps reduce clutter while making the visualization more informative and supporting more precise comparisions between study locations.
@@ -66,5 +68,19 @@ A problem we noticed is that it was difficult to determine exact values from the
 Iteration 2: Reliability Quadrants
 
 Another problem we discovered is that the visualization didn't clearly indicate which locations were more or less reliable. As a result, we added horizontal and vertical grid lines at the mean availability and mean variability values, creating four interpretation regions. We also included labels identifying the "Most Reliable" and "Least Reliable" regions. The overarching purpose of making those changes were to make it easier to identify study spaces with above-average availability and below-average availability, assisting users with interpreting reliability quickly and consistently.
+
+## Visualization #3
+![Task 6 Visualization 3](Visualizations_2/task_6_vis_3.png)
+
+Note: You can access the refined visualization at [this notebook](Notebooks/Vis_3.ipynb)
+
+Iteration 1: Details-on-Demand Interaction
+
+A problem we observed is that many study spaces have similar bar lengths, making it difficult to determine exact values from looking at the bar lengths alone. We fixed this by making the bar charts interactive, allowing users to hover over each bar, which displays exact average noise level or availability rate for the selected study location. This allows users to make more precise comparisons between locations without adding more labels that could clutter the visualizations.
+
+Iteration 2: Consistent Color Encoding Across Views
+
+Another problem we discovered is that users had to repeatedly locate the same study space in both the noise ranking and availability ranking when making comparisons. We fixed this by adding another channel of color. To be more specific, we assigned a consistent color to each study space across both ranking charts. That way, the same location is represented by the same color in both views. This is helpful because it strengthens the relationship between the two views and makes it easier to compare how a study space ranks across noise level and availability.
+
 
 # Task 7: Current Design
