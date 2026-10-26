@@ -25,13 +25,7 @@ We wanted to explore occupancy rates and noise levels, and how they change or di
 # Task 4: Implement Visualization Alternatives
 ## Visualization #1
 ![Task 4 Visualization 1](Visualizations_2/task4_vis1.png)
-
-This heat map approaches the question, "How do occupancy patterns vary across location, time of day, and day of week?" This is based off of the sketch from assignment #1 of a heatmap. The heatmap shows an average occupancy rate across different 
-
-Attempting to redo this for Curio
- - lost account; use username + password and said it was wrong
- - 502 error
- - offline twice within 10 minutes
+This heatmap approaches the question, "How do occupancy patterns vary across location, time of day, and day of week?" We used this approach because a heatmap allows us to compare average occupancy rates across different days of the week and time periods, and it is based off of a design created in Assignment 1. The attributes included in this visualization are time of day, day of week, and occupancy rate. The marks are the squares in the grid, and the visual channels include color intensity, with different shades of blue and green representing different occupancy rates. This approach makes it easier to identify general patterns across different times and days while providing an overview of occupancy rates throughout the week. For example, we can compare which times of day tend to have higher or lower occupancy rates and whether certain days show different patterns. However, the heatmap may hide differences between individual days because observations from the same day of the week are aggregated into average occupancy rates. It also does not represent individual study locations, but instead combines the data across all locations. This can make it harder to identify specific differences between study spaces or determine whether certain locations have different occupancy patterns. We wanted to use this visualization to get a general overview of occupancy patterns, but these limitations show that more detailed comparisons may be needed to understand the differences between individual locations and observations over time.
 
 ## Visualization #2
 ![Task 4 Visualization 2](Visualizations_2/task4_vis2.png)
@@ -44,6 +38,7 @@ This scatterplot addresses the question "Which study spaces are the most reliabl
 This visualization supports the question "Are the quietest study spaces also the hardest spaces to find a seat?" We used this approach to compare rankings of study spaces based on average noise level and average seat availability side-by-side. The data attributes that this visualization uses are location, average noise level, and average availability rate. The marks we used are bars, and the channels are length of the bars to represent average noise level or average availability rate and vertical positions to rank the study spaces by attributes. There are also two charts that are side-by-side to aid with making attribute comparisions. Although we initially considered creating a scatterplot visualization, we realized that we wanted a unique visualization that emphasized ranking and direct comparisions between study spaces. Therefore, creating ranked bar charts was the most straightforward way of accomplishing this. However, one thing we noticed is that this visualization involves aggregation, which is a source of uncertainty because we aren't able to see more detailed variation of the data over time or days. This is something we may potentially address in the upcoming tasks.
 
 # Task 5: Interaction and Multiple Views
+## Visualization #1
 
 
 ## Visualization #2
