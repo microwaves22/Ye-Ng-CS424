@@ -14,6 +14,38 @@ Estimate the availability rate of the 2nd Floor CS Study Lounge Collaborative du
 Estimate the availability rate of the 2nd Floor CS Study Lounge Collaborative during the Afternoon period.
 
 
+
+
+Improved ideas..???
+Task Family 1: Quantitative Comparison
+
+Variant A:
+Estimate the difference in average availability rate between the 1st Floor CS Study Lounge and 4th Floor Study Lounge during the Morning period.
+
+Variant B:
+Estimate the difference in average availability rate between the 1st Floor CS Study Lounge and 4th Floor Study Lounge during the Afternoon period.
+
+Analytical ability:
+Comparing quantitative values.
+
+Data subset:
+Morning vs Afternoon.
+
+Task Family 2: Temporal Change Identification
+
+Variant A:
+Which location shows the largest change in reliability between Morning and All Times?
+
+Variant B:
+Which location shows the largest change in reliability between Afternoon and All Times?
+
+Analytical ability:
+Detecting and comparing changes.
+
+Data subset:
+Morning vs All Times versus Afternoon vs All Times.
+
+
 # Task 3: Conducting the evaluation
 
 
