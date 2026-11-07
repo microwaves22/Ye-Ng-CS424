@@ -35,11 +35,11 @@ If you're interested, feel free to let me know what time works best for you! Als
 
 | Participant ID | Major | Background | 1st Condition | 1st Task Set | 2nd Condition | 2nd Task Set | Group Cell |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **ID 01 (Pilot)** | Civil Eng. (CE) | STEM/Eng | Static | Set A ($Q1, Q2$) | Interactive | Set B ($Q3, Q4$) | Group 1 |
+| **ID 01 (Pilot)** | Computer Eng. (CE) | STEM/Eng | Static | Set A ($Q1, Q2$) | Interactive | Set B ($Q3, Q4$) | Group 1 |
 | **ID 11 (Pilot)** | Business | Non-Eng | Interactive | Set A ($Q1, Q2$) | Static | Set B ($Q3, Q4$) | Group 2 |
 | | | | | | | | |
-| **ID 02** | Civil Eng. (CE) | STEM/Eng | **Static** | Set A ($Q1, Q2$) | **Interactive** | Set B ($Q3, Q4$) | **Group 1** |
-| **ID 03** | Civil Eng. (CE) | STEM/Eng | **Static** | Set A ($Q1, Q2$) | **Interactive** | Set B ($Q3, Q4$) | **Group 1** |
+| **ID 02** | Computer Eng. (CE) | STEM/Eng | **Static** | Set A ($Q1, Q2$) | **Interactive** | Set B ($Q3, Q4$) | **Group 1** |
+| **ID 03** | Computer Eng. (CE) | STEM/Eng | **Static** | Set A ($Q1, Q2$) | **Interactive** | Set B ($Q3, Q4$) | **Group 1** |
 | **ID 08** | Biology | Non-Eng | **Static** | Set A ($Q1, Q2$) | **Interactive** | Set B ($Q3, Q4$) | **Group 1** |
 | | | | | | | | |
 | **ID 04** | Computer Sci. (CS) | STEM/Eng | **Interactive** | Set A ($Q1, Q2$) | **Static** | Set B ($Q3, Q4$) | **Group 2** |
