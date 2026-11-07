@@ -6,44 +6,26 @@ We chose to create an interactive version of visualization 2 because it benefits
 
 # Task 2: Evaluation design
 
-Ideas..
-Which location shows the largest change in reliability between Morning and All Time?
-Which location shows the largest change in reliability between Afternoon and All Time?
+## Evaluation Question
+Does temporal filtering improve users' ability to analyze seat availability reliability patterns across different time periods?
 
-Estimate the availability rate of the 2nd Floor CS Study Lounge Collaborative during the Morning period.
-Estimate the availability rate of the 2nd Floor CS Study Lounge Collaborative during the Afternoon period.
+## Hypothesis
+Participants using the interactive visualization will complete temporal analysis tasks faster and with similar or greater accuracy than participants using the static visualization because temporal filtering allows users to focus on one period at a time.
 
+## Analytical Task 1
+Derive a quantitative difference.
+### Static Condition
+What is the approximate difference in availability rate between the most reliable location and the least reliable location during the Morning period?
+### Interactive Condition
+What is the approximate difference in availability rate between the most reliable location and the least reliable location during the Afternoon period?
 
-
-
-Improved ideas..???
-Task Family 1: Quantitative Comparison
-
-Variant A:
-Estimate the difference in average availability rate between the 1st Floor CS Study Lounge and 4th Floor Study Lounge during the Morning period.
-
-Variant B:
-Estimate the difference in average availability rate between the 1st Floor CS Study Lounge and 4th Floor Study Lounge during the Afternoon period.
-
-Analytical ability:
-Comparing quantitative values.
-
-Data subset:
-Morning vs Afternoon.
-
-Task Family 2: Temporal Change Identification
-
-Variant A:
+## Analytical Task 2
+Compare temporal changes.
+### Static Condition
 Which location shows the largest change in reliability between Morning and All Times?
-
-Variant B:
+### Interactive Condition
 Which location shows the largest change in reliability between Afternoon and All Times?
 
-Analytical ability:
-Detecting and comparing changes.
-
-Data subset:
-Morning vs All Times versus Afternoon vs All Times.
 
 
 # Task 3: Conducting the evaluation
