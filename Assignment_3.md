@@ -27,7 +27,39 @@ Hello! My friend Elizabeth Ng and I are taking CS 424: Visualization and Visual 
 It shouldn't take too long. I would just meet up with you and walk you through the study on my laptop.
 If you're interested, feel free to let me know what time works best for you! Also, please let me know if you have any questions. Thank you!
 
+### Analytical Task Sets
+* **Task Set A:** $Q1$ & $Q2$
+* **Task Set B:** $Q3$ & $Q4$
 
+### Participant Counterbalancing Matrix
+
+| Participant ID | Major | Background | 1st Condition | 1st Task Set | 2nd Condition | 2nd Task Set | Group Cell |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **ID 01 (Pilot)** | Civil Eng. (CE) | STEM/Eng | Static | Set A ($Q1, Q2$) | Interactive | Set B ($Q3, Q4$) | Group 1 |
+| **ID 11 (Pilot)** | Business | Non-Eng | Interactive | Set A ($Q1, Q2$) | Static | Set B ($Q3, Q4$) | Group 2 |
+| | | | | | | | |
+| **ID 02** | Civil Eng. (CE) | STEM/Eng | **Static** | Set A ($Q1, Q2$) | **Interactive** | Set B ($Q3, Q4$) | **Group 1** |
+| **ID 03** | Civil Eng. (CE) | STEM/Eng | **Static** | Set A ($Q1, Q2$) | **Interactive** | Set B ($Q3, Q4$) | **Group 1** |
+| **ID 08** | Biology | Non-Eng | **Static** | Set A ($Q1, Q2$) | **Interactive** | Set B ($Q3, Q4$) | **Group 1** |
+| | | | | | | | |
+| **ID 04** | Computer Sci. (CS) | STEM/Eng | **Interactive** | Set A ($Q1, Q2$) | **Static** | Set B ($Q3, Q4$) | **Group 2** |
+| **ID 09** | Pre-Nursing | Non-Eng | **Interactive** | Set A ($Q1, Q2$) | **Static** | Set B ($Q3, Q4$) | **Group 2** |
+| **ID 10** | Kinesiology | Non-Eng | **Interactive** | Set A ($Q1, Q2$) | **Static** | Set B ($Q3, Q4$) | **Group 2** |
+| | | | | | | | |
+| **ID 05** | Computer Sci. (CS) | STEM/Eng | **Static** | Set B ($Q3, Q4$) | **Interactive** | Set A ($Q1, Q2$) | **Group 3** |
+| **ID 06** | Mechanical Eng. (ME)| STEM/Eng | **Static** | Set B ($Q3, Q4$) | **Interactive** | Set A ($Q1, Q2$) | **Group 3** |
+| **ID 12** | Nutrition | Non-Eng | **Static** | Set B ($Q3, Q4$) | **Interactive** | Set A ($Q1, Q2$) | **Group 3** |
+| | | | | | | | |
+| **ID 07** | Computer Sci. (CS) | STEM/Eng | **Interactive** | Set B ($Q3, Q4$) | **Static** | Set A ($Q1, Q2$) | **Group 4** |
+| **ID 13** | Business | Non-Eng | **Interactive** | Set B ($Q3, Q4$) | **Static** | Set A ($Q1, Q2$) | **Group 4** |
+| **ID 14** | Public Health | Non-Eng | **Interactive** | Set B ($Q3, Q4$) | **Static** | Set A ($Q1, Q2$) | **Group 4** |
+
+---
+
+### Balance
+1. **Condition Order Control:** 6 main participants start with **Static** (IDs 02, 03, 08, 05, 06, 12) and 6 main participants start with **Interactive** (IDs 04, 09, 10, 07, 13, 14).
+2. **Task Difficulty Control:** Task Set A ($Q1, Q2$) is evaluated under **Static** 6 times and **Interactive** 6 times. Task Set B ($Q3, Q4$) is evaluated under **Static** 6 times and **Interactive** 6 times.
+3. **Stratified Major Control:** Each of the 4 group cells contains a balanced mix of STEM/Engineering and Non-Engineering majors (3 STEM and 3 Non-STEM in each condition order block), eliminating domain background as a confounding factor.
 
 
 # Task 4: Quantitative analysis
