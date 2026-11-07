@@ -12,10 +12,11 @@ Does temporal filtering improve users' ability to analyze seat availability reli
 ## Hypothesis
 Participants using the interactive visualization will complete temporal analysis tasks faster and with similar or greater accuracy than participants using the static visualization because temporal filtering allows users to focus on one period at a time.
 
+## Visualization Tasks
 | Analytical Task | Static Condition | Interactive Condition |
 |----------------|----------------------------------------|--------------------------------------------|
 | Derive a quantitative difference | What is the approximate difference in availability rate between the most reliable location and the least reliable location during the Morning period? | What is the approximate difference in availability rate between the most reliable location and the least reliable location during the Afternoon period? |
-| Compare temporal changes | Which location shows the largest change in reliability between Morning and All Times? | Which location shows the largest change in reliability between Afternoon and All Times? |
+| Compare temporal changes | Which location shows the largest change in reliability between Morning and Afternoon? | Which location shows the smallest change in reliability between Morning and Afternoon? |
 
 
 
