@@ -6,6 +6,13 @@ We chose to create an interactive version of visualization 2 because it benefits
 
 # Task 2: Evaluation design
 
+Ideas..
+Which location shows the largest change in reliability between Morning and All Time?
+Which location shows the largest change in reliability between Afternoon and All Time?
+
+Estimate the availability rate of the 2nd Floor CS Study Lounge Collaborative during the Morning period.
+Estimate the availability rate of the 2nd Floor CS Study Lounge Collaborative during the Afternoon period.
+
 
 # Task 3: Conducting the evaluation
 
