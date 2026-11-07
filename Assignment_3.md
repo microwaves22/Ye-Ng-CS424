@@ -47,6 +47,13 @@ Morning vs All Times versus Afternoon vs All Times.
 
 
 # Task 3: Conducting the evaluation
+Michelle will be conducting the evaluations and reaching out to people: 
+
+Hello! My friend Elizabeth Ng and I are taking CS 424: Visualization and Visual Analytics, and we're conducting a study comparing static and interactive visualizations. We were wondering if you'd be willing to participate!
+It shouldn't take too long. I would just meet up with you and walk you through the study on my laptop.
+If you're interested, feel free to let me know what time works best for you! Also, please let me know if you have any questions. Thank you!
+
+
 
 
 # Task 4: Quantitative analysis
