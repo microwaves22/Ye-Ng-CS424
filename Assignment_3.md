@@ -119,46 +119,39 @@ For each task set, the following information will be recorded:
 Task completion times will be recorded manually by the moderator using a stopwatch. All participant responses entered through the Google Form will automatically populate a Google Sheets spreadsheet. After data collection is complete, the spreadsheet will be exported as a CSV file for analysis. Accuracy scores will be determined by comparing participant responses to the expected answers defined in the evaluation design.
 
 # Task 3: Conducting the evaluation
-Michelle will be conducting the evaluations and reaching out to people: 
-
-Hello! My friend Elizabeth Ng and I are taking CS 424: Visualization and Visual Analytics, and we're conducting a study comparing static and interactive visualizations. We were wondering if you'd be willing to participate!
-It shouldn't take too long. I would just meet up with you and walk you through the study on my laptop.
-If you're interested, feel free to let me know what time works best for you! Also, please let me know if you have any questions. Thank you!
-
-### Analytical Task Sets
-* **Task Set A:** $Q1$ & $Q2$
-* **Task Set B:** $Q3$ & $Q4$
 
 ### Participant Counterbalancing Matrix
 
 | Participant ID | Major | Background | 1st Condition | 1st Task Set | 2nd Condition | 2nd Task Set | Group Cell |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **ID 01 (Pilot)** | Computer Eng. (CE) | STEM/Eng | Static | Set A ($Q1, Q2$) | Interactive | Set B ($Q3, Q4$) | Group 1 |
-| **ID 11 (Pilot)** | Business | Non-Eng | Interactive | Set A ($Q1, Q2$) | Static | Set B ($Q3, Q4$) | Group 2 |
+| **ID 90 (Pilot)** | Computer Eng. (CE) | STEM/Eng | Static | Set A (**Q1, Q3**) | Interactive | Set B (**Q2, Q4**) | Group 1 |
+| **ID 91 (Pilot)** | Business | Non-Eng | Interactive | Set A (**Q1, Q3**) | Static | Set B (**Q2, Q4**) | Group 2 |
 | | | | | | | | |
-| **ID 02** | Computer Eng. (CE) | STEM/Eng | **Static** | Set A ($Q1, Q2$) | **Interactive** | Set B ($Q3, Q4$) | **Group 1** |
-| **ID 03** | Computer Eng. (CE) | STEM/Eng | **Static** | Set A ($Q1, Q2$) | **Interactive** | Set B ($Q3, Q4$) | **Group 1** |
-| **ID 08** | Biology | Non-Eng | **Static** | Set A ($Q1, Q2$) | **Interactive** | Set B ($Q3, Q4$) | **Group 1** |
+| **ID 01** | Computer Eng. (CE) | STEM/Eng | **Static** | Set A (**Q1, Q3**) | **Interactive** | Set B (**Q2, Q4**) | **Group 1** |
+| **ID 02** | Computer Eng. (CE) | STEM/Eng | **Static** | Set A (**Q1, Q3**) | **Interactive** | Set B (**Q2, Q4**) | **Group 1** |
+| **ID 03** | Biology | Non-Eng | **Static** | Set A (**Q1, Q3**) | **Interactive** | Set B (**Q2, Q4**) | **Group 1** |
 | | | | | | | | |
-| **ID 04** | Computer Sci. (CS) | STEM/Eng | **Interactive** | Set A ($Q1, Q2$) | **Static** | Set B ($Q3, Q4$) | **Group 2** |
-| **ID 09** | Pre-Nursing | Non-Eng | **Interactive** | Set A ($Q1, Q2$) | **Static** | Set B ($Q3, Q4$) | **Group 2** |
-| **ID 10** | Kinesiology | Non-Eng | **Interactive** | Set A ($Q1, Q2$) | **Static** | Set B ($Q3, Q4$) | **Group 2** |
+| **ID 04** | Computer Sci. (CS) | STEM/Eng | **Interactive** | Set A (**Q1, Q3**) | **Static** | Set B (**Q2, Q4**) | **Group 2** |
+| **ID 05** | Pre-Nursing | Non-Eng | **Interactive** | Set A (**Q1, Q3**) | **Static** | Set B (**Q2, Q4**) | **Group 2** |
+| **ID 06** | Kinesiology | Non-Eng | **Interactive** | Set A (**Q1, Q3**) | **Static** | Set B (**Q2, Q4**) | **Group 2** |
 | | | | | | | | |
-| **ID 05** | Computer Sci. (CS) | STEM/Eng | **Static** | Set B ($Q3, Q4$) | **Interactive** | Set A ($Q1, Q2$) | **Group 3** |
-| **ID 06** | Mechanical Eng. (ME)| STEM/Eng | **Static** | Set B ($Q3, Q4$) | **Interactive** | Set A ($Q1, Q2$) | **Group 3** |
-| **ID 12** | Nutrition | Non-Eng | **Static** | Set B ($Q3, Q4$) | **Interactive** | Set A ($Q1, Q2$) | **Group 3** |
+| **ID 07** | Computer Sci. (CS) | STEM/Eng | **Static** | Set B (**Q2, Q4**) | **Interactive** | Set A (**Q1, Q3**) | **Group 3** |
+| **ID 08** | Mechanical Eng. (ME) | STEM/Eng | **Static** | Set B (**Q2, Q4**) | **Interactive** | Set A (**Q1, Q3**) | **Group 3** |
+| **ID 09** | Nutrition | Non-Eng | **Static** | Set B (**Q2, Q4**) | **Interactive** | Set A (**Q1, Q3**) | **Group 3** |
 | | | | | | | | |
-| **ID 07** | Computer Sci. (CS) | STEM/Eng | **Interactive** | Set B ($Q3, Q4$) | **Static** | Set A ($Q1, Q2$) | **Group 4** |
-| **ID 13** | Business | Non-Eng | **Interactive** | Set B ($Q3, Q4$) | **Static** | Set A ($Q1, Q2$) | **Group 4** |
-| **ID 14** | Public Health | Non-Eng | **Interactive** | Set B ($Q3, Q4$) | **Static** | Set A ($Q1, Q2$) | **Group 4** |
+| **ID 10** | Computer Sci. (CS) | STEM/Eng | **Interactive** | Set B (**Q2, Q4**) | **Static** | Set A (**Q1, Q3**) | **Group 4** |
+| **ID 11** | Business | Non-Eng | **Interactive** | Set B (**Q2, Q4**) | **Static** | Set A (**Q1, Q3**) | **Group 4** |
+| **ID 12** | Public Health | Non-Eng | **Interactive** | Set B (**Q2, Q4**) | **Static** | Set A (**Q1, Q3**) | **Group 4** |
 
 ---
 
 ### Balance
-1. **Condition Order Control:** 6 main participants start with **Static** (IDs 02, 03, 08, 05, 06, 12) and 6 main participants start with **Interactive** (IDs 04, 09, 10, 07, 13, 14).
-2. **Task Difficulty Control:** Task Set A ($Q1, Q2$) is evaluated under **Static** 6 times and **Interactive** 6 times. Task Set B ($Q3, Q4$) is evaluated under **Static** 6 times and **Interactive** 6 times.
-3. **Stratified Major Control:** Each of the 4 group cells contains a balanced mix of STEM/Engineering and Non-Engineering majors (3 STEM and 3 Non-STEM in each condition order block), eliminating domain background as a confounding factor.
 
+1. **Condition Order Control:** Six participants start with the **Static** condition (IDs 01-03, 07-09), while six participants start with the **Interactive** condition (IDs 04-06, 10-12).
+
+2. **Task Set Balance:** Task Set A (Q1, Q3) is completed under the **Static** condition three times and under the **Interactive** condition three times. Task Set B (Q2, Q4) is completed under the **Static** condition three times and under the **Interactive** condition three times.
+
+3. **Background Balance:** STEM/Engineering and Non-STEM participants are distributed across all four groups to reduce the influence of academic background on task performance.
 
 # Task 4: Quantitative analysis
 
