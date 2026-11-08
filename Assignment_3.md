@@ -29,11 +29,11 @@ To assess user performance while avoiding memorization effects, the evaluation i
 ## Experimental Variables & Measurements
 
 * **Independent Variable:** Visualization condition with two levels:
-  1. **Static:** Full-screen static image viewer displaying pre-rendered CDLRC seat availability charts.
-  2. **Interactive:** Full-screen web application running locally (via VS Code preview) with a dropdown menu allowing users to filter seat availability by time period.
+  1. **Static:** A static image showing six reliability visualizations for different times of day simultaneously.
+  2. **Interactive:** A single reliability visualization that displays one time period at a time, with a dropdown filter and hover tooltips.
 * **Quantitative Measurements:**
-  1. **Task Completion Time (seconds):** Measured manually using a stopwatch from the moment the moderator finishes reading the question prompt until the participant provides their final answer.
-  2. **Task Accuracy (binary/proportional):** Binary score ($1 = \text{Correct}$, $0 = \text{Incorrect}$) evaluated against ground-truth dataset values.
+  1. **Task Accuracy:** Measured by comparing the participant's answer to the correct answer for each task. Responses will be scored as either correct (1) or incorrect (0).
+  2. **Task Completion Time (seconds):** Measured using a stopwatch from the moment the moderator finishes reading the question until the participant provides their final answer for that task.
 * **Qualitative Measurements:** Noted during the session (e.g., misinterpreting visual encodings, UI navigation friction).
 
 
