@@ -34,8 +34,10 @@ To assess user performance while avoiding memorization effects, the evaluation i
 * **Quantitative Measurements:**
   1. **Task Accuracy:** Measured by comparing the participant's answer to the correct answer for each task. Responses will be scored as either correct (1) or incorrect (0).
   2. **Task Completion Time (seconds):** Measured using a stopwatch from the moment the moderator finishes reading the question until the participant provides their final answer for that task.
-* **Qualitative Measurements:** Noted during the session (e.g., misinterpreting visual encodings, UI navigation friction).
-
+  3. **Confidence Rating (1-10):** After completing each task, participants will rate how confident they are in their answer on a scale from 1 (not confident at all) to 10 (extremely confident).
+  4 **Perceived Difficulty:** After completing each task, participants will rate how difficult they found the task on a scale from 1 (very easy) to 10 (very difficult).
+* **Qualitative Measurements:**
+  1. **Task Strategy and Explanation:** After each task, participants will explain how they determined their answer and describe their approach to solving the task.
 
 ## Experimental Procedure & Participant Script
 
