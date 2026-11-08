@@ -2,7 +2,9 @@
 
 Click [here](Notebooks/Assignment_3.ipynb) to access the static and interactive visualizations.
 
-We chose to create an interactive version of visualization 2 because it benefits the most from interactions that can help uncover variations or underlying patterns. We implemented the interactive visualization using the Plotly package, which has allowed us to incorporate filtering to display data for varying times of day and details-on-demand so that users can hover over a point to view precise details. We expect that filtering by specific times rather than being constrained to using one overall view can help reduce uncertainty by revealing potential variations in study spot reliabilities, allowing more questions to be answered. We also implemented details-on-demand because it's difficult to determine exact values for average availability rate and availability variability (std dev) by relying solely on what users can see. Exact values that get shown via hovering over points provide more precise metrics without creating unnecessary clutter. Furthermore, to make the static visualization more "fair" for comparison to the interactive version, we had to turn what originally was only an aggregated view (all times) into multiple views for different times. We did this to avoid making the static version less informative than the interactive version and to allow users to have nearly the same information necessary to complete the evaluation tasks.
+We chose to create an interactive version of visualization 2 because it benefits the most from interactions that can help uncover variations or underlying patterns. We implemented the interactive visualization using the Plotly package, which allows us to incorporate filtering to display data for varying times of day and details-on-demand so that users can hover over a point to view precise details. 
+We expect filtering by specific times rather than being constrained to using one overall view will help reduce uncertainty by revealing potential variations in study spot reliabilities, allowing more questions to be answered. We also implemented details-on-demand because it is difficult to determine exact values for average availability rate and availability variability (std dev) by relying solely on what users can see. Exact values that get shown via hovering over points provide more precise metrics without creating unnecessary clutter. 
+Furthermore, to make the static visualization more "fair" for comparison to the interactive version, we had to turn what originally was only an aggregated view (all times) into multiple views for different times. We did this to avoid making the static version less informative than the interactive version and to allow users to have nearly the same information necessary to complete the evaluation tasks.
 
 # Task 2: Evaluation design
 
@@ -53,6 +55,7 @@ This counterbalancing approach ensures that:
 * **Independent Variable:** Visualization condition with two levels:
   1. **Static:** A static image showing six reliability visualizations for different times of day simultaneously.
   2. **Interactive:** A single reliability visualization that displays one time period at a time, with a dropdown filter and hover tooltips.
+  
 * **Quantitative Measurements:**
   1. **Task Accuracy:** Measured by comparing the participant's answer to the correct answer for each task. Responses will be scored as either correct (1) or incorrect (0).
   2. **Task Completion Time (seconds):** Measured using a stopwatch from the moment the moderator finishes reading the question until the participant provides their final answer for that task.
