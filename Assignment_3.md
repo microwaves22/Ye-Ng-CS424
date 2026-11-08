@@ -15,8 +15,6 @@ Furthermore, to make the static visualization more "fair" for comparison to the 
 
 ## Analytical Task Sets and Expected Answers
 
-## Analytical Task Sets and Expected Answers
-
 To assess user performance while avoiding memorization effects, the evaluation includes two core analytical tasks split into two comparable variant sets ($Set\ A$ and $Set\ B$):
 
 | Analytical Task | Task Variant | Question | Expected Answer | Scoring & Tolerance |
