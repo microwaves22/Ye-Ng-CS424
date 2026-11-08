@@ -57,16 +57,47 @@ This counterbalancing approach ensures that:
 * **Qualitative Measurements:**
   1. **Task Strategy and Explanation:** After each task, participants will briefly explain how they determined their answer and describe their approach to solving the task.
 
-## Experimental Procedure & Participant Script
+## Experimental Procedure & Participant Instructions
 
-### Phase 1: Pre-Study Briefing & Setup
-1. We will prepare our laptop with the full-screen static image being viewed and the VS Code instance ready for the interactive visualization.
-2. We will have a Google Form to record time and accuracy entries. The participant will answer the Google Form on their laptop to a
-3. We will also be manually recording time through our phone stopwatch.
-3. **Participant Script:**
-   > *"Hi! Thank you for participating in our CS 424 visualization evaluation study today. We are looking at seat availability reliability patterns across different study spots in the UIC CDLRC.*
-   >
-   > *You will answer two analytical questions using a static visualization and two questions using an interactive visualization with a time dropdown menu. I will be timing each task with a stopwatch. There are no right or wrong answers regarding your speed—we are testing the visualization design, not you. Do you have any questions before we begin?"*
+### Phase 1: Pre-Study Briefing and Setup
+
+1. Prepare the static visualization and interactive visualization on a laptop before the participant arrives.
+2. Open the Google Form containing the task questions, confidence ratings, difficulty ratings, and open-ended response fields.
+3. Prepare a stopwatch to record task completion times.
+4. Assign the participant to one of the four counterbalancing groups.
+
+**Participant Script**
+
+"Hi! Thank you for participating in our CS 424 visualization evaluation study. This study examines how different visualization designs support the analysis of seat availability reliability patterns across study spaces in the UIC CDLRC.
+
+You will answer four questions in total: two using a static visualization and two using an interactive visualization. Depending on your assigned group, you may use either the static or interactive visualization first.
+
+The questions will be provided through a Google Form. Please enter your answers directly into the form.
+
+For each visualization condition, you will be given two questions. After I finish reading both questions, I will start a timer. Please answer both questions as accurately and quickly as possible. The timer will stop once you have completed both questions.
+
+After completing the two questions, you will be asked to complete a brief survey. These responses will not be included in the recorded task completion time.
+
+This study is evaluating the visualizations, not your performance. You may ask questions about the study procedure before we begin; however, once the tasks start, I will not provide hints, answer clarifying questions about the tasks, or assist in finding the answers.
+
+Do you have any questions before we begin?"
+
+### Phase 2: Task Administration
+
+1. Present the first visualization condition according to the participant's assigned counterbalancing group.
+2. Display the corresponding task set page in the Google Form.
+3. Read both questions in the task set aloud.
+4. Start the stopwatch immediately after both questions have been read.
+5. The participant completes and submits answers to both questions.
+6. Stop the stopwatch once the participant has completed both questions.
+7. Record the task completion time for the task set.
+8. Have the participant complete the post-condition survey page, including:
+   * Confidence rating (1-10)
+   * Difficulty rating (1-10)
+   * Brief explanation of how they arrived at their answers
+9. Present the second visualization condition.
+10. Repeat Steps 2-8 for the remaining task set.
+11. Thank the participant for their participation.
 
 # Task 3: Conducting the evaluation
 Michelle will be conducting the evaluations and reaching out to people: 
