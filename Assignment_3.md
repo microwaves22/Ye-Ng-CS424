@@ -11,18 +11,20 @@ Furthermore, to make the static visualization more "fair" for comparison to the 
 ## Evaluation Question & Hypothesis
 * **Evaluation Question:** Does temporal filtering improve users' ability to analyze and compare seat availability reliability patterns across multiple times of day?
 * **Hypothesis:** Participants using the interactive visualization will complete reliability analysis faster and with similar or greater accuracy than participants using the static visualization.
+* **Domain Connection:** These tasks directly extend our Assignment 2 domain goal of helping UIC students evaluate study spot availability rates and variability patterns across different hours at the CDLRC.
 
+## Analytical Task Sets and Expected Answers
 
 ## Analytical Task Sets and Expected Answers
 
 To assess user performance while avoiding memorization effects, the evaluation includes two core analytical tasks split into two comparable variant sets ($Set\ A$ and $Set\ B$):
 
-| Analytical Task | Task Variant | Question | Expected Answer |
-| :--- | :--- | :--- | :--- |
-| **Task 1: Derive Quantitative Difference** | **Variant 1A (Q1)** | At **9 AM**, what is the approximate difference in availability rate between the most reliable location and the least reliable location? | Approximately **16%** (≈ 0.16) |
-|  | **Variant 1B (Q2)** | At **3 PM**, what is the approximate difference in availability rate between the most reliable location and the least reliable location? | Approximately **44%** (≈ 0.44) |
-| **Task 2: Compare Temporal Changes** | **Variant 2A (Q3)** | Between **9 AM and 1 PM**, which location changes more in terms of availability and variability combined: **1st Floor Lobby Area** or **2nd Floor CS Study Lounge Quiet**? | **2nd Floor CS Study Lounge Quiet** |
-|  | **Variant 2B (Q4)** | Between **11 AM and 5 PM**, which location changes more in terms of availability and variability combined: **1st Floor Sandella Cafe** or **4th Floor Study Lounge**? | **1st Floor Sandella Cafe** |
+| Analytical Task | Task Variant | Question | Expected Answer | Scoring & Tolerance |
+| :--- | :--- | :--- | :--- | :--- |
+| **Task 1: Derive Quantitative Difference** | **Variant 1A (Q1)** | At **9 AM**, what is the approximate difference in availability rate between the most reliable location and the least reliable location? | Approximately **16%** (≈ 0.16) | Correct (1) if within 11%–21% ($\pm 5\%$) |
+| | **Variant 1B (Q2)** | At **3 PM**, what is the approximate difference in availability rate between the most reliable location and the least reliable location? | Approximately **44%** (≈ 0.44) | Correct (1) if within 39%–49% ($\pm 5\%$) |
+| **Task 2: Compare Temporal Changes** | **Variant 2A (Q3)** | Between **9 AM and 1 PM**, which location changes more in terms of availability and variability combined: **1st Floor Lobby Area** or **2nd Floor CS Study Lounge Quiet**? | **2nd Floor CS Study Lounge Quiet** | Binary ($1 = \text{Correct}, 0 = \text{Incorrect}$) |
+| | **Variant 2B (Q4)** | Between **11 AM and 5 PM**, which location changes more in terms of availability and variability combined: **1st Floor Sandella Cafe** or **4th Floor Study Lounge**? | **1st Floor Sandella Cafe** | Binary ($1 = \text{Correct}, 0 = \text{Incorrect}$) |
 
 ### Counterbalancing
 
@@ -49,13 +51,13 @@ This counterbalancing approach ensures that:
 ## Experimental Variables & Measurements
 
 * **Handling Invalid & Timed-Out Tasks: **
-    * **Time-Out Cap:** A maximum time limit of 3 minutes per task set is enforced. If a participant exceed 3 minutes, the task set is marked as "timed out", completion time is capped at 6 minutes, and accuracy is scored as 0.
+    * **Time-Out Cap:** A maximum time limit of 3 minutes (180 seconds) per task set is enforced (for a total maximum testing time of 6 minutes across both conditions). If a participant exceeds 3 minutes on a single task set, that set is marked as timed out, its time is logged as 180 seconds, and accuracy for those tasks is scored as 0.
     * **Incorrect Responses:** Numerical responses outside the defined range arescored as 0 (incorrect), but their recorded completion time will remain to keep individual-level measurements saved for Task 4.
 
 * **Independent Variable:** Visualization condition with two levels:
   1. **Static:** A static image showing six reliability visualizations for different times of day simultaneously.
   2. **Interactive:** A single reliability visualization that displays one time period at a time, with a dropdown filter and hover tooltips.
-  
+
 * **Quantitative Measurements:**
   1. **Task Accuracy:** Measured by comparing the participant's answer to the correct answer for each task. Responses will be scored as either correct (1) or incorrect (0).
   2. **Task Completion Time (seconds):** Measured using a stopwatch from the moment the moderator finishes reading the question until the participant provides their final answer for that task.
@@ -126,6 +128,9 @@ For each task set, the following information will be recorded:
 Task completion times will be recorded manually by the moderator using a stopwatch. All participant responses entered through the Google Form will automatically populate a Google Sheets spreadsheet. After data collection is complete, the spreadsheet will be exported as a CSV file for analysis. Accuracy scores will be determined by comparing participant responses to the expected answers defined in the evaluation design.
 
 # Task 3: Conducting the evaluation
+
+### Pilot Evaluation Summary
+TO BE ADDED
 
 ### Participant Counterbalancing Matrix
 
