@@ -11,16 +11,16 @@ We chose to create an interactive version of visualization 2 because it benefits
 * **Hypothesis:** Participants using the interactive visualization will complete reliability analysis faster and with similar or greater accuracy than participants using the static visualization.
 
 
-## Analytical Task Sets
+## Analytical Task Sets and Expected Answers
 
 To assess user performance while avoiding memorization effects, the evaluation includes two core analytical tasks split into two comparable variant sets ($Set\ A$ and $Set\ B$):
 
-| Analytical Task | Task Variant | Questions |
-| :--- | :--- | :--- |
-| **Task 1: Derive Quantitative Difference** | **Variant 1A ($Q1$)** | At **9 AM**, what is the approximate difference in availability rate between the most reliable location and the least reliable location? |
-| | **Variant 1B ($Q2$)** | At **3 PM**, what is the approximate difference in availability rate between the most reliable location and the least reliable location? |
-| **Task 2: Compare Temporal Changes** | **Variant 2A ($Q3$)** | Between **9 AM and 1 PM**, which location changes more in terms of availability and variability combined: **1st Floor Lobby Area or 2nd Floor CS Study Lounge Quiet**? |
-| | **Variant 2B ($Q4$)** | Between **11 AM and 5 PM**, which location changes more in terms of availability and variability combined: **1st Floor Sandella Cafe or 4th Floor Study Lounge**? |
+| Analytical Task | Task Variant | Question | Expected Answer |
+| :--- | :--- | :--- | :--- |
+| **Task 1: Derive Quantitative Difference** | **Variant 1A (Q1)** | At **9 AM**, what is the approximate difference in availability rate between the most reliable location and the least reliable location? | Approximately **16%** (≈ 0.16) |
+|  | **Variant 1B (Q2)** | At **3 PM**, what is the approximate difference in availability rate between the most reliable location and the least reliable location? | Approximately **44%** (≈ 0.44) |
+| **Task 2: Compare Temporal Changes** | **Variant 2A (Q3)** | Between **9 AM and 1 PM**, which location changes more in terms of availability and variability combined: **1st Floor Lobby Area** or **2nd Floor CS Study Lounge Quiet**? | **2nd Floor CS Study Lounge Quiet** |
+|  | **Variant 2B (Q4)** | Between **11 AM and 5 PM**, which location changes more in terms of availability and variability combined: **1st Floor Sandella Cafe** or **4th Floor Study Lounge**? | **1st Floor Sandella Cafe** |
 
 * **Task Set A:** Questions $Q1$ & $Q3$
 * **Task Set B:** Questions $Q2$ & $Q4$
