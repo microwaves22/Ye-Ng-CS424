@@ -10,6 +10,7 @@ We chose to create an interactive version of visualization 2 because it benefits
 * **Evaluation Question:** Does temporal filtering improve users' ability to analyze seat availability reliability patterns across different time periods?
 * **Hypothesis:** Participants using the interactive visualization will complete temporal analysis tasks faster and with similar or greater accuracy than participants using the static visualization because temporal filtering allows users to focus on one period at a time.
 
+
 ## Analytical Task Sets
 
 To assess user performance while avoiding memorization effects, the evaluation includes two core analytical tasks split into two comparable variant sets ($Set\ A$ and $Set\ B$):
@@ -25,8 +26,27 @@ To assess user performance while avoiding memorization effects, the evaluation i
 * **Task Set B:** Questions $Q2$ & $Q4$
 
 
+## Experimental Variables & Measurements
+
+* **Independent Variable:** Visualization condition with two levels:
+  1. **Static:** Full-screen static image viewer displaying pre-rendered CDLRC seat availability charts.
+  2. **Interactive:** Full-screen web application running locally (via VS Code preview) with a dropdown menu allowing users to filter seat availability by time period.
+* **Quantitative Measurements:**
+  1. **Task Completion Time (seconds):** Measured manually using a stopwatch from the moment the moderator finishes reading the question prompt until the participant provides their final answer.
+  2. **Task Accuracy (binary/proportional):** Binary score ($1 = \text{Correct}$, $0 = \text{Incorrect}$) evaluated against ground-truth dataset values.
+* **Qualitative Measurements:** Noted during the session (e.g., misinterpreting visual encodings, UI navigation friction).
 
 
+## Experimental Procedure & Participant Script
+
+### Phase 1: Pre-Study Briefing & Setup
+1. We will prepare our laptop with the full-screen static image being viewed and the VS Code instance ready for the interactive visualization.
+2. We will have a Google Form to record time and accuracy entries. The participant will answer the Google Form on their laptop to a
+3. We will also be manually recording time through our phone stopwatch.
+3. **Participant Script:**
+   > *"Hi! Thank you for participating in our CS 424 visualization evaluation study today. We are looking at seat availability reliability patterns across different study spots in the UIC CDLRC.*
+   >
+   > *You will answer two analytical questions using a static visualization and two questions using an interactive visualization with a time dropdown menu. I will be timing each task with a stopwatch. There are no right or wrong answers regarding your speed—we are testing the visualization design, not you. Do you have any questions before we begin?"*
 
 # Task 3: Conducting the evaluation
 Michelle will be conducting the evaluations and reaching out to people: 
