@@ -68,19 +68,19 @@ This counterbalancing approach ensures that:
 
 **Participant Script**
 
-"Hi! Thank you for participating in our CS 424 visualization evaluation study. This study examines how different visualization designs support the analysis of seat availability reliability patterns across study spaces in the UIC CDLRC.
-
-You will answer four questions in total: two using a static visualization and two using an interactive visualization. Depending on your assigned group, you may use either the static or interactive visualization first.
-
-The questions will be provided through a Google Form. Please enter your answers directly into the form.
-
-For each visualization condition, you will be given two questions. After I finish reading both questions, I will start a timer. Please answer both questions as accurately and quickly as possible. The timer will stop once you have completed both questions.
-
-After completing the two questions, you will be asked to complete a brief survey. These responses will not be included in the recorded task completion time.
-
-This study is evaluating the visualizations, not your performance. You may ask questions about the study procedure before we begin; however, once the tasks start, I will not provide hints, answer clarifying questions about the tasks, or assist in finding the answers.
-
-Do you have any questions before we begin?"
+> Hi! Thank you for participating in our CS 424 visualization evaluation study. This study examines how different visualization designs support the analysis of seat availability reliability patterns across study spaces in the UIC CDLRC.
+>
+> You will answer four questions in total: two using a static visualization and two using an interactive visualization. Depending on your assigned group, you may use either the static or interactive visualization first.
+>
+> The questions will be provided through a Google Form. Please enter your answers directly into the form.
+>
+> For each visualization condition, you will be given two questions. After I finish reading both questions, I will start a timer. Please answer both questions as accurately and quickly as possible. The timer will stop once you have completed both questions.
+>
+> After completing the two questions, you will be asked to complete a brief survey. These responses will not be included in the recorded task completion time.
+>
+> This study is evaluating the visualizations, not your performance. You may ask questions about the study procedure before we begin; however, once the tasks start, I will not provide hints, answer clarifying questions about the tasks, or assist in finding the answers.
+>
+> Do you have any questions before we begin?
 
 ### Phase 2: Task Administration
 
@@ -98,6 +98,25 @@ Do you have any questions before we begin?"
 9. Present the second visualization condition.
 10. Repeat Steps 2-8 for the remaining task set.
 11. Thank the participant for their participation.
+
+#### Task Completion Time
+
+Task completion time will be measured once per task set. Timing begins after the moderator finishes reading both questions in the task set and ends after the participant has completed both questions. Confidence ratings, difficulty ratings, and qualitative explanations are collected afterward and are not included in the recorded task completion time.
+
+### Recording Results NOTE: Might modify the wording later but same idea
+
+Participant responses will be collected through a Google Form. Each participant will be assigned a unique participant ID to organize and track responses throughout the study.
+
+For each task set, the following information will be recorded:
+
+* Task completion time (seconds)
+* Answers to both task questions
+* Task accuracy (correct/incorrect)
+* Confidence rating (1-10)
+* Difficulty rating (1-10)
+* Open-ended explanation of how the participant arrived at their answers
+
+Task completion times will be recorded manually by the moderator using a stopwatch. All participant responses entered through the Google Form will automatically populate a Google Sheets spreadsheet. After data collection is complete, the spreadsheet will be exported as a CSV file for analysis. Accuracy scores will be determined by comparing participant responses to the expected answers defined in the evaluation design.
 
 # Task 3: Conducting the evaluation
 Michelle will be conducting the evaluations and reaching out to people: 
