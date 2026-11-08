@@ -22,9 +22,27 @@ To assess user performance while avoiding memorization effects, the evaluation i
 | **Task 2: Compare Temporal Changes** | **Variant 2A (Q3)** | Between **9 AM and 1 PM**, which location changes more in terms of availability and variability combined: **1st Floor Lobby Area** or **2nd Floor CS Study Lounge Quiet**? | **2nd Floor CS Study Lounge Quiet** |
 |  | **Variant 2B (Q4)** | Between **11 AM and 5 PM**, which location changes more in terms of availability and variability combined: **1st Floor Sandella Cafe** or **4th Floor Study Lounge**? | **1st Floor Sandella Cafe** |
 
-* **Task Set A:** Questions $Q1$ & $Q3$
-* **Task Set B:** Questions $Q2$ & $Q4$
+### Counterbalancing
 
+To reduce learning effects and ensure that task difficulty is not associated with a specific visualization condition, the four task variants are divided into two task sets:
+
+* **Task Set A:** Q1 and Q3
+* **Task Set B:** Q2 and Q4
+
+Participants will complete one task set using the static visualization and the other task set using the interactive visualization. Participants will be assigned to one of four groups:
+
+| Group | First Condition | First Task Set | Second Condition | Second Task Set |
+| :--- | :--- | :--- | :--- | :--- |
+| Group 1 | Static | Set A (Q1, Q3) | Interactive | Set B (Q2, Q4) |
+| Group 2 | Interactive | Set A (Q1, Q3) | Static | Set B (Q2, Q4) |
+| Group 3 | Static | Set B (Q2, Q4) | Interactive | Set A (Q1, Q3) |
+| Group 4 | Interactive | Set B (Q2, Q4) | Static | Set A (Q1, Q3) |
+
+This counterbalancing approach ensures that:
+1. Half of the participants use the static visualization first, while the other half use the interactive visualization first.
+2. Both task sets are completed under the static and interactive conditions an equal number of times.
+3. No task variant is consistently associated with a particular visualization condition.
+4. Potential learning and order effects are reduced.
 
 ## Experimental Variables & Measurements
 
@@ -35,9 +53,9 @@ To assess user performance while avoiding memorization effects, the evaluation i
   1. **Task Accuracy:** Measured by comparing the participant's answer to the correct answer for each task. Responses will be scored as either correct (1) or incorrect (0).
   2. **Task Completion Time (seconds):** Measured using a stopwatch from the moment the moderator finishes reading the question until the participant provides their final answer for that task.
   3. **Confidence Rating (1-10):** After completing each task, participants will rate how confident they are in their answer on a scale from 1 (not confident at all) to 10 (extremely confident).
-  4 **Perceived Difficulty:** After completing each task, participants will rate how difficult they found the task on a scale from 1 (very easy) to 10 (very difficult).
+  4. **Perceived Difficulty:** After completing each task, participants will rate how difficult they found the task on a scale from 1 (very easy) to 10 (very difficult).
 * **Qualitative Measurements:**
-  1. **Task Strategy and Explanation:** After each task, participants will explain how they determined their answer and describe their approach to solving the task.
+  1. **Task Strategy and Explanation:** After each task, participants will briefly explain how they determined their answer and describe their approach to solving the task.
 
 ## Experimental Procedure & Participant Script
 
