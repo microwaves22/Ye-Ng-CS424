@@ -7,20 +7,20 @@ We chose to create an interactive version of visualization 2 because it benefits
 # Task 2: Evaluation design
 
 ## Evaluation Question & Hypothesis
-* **Evaluation Question:** Does temporal filtering improve users' ability to analyze seat availability reliability patterns across different time periods?
-* **Hypothesis:** Participants using the interactive visualization will complete temporal analysis tasks faster and with similar or greater accuracy than participants using the static visualization because temporal filtering allows users to focus on one period at a time.
+* **Evaluation Question:** Does temporal filtering improve users' ability to analyze and compare seat availability reliability patterns across multiple times of day?
+* **Hypothesis:** Participants using the interactive visualization will complete reliability analysis faster and with similar or greater accuracy than participants using the static visualization.
 
 
 ## Analytical Task Sets
 
 To assess user performance while avoiding memorization effects, the evaluation includes two core analytical tasks split into two comparable variant sets ($Set\ A$ and $Set\ B$):
 
-| Analytical Task | Task Variant | Prompts & Questions |
+| Analytical Task | Task Variant | Questions |
 | :--- | :--- | :--- |
-| **Task 1: Derive Quantitative Difference** | **Variant 1A ($Q1$)** | What is the approximate difference in availability rate between the most reliable location and the least reliable location during the **Morning** period? |
-| | **Variant 1B ($Q2$)** | What is the approximate difference in availability rate between the most reliable location and the least reliable location during the **Afternoon** period? |
-| **Task 2: Compare Temporal Changes** | **Variant 2A ($Q3$)** | Which location shows the **largest** change in reliability between Morning and Afternoon? |
-| | **Variant 2B ($Q4$)** | Which location shows the **smallest** change in reliability between Morning and Afternoon? |
+| **Task 1: Derive Quantitative Difference** | **Variant 1A ($Q1$)** | At **9 AM**, what is the approximate difference in availability rate between the most reliable location and the least reliable location? |
+| | **Variant 1B ($Q2$)** | At **3 PM**, what is the approximate difference in availability rate between the most reliable location and the least reliable location? |
+| **Task 2: Compare Temporal Changes** | **Variant 2A ($Q3$)** | Between **9 AM and 1 PM**, which location changes more in terms of availability and variability combined: **1st Floor Lobby Area or 2nd Floor CS Study Lounge Quiet**? |
+| | **Variant 2B ($Q4$)** | Between **11 AM and 5 PM**, which location changes more in terms of availability and variability combined: **1st Floor Sandella Cafe or 4th Floor Study Lounge**? |
 
 * **Task Set A:** Questions $Q1$ & $Q3$
 * **Task Set B:** Questions $Q2$ & $Q4$
