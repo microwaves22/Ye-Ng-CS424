@@ -6,17 +6,25 @@ We chose to create an interactive version of visualization 2 because it benefits
 
 # Task 2: Evaluation design
 
-## Evaluation Question
-Does temporal filtering improve users' ability to analyze seat availability reliability patterns across different time periods?
+## Evaluation Question & Hypothesis
+* **Evaluation Question:** Does temporal filtering improve users' ability to analyze seat availability reliability patterns across different time periods?
+* **Hypothesis:** Participants using the interactive visualization will complete temporal analysis tasks faster and with similar or greater accuracy than participants using the static visualization because temporal filtering allows users to focus on one period at a time.
 
-## Hypothesis
-Participants using the interactive visualization will complete temporal analysis tasks faster and with similar or greater accuracy than participants using the static visualization because temporal filtering allows users to focus on one period at a time.
+## Analytical Task Sets
 
-## Visualization Tasks
-| Analytical Task | Static Condition | Interactive Condition |
-|----------------|----------------------------------------|--------------------------------------------|
-| Derive a quantitative difference | What is the approximate difference in availability rate between the most reliable location and the least reliable location during the Morning period? | What is the approximate difference in availability rate between the most reliable location and the least reliable location during the Afternoon period? |
-| Compare temporal changes | Which location shows the largest change in reliability between Morning and Afternoon? | Which location shows the smallest change in reliability between Morning and Afternoon? |
+To assess user performance while avoiding memorization effects, the evaluation includes two core analytical tasks split into two comparable variant sets ($Set\ A$ and $Set\ B$):
+
+| Analytical Task | Task Variant | Prompts & Questions |
+| :--- | :--- | :--- |
+| **Task 1: Derive Quantitative Difference** | **Variant 1A ($Q1$)** | What is the approximate difference in availability rate between the most reliable location and the least reliable location during the **Morning** period? |
+| | **Variant 1B ($Q2$)** | What is the approximate difference in availability rate between the most reliable location and the least reliable location during the **Afternoon** period? |
+| **Task 2: Compare Temporal Changes** | **Variant 2A ($Q3$)** | Which location shows the **largest** change in reliability between Morning and Afternoon? |
+| | **Variant 2B ($Q4$)** | Which location shows the **smallest** change in reliability between Morning and Afternoon? |
+
+* **Task Set A:** Questions $Q1$ & $Q3$
+* **Task Set B:** Questions $Q2$ & $Q4$
+
+
 
 
 
