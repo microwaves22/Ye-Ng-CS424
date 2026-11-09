@@ -36,19 +36,16 @@
 Participants:
 
 
-- ID: 90 Diya Patel: CE (PILOT)-(MONDAY) GROUP 1
 - ID: 01 Daniel Edu De La Rosa: CE (MONDAY) GROUP 1
-- ID: 02 Pawarut: CE (MONDAY) GROUP 1
 - ID: 07 Aye Zin Kyawt: CS (MONDAY) GROUP 3
-- ID: 04 Anna Choi: CS (TODAY) GROUP 2
+- ID: 04 Anna Choi: CS (TUE) GROUP 2
 - ID: 08 Philip Tran: ME GROUP 3
-- ID: 10 Maryam Alsalibi: CS (MONDAY) GROUP 4
 
 
 - ID: 03 Yingkou Xiong: Biology GROUP 1
 - ID: 05 Victoria Shin: Pre-Nursing GROUP 2
 - ID: 09 Yejoon Lee: Kines GROUP 3
-- ID: 91 Jina Kim: Business (PILOT)-(MONDAY) GROUP 2
 - ID: 06 Kayan Doan: Nutrition GROUP 2
 - ID: 11 Hansika: Business GROUP 4
-- ID: 12 Sumedha Sethi: Public Health (TUE/WED) GROUP 4
+- ID: 12 Sumedha Sethi: Public Health (WED) GROUP 4
+- ID: 13 Nathan: GROUP 4 (replace Hansika)
