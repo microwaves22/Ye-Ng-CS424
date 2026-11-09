@@ -153,6 +153,8 @@ NOTE ID 02 DONE!
 | **ID 06** | Kinesiology | Non-Eng | **Interactive** | Set A (**Q1, Q3**) | **Static** | Set B (**Q2, Q4**) | **Group 2** |
 | | | | | | | | |
 | **ID 07** | Computer Sci. (CS) | STEM/Eng | **Static** | Set B (**Q2, Q4**) | **Interactive** | Set A (**Q1, Q3**) | **Group 3** |
+NOTE ID 07 DONE!
+
 | **ID 08** | Mechanical Eng. (ME) | STEM/Eng | **Static** | Set B (**Q2, Q4**) | **Interactive** | Set A (**Q1, Q3**) | **Group 3** |
 | **ID 09** | Nutrition | Non-Eng | **Static** | Set B (**Q2, Q4**) | **Interactive** | Set A (**Q1, Q3**) | **Group 3** |
 | | | | | | | | |

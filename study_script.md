@@ -39,11 +39,11 @@ Participants:
 - ID: 01 Daniel Edu De La Rosa: CE (MONDAY) GROUP 1
 - ID: 07 Aye Zin Kyawt: CS (MONDAY) GROUP 3
 - ID: 04 Anna Choi: CS (TUE) GROUP 2
-- ID: 08 Philip Tran: ME GROUP 3
+- ID: 08 Philip Tran: ME (WED) GROUP 3
 
 
 - ID: 03 Yingkou Xiong: Biology GROUP 1
-- ID: 05 Victoria Shin: Pre-Nursing GROUP 2
+- ID: 05 Victoria Shin: (WED) Pre-Nursing GROUP 2
 - ID: 09 Yejoon Lee: Kines GROUP 3
 - ID: 06 Kayan Doan: Nutrition GROUP 2
 - ID: 11 Hansika: Business GROUP 4
