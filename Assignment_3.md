@@ -126,7 +126,11 @@ For each task set, the following information will be recorded:
 Task completion times will be recorded manually by the moderator using a stopwatch. All participant responses entered through the Google Form will automatically populate a Google Sheets spreadsheet. After data collection is complete, the spreadsheet will be exported as a CSV file for analysis. Accuracy scores will be determined by comparing participant responses to the expected answers defined in the evaluation design.
 
 # Task 3: Conducting the evaluation
-Click [here] (https://forms.gle/wDCzJXdsViHJZAYaA) to access the Google Form for the study.
+Click [here] (https://forms.gle/xLU8eAzZ1AfFh8HZ6) to access the Google Form for the study group 1.
+Click [here] (https://forms.gle/kZneG6HJMAcukAAm7) to access the Google Form for the study group 2.
+Click [here] (https://forms.gle/owgsHrmeq6puK73v9) to access the Google Form for the study group 3.
+Click [here] (https://forms.gle/1Ko2Qe4qF2Z9o1fu7) to access the Google Form for the study group 4.
+
 
 ### Pilot Evaluation Summary
 TO BE ADDED
