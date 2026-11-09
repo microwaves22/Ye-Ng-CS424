@@ -134,6 +134,7 @@ Click [here] (https://forms.gle/1Ko2Qe4qF2Z9o1fu7) to access the Google Form for
 
 ### Pilot Evaluation Summary
 TO BE ADDED
+91: we didn't explain reliability, forgot to explain how the visualization works. didn't account for question udnerstanding (in question 2). didn't have participant fill out form first with info. google form did not have questions so split screen google doc, now we have four separate google forms. 
 
 ### Participant Counterbalancing Matrix
 
