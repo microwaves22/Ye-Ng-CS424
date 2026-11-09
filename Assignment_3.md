@@ -145,6 +145,7 @@ TO BE ADDED
 | | | | | | | | |
 | **ID 01** | Computer Eng. (CE) | STEM/Eng | **Static** | Set A (**Q1, Q3**) | **Interactive** | Set B (**Q2, Q4**) | **Group 1** |
 | **ID 02** | Computer Eng. (CE) | STEM/Eng | **Static** | Set A (**Q1, Q3**) | **Interactive** | Set B (**Q2, Q4**) | **Group 1** |
+NOTE ID 02 DONE!
 | **ID 03** | Biology | Non-Eng | **Static** | Set A (**Q1, Q3**) | **Interactive** | Set B (**Q2, Q4**) | **Group 1** |
 | | | | | | | | |
 | **ID 04** | Computer Sci. (CS) | STEM/Eng | **Interactive** | Set A (**Q1, Q3**) | **Static** | Set B (**Q2, Q4**) | **Group 2** |
