@@ -162,6 +162,7 @@ NOTE ID 07 DONE!
 | **ID 10** | Computer Sci. (CS) | STEM/Eng | **Interactive** | Set B (**Q2, Q4**) | **Static** | Set A (**Q1, Q3**) | **Group 4** |
 NOTE ID 10 DONE!
 | **ID 11** | Business | Non-Eng | **Interactive** | Set B (**Q2, Q4**) | **Static** | Set A (**Q1, Q3**) | **Group 4** |
+NOTE ID 11 DONE1 change stem/end to just non-eng
 | **ID 12** | Public Health | Non-Eng | **Interactive** | Set B (**Q2, Q4**) | **Static** | Set A (**Q1, Q3**) | **Group 4** |
 
 ---

@@ -46,6 +46,6 @@ Participants:
 - ID: 05 Victoria Shin: (WED) Pre-Nursing GROUP 2
 - ID: 09 Yejoon Lee: Kines GROUP 3
 - ID: 06 Kayan Doan: Nutrition GROUP 2
-- ID: 11 Hansika: Business GROUP 4
+- ID: 11 Nermina: BioChem GROUP 4
 - ID: 12 Sumedha Sethi: Public Health (WED) GROUP 4
 - ID: 13 Nathan: GROUP 4 (replace Hansika)
