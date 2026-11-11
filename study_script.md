@@ -36,13 +36,11 @@
 Participants:
 
 
-- ID: 04 Anna Choi: CS (TUE) GROUP 2
+- ID: 04 Angel Hurtadl : CE GROUP 2
 - ID: 08 Philip Tran: ME (WED) GROUP 3
 
-
-- ID: 03 Yingkou Xiong: Biology GROUP 1
-- ID: 05 Victoria Shin: (WED) Pre-Nursing GROUP 2
-- ID: 09 Yejoon Lee: Kines GROUP 3
-- ID: 06 Kayan Doan: Nutrition GROUP 2
+Non engineering
+- ID: 05 idk: idk GROUP 2
+- ID: 09 idk: idk GROUP 3
 
 - ID: 12 Sumedha Sethi: Public Health (WED) GROUP 4 

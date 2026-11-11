@@ -134,7 +134,8 @@ Click [here] (https://forms.gle/1Ko2Qe4qF2Z9o1fu7) to access the Google Form for
 
 ### Pilot Evaluation Summary
 TO BE ADDED
-91: we didn't explain reliability, forgot to explain how the visualization works. didn't account for question udnerstanding (in question 2). didn't have participant fill out form first with info. google form did not have questions so split screen google doc, now we have four separate google forms. 
+91: we didn't explain reliability, forgot to explain how the visualization works. didn't account for question udnerstanding (in question 2). didn't have participant fill out form first with info. google form did not have questions so split screen google doc, now we have four separate google forms.
+90: struggled to understand the question and struggled to understand what to do with the graphs (will now explain and also explain the quadrants) 
 
 ### Participant Counterbalancing Matrix
 
@@ -151,6 +152,7 @@ NOTE ID 02 DONE!
 NOTE ID 03 DONE!
 | | | | | | | | |
 | **ID 04** | Computer Sci. (CS) | STEM/Eng | **Interactive** | Set A (**Q1, Q3**) | **Static** | Set B (**Q2, Q4**) | **Group 2** |
+NOTE ID 04 DONE!
 | **ID 05** | Pre-Nursing | Non-Eng | **Interactive** | Set A (**Q1, Q3**) | **Static** | Set B (**Q2, Q4**) | **Group 2** |
 | **ID 06** | Kinesiology | Non-Eng | **Interactive** | Set A (**Q1, Q3**) | **Static** | Set B (**Q2, Q4**) | **Group 2** |
 | | | | | | | | |
@@ -159,6 +161,7 @@ NOTE ID 07 DONE!
 
 | **ID 08** | Mechanical Eng. (ME) | STEM/Eng | **Static** | Set B (**Q2, Q4**) | **Interactive** | Set A (**Q1, Q3**) | **Group 3** |
 | **ID 09** | Nutrition | Non-Eng | **Static** | Set B (**Q2, Q4**) | **Interactive** | Set A (**Q1, Q3**) | **Group 3** |
+NOTE: ID 09 DONE
 | | | | | | | | |
 | **ID 10** | Computer Sci. (CS) | STEM/Eng | **Interactive** | Set B (**Q2, Q4**) | **Static** | Set A (**Q1, Q3**) | **Group 4** |
 NOTE ID 10 DONE!
