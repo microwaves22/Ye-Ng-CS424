@@ -36,8 +36,6 @@
 Participants:
 
 
-- ID: 01 Daniel Edu De La Rosa: CE (MONDAY) GROUP 1
-- ID: 07 Aye Zin Kyawt: CS (MONDAY) GROUP 3
 - ID: 04 Anna Choi: CS (TUE) GROUP 2
 - ID: 08 Philip Tran: ME (WED) GROUP 3
 
@@ -46,6 +44,5 @@ Participants:
 - ID: 05 Victoria Shin: (WED) Pre-Nursing GROUP 2
 - ID: 09 Yejoon Lee: Kines GROUP 3
 - ID: 06 Kayan Doan: Nutrition GROUP 2
-- ID: 11 Nermina: BioChem GROUP 4
-- ID: 12 Sumedha Sethi: Public Health (WED) GROUP 4
-- ID: 13 Nathan: GROUP 4 (replace Hansika)
+
+- ID: 12 Sumedha Sethi: Public Health (WED) GROUP 4 
