@@ -37,10 +37,10 @@ Participants:
 
 
 - ID: 04 Angel Hurtadl : CE GROUP 2
-- ID: 08 Philip Tran: ME (WED) GROUP 3
+- ID: 08 ben pelech: ME GROUP 3
 
 Non engineering
-- ID: 05 idk: idk GROUP 2
+- ID: harry alvarado math 05 idk: idk GROUP 2
 - ID: 09 idk: idk GROUP 3
 
 - ID: 12 Sumedha Sethi: Public Health (WED) GROUP 4 
