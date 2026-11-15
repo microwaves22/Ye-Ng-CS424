@@ -110,7 +110,7 @@ This counterbalancing approach ensures that:
 
 Task completion time will be measured once per task set. Timing begins after the moderator finishes reading both questions in the task set and ends after the participant has completed both questions. Confidence ratings, difficulty ratings, and qualitative explanations are collected afterward and are not included in the recorded task completion time.
 
-### Recording Results NOTE: Might modify the wording later but same idea
+### Phase 3: Recording Results
 
 Participant responses will be collected through a Google Form. Each participant will be assigned a unique participant ID to organize and track responses throughout the study.
 
@@ -118,12 +118,11 @@ For each task set, the following information will be recorded:
 
 * Task completion time (seconds)
 * Answers to both task questions
-* Task accuracy (correct/incorrect)
 * Confidence rating (1-10)
 * Difficulty rating (1-10)
 * Open-ended explanation of how the participant arrived at their answers
 
-Task completion times will be recorded manually by the moderator using a stopwatch. All participant responses entered through the Google Form will automatically populate a Google Sheets spreadsheet. After data collection is complete, the spreadsheet will be exported as a CSV file for analysis. Accuracy scores will be determined by comparing participant responses to the expected answers defined in the evaluation design.
+Task completion times will be recorded manually by the moderator using a stopwatch. All participant responses entered through the Google Form will automatically populate a Google Sheets spreadsheet. After data collection is complete, the spreadsheet will be exported as a CSV file for analysis. Accuracy scores will be determined in Task 3 after all evaluation is compeleted by comparing participant responses to the expected answers defined in the evaluation design.
 
 # Task 3: Conducting the evaluation
 Click [here] (https://forms.gle/xLU8eAzZ1AfFh8HZ6) to access the Google Form for the study group 1.
