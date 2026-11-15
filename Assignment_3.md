@@ -135,8 +135,10 @@ Task completion times will be recorded manually by the moderator using a stopwat
 * Click [here](https://forms.gle/1Ko2Qe4qF2Z9o1fu7) to access the Google Form for the study group 4.
 
 ### Pilot Evaluation Summary
-TO BE ADDED
-91: we didn't explain reliability, forgot to explain how the visualization works. didn't account for question udnerstanding (in question 2). didn't have participant fill out form first with info. google form did not have questions so split screen google doc, now we have four separate google forms. 
+We conducted a pilot evaluation with two participants (IDs 90 and 91) and made the following refinements based on their feedback:
+* Some participants were unfamiliar with the concept of reliability as represented in the visualization. To address this, we added a brief note explaining the reliability regions, where the top-left quadrant represents lower reliability and the bottom-right quadrant represents higher reliability.
+* Some participants were unsure how to interact with the interactive visualization. We added a short note explaining the available interactions, including the dropdown filter for changing time periods and the hover functionality for viewing additional details. The purpose of this note was not to guide participants toward specific answers, but to make the available interactions explicit. During the pilot study, some participants were unfamiliar with interactive visualizations and did not realize these features were available, which could have introduced an unintended source of error unrelated to the visualization itself.
+* We originally planned to use a single Google Form for all evaluation groups. During the pilot study, we found that this approach required the moderator to manually determine the correct task order and question set for each participant based on their assigned counterbalancing group, which made the evaluation process unnecessarily complex. To streamline administration and reduce the likelihood of procedural errors, we instead created four separate forms, one for each counterbalancing group, with the correct task order and question variants already configured.
 
 ### Participant Counterbalancing Matrix
 
