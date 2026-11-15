@@ -128,49 +128,17 @@ Task completion times will be recorded manually by the moderator using a stopwat
 
 # Task 3: Conducting the evaluation
 
-### Google Forms
-* Click [here](https://forms.gle/xLU8eAzZ1AfFh8HZ6) to access the Google Form for the study group 1.
-* Click [here](https://forms.gle/kZneG6HJMAcukAAm7) to access the Google Form for the study group 2.
-* Click [here](https://forms.gle/owgsHrmeq6puK73v9) to access the Google Form for the study group 3.
-* Click [here](https://forms.gle/1Ko2Qe4qF2Z9o1fu7) to access the Google Form for the study group 4.
+## Google Forms
+* Click [here](https://forms.gle/xLU8eAzZ1AfFh8HZ6) to access the Google Form for study group 1.
+* Click [here](https://forms.gle/kZneG6HJMAcukAAm7) to access the Google Form for study group 2.
+* Click [here](https://forms.gle/owgsHrmeq6puK73v9) to access the Google Form for study group 3.
+* Click [here](https://forms.gle/1Ko2Qe4qF2Z9o1fu7) to access the Google Form for study group 4.
 
-### Pilot Evaluation Summary
-We conducted a pilot evaluation with two participants (IDs 90 and 91) and made the following refinements based on their feedback:
+## Pilot Evaluation Summary
+We conducted a pilot evaluation with two participants and made the following refinements based on their feedback:
 * Some participants were unfamiliar with the concept of reliability as represented in the visualization. To address this, we added a brief note explaining the reliability regions, where the top-left quadrant represents lower reliability and the bottom-right quadrant represents higher reliability.
 * Some participants were unsure how to interact with the interactive visualization. We added a short note explaining the available interactions, including the dropdown filter for changing time periods and the hover functionality for viewing additional details. The purpose of this note was not to guide participants toward specific answers, but to make the available interactions explicit. During the pilot study, some participants were unfamiliar with interactive visualizations and did not realize these features were available, which could have introduced an unintended source of error unrelated to the visualization itself.
 * We originally planned to use a single Google Form for all evaluation groups. During the pilot study, we found that this approach required the moderator to manually determine the correct task order and question set for each participant based on their assigned counterbalancing group, which made the evaluation process unnecessarily complex. To streamline administration and reduce the likelihood of procedural errors, we instead created four separate forms, one for each counterbalancing group, with the correct task order and question variants already configured.
-
-### Participant Counterbalancing Matrix
-
-| Participant ID | Major | Background | 1st Condition | 1st Task Set | 2nd Condition | 2nd Task Set | Group Cell |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **ID 90 (Pilot)** | Computer Eng. (CE) | STEM/Eng | Static | Set A (**Q1, Q3**) | Interactive | Set B (**Q2, Q4**) | Group 1 |
-| **ID 91 (Pilot)** | Business | Non-Eng | Interactive | Set A (**Q1, Q3**) | Static | Set B (**Q2, Q4**) | Group 2 |
-| | | | | | | | |
-| **ID 01** | Computer Eng. (CE) | STEM/Eng | **Static** | Set A (**Q1, Q3**) | **Interactive** | Set B (**Q2, Q4**) | **Group 1** |
-NOTE ID 02 DONE!
-| **ID 02** | Computer Eng. (CE) | STEM/Eng | **Static** | Set A (**Q1, Q3**) | **Interactive** | Set B (**Q2, Q4**) | **Group 1** |
-NOTE ID 02 DONE!
-| **ID 03** | Biology | Non-Eng | **Static** | Set A (**Q1, Q3**) | **Interactive** | Set B (**Q2, Q4**) | **Group 1** |
-NOTE ID 03 DONE!
-| | | | | | | | |
-| **ID 04** | Computer Sci. (CS) | STEM/Eng | **Interactive** | Set A (**Q1, Q3**) | **Static** | Set B (**Q2, Q4**) | **Group 2** |
-| **ID 05** | Pre-Nursing | Non-Eng | **Interactive** | Set A (**Q1, Q3**) | **Static** | Set B (**Q2, Q4**) | **Group 2** |
-| **ID 06** | Kinesiology | Non-Eng | **Interactive** | Set A (**Q1, Q3**) | **Static** | Set B (**Q2, Q4**) | **Group 2** |
-| | | | | | | | |
-| **ID 07** | Computer Sci. (CS) | STEM/Eng | **Static** | Set B (**Q2, Q4**) | **Interactive** | Set A (**Q1, Q3**) | **Group 3** |
-NOTE ID 07 DONE!
-
-| **ID 08** | Mechanical Eng. (ME) | STEM/Eng | **Static** | Set B (**Q2, Q4**) | **Interactive** | Set A (**Q1, Q3**) | **Group 3** |
-| **ID 09** | Nutrition | Non-Eng | **Static** | Set B (**Q2, Q4**) | **Interactive** | Set A (**Q1, Q3**) | **Group 3** |
-| | | | | | | | |
-| **ID 10** | Computer Sci. (CS) | STEM/Eng | **Interactive** | Set B (**Q2, Q4**) | **Static** | Set A (**Q1, Q3**) | **Group 4** |
-NOTE ID 10 DONE!
-| **ID 11** | Business | Non-Eng | **Interactive** | Set B (**Q2, Q4**) | **Static** | Set A (**Q1, Q3**) | **Group 4** |
-NOTE ID 11 DONE1 change stem/end to just non-eng
-| **ID 12** | Public Health | Non-Eng | **Interactive** | Set B (**Q2, Q4**) | **Static** | Set A (**Q1, Q3**) | **Group 4** |
-
----
 
 ### Balance
 
