@@ -48,9 +48,9 @@ This counterbalancing approach ensures that:
 
 ## Experimental Variables & Measurements
 
-* **Handling Invalid & Timed-Out Tasks: **
-    * **Time-Out Cap:** A maximum time limit of 3 minutes (180 seconds) per task set is enforced (for a total maximum testing time of 6 minutes across both conditions). If a participant exceeds 3 minutes on a single task set, that set is marked as timed out, its time is logged as 180 seconds, and accuracy for those tasks is scored as 0.
-    * **Incorrect Responses:** Numerical responses outside the defined range arescored as 0 (incorrect), but their recorded completion time will remain to keep individual-level measurements saved for Task 4.
+* **Handling Invalid & Timed-Out Tasks:**
+    * **Time-Out Cap:** A target completion time of 3 minutes per task set was established. Participants who exceeded this duration were allowed to continue, and all completion times were recorded and preserved for analysis. No participant data were excluded because of longer completion times.
+    * **Incorrect Responses:** Numerical responses outside the defined range are scored as 0 (incorrect), but their recorded completion time will remain to keep individual-level measurements saved for Task 4.
 
 * **Independent Variable:** Visualization condition with two levels:
   1. **Static:** A static image showing six reliability visualizations for different times of day simultaneously.
