@@ -150,6 +150,25 @@ We conducted a pilot evaluation with two participants and made the following ref
 
 # Task 4: Quantitative analysis
 
+## Accuracy Statistical Summary
+| Metric | Static | Interactive |
+|----------|----------:|----------:|
+| Mean Accuracy | 70.8% | 50.0% |
+| Median Accuracy | 100.0% | 50.0% |
+| Accuracy Standard Deviation | 39.6% | 42.6% |
+
+## Completion Time Statistical Summary
+| Metric | Static | Interactive |
+|----------|----------:|----------:|
+| Mean Completion Time (s) | 112.3 | 159.1 |
+| Median Completion Time (s) | 107.5 | 134.0 |
+| Completion Time Standard Deviation (s) | 48.9 | 80.7 |
+
+## Self-Reported Measures
+| Metric | Static | Interactive |
+|----------|----------:|----------:|
+| Mean Confidence Rating | 6.5 | 5.9 |
+| Mean Difficulty Rating | 5.3 | 5.3 |
 
 # Task 5: Reflection and recommendations
 
