@@ -24,6 +24,8 @@ To assess user performance while avoiding memorization effects, the evaluation i
 | **Task 2: Compare Temporal Changes** | **Variant 2A (Q3)** | Between **9 AM and 1 PM**, which location changes more in terms of availability and variability combined: **1st Floor Lobby Area** or **2nd Floor CS Study Lounge Quiet**? | **2nd Floor CS Study Lounge Quiet** | Binary ($1 = \text{Correct}, 0 = \text{Incorrect}$) |
 | | **Variant 2B (Q4)** | Between **11 AM and 5 PM**, which location changes more in terms of availability and variability combined: **1st Floor Sandella Cafe** or **4th Floor Study Lounge**? | **1st Floor Sandella Cafe** | Binary ($1 = \text{Correct}, 0 = \text{Incorrect}$) |
 
+*Note: A tolerance range of ±5 percentage points was applied to quantitative responses because small differences in interpreting and estimating values from the visualizations were expected. This helps account for reasonable variation in responses while avoiding penalties for minor deviations that do not meaningfully affect task accuracy.*
+
 ### Counterbalancing
 
 To reduce learning effects and ensure that task difficulty is not associated with a specific visualization condition, the four task variants are divided into two task sets:
