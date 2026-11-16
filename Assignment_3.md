@@ -161,6 +161,7 @@ We conducted a pilot evaluation with two participants and made the following ref
 # Task 4: Quantitative analysis
 
 You can access the analysis visualizations [here](Notebooks/Quantitative_Vis_Analysis.ipynb)
+
 You can access the prepared evaluation results data [here](Data/evaluation_results_cleaned.csv)
 
 ## Descriptive Statistics
@@ -196,6 +197,15 @@ This visualization compares mean accuracy across the static and interactive visu
 ## Completion Time Analysis
 
 ![Completion Time by Visualization Condition](Visualizations_3/completion_time.png)
+
+| Statistic | Static | Interactive |
+|------------|----------:|----------:|
+| Minimum (s) | 62.0 | 71.0 |
+| Q1 (25th Percentile) | 77.5 | 93.3 |
+| Median (s) | 107.5 | 134.0 |
+| Q3 (75th Percentile) | 125.5 | 228.5 |
+| Maximum (s) | 245.0 | 290.0 |
+| Standard Deviation (s) | 48.9 | 80.7 |
 
 This visualization compares task completion times across the static and interactive visualization conditions. The median completion time was lower for the static condition (107.5 seconds) than for the interactive condition (134 seconds), suggesting that participants generally completed the tasks more quickly when using the static visualization.
 
