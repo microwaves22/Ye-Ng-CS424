@@ -150,7 +150,7 @@ We conducted a pilot evaluation with two participants and made the following ref
 * Both participants were unsure how to interact with the interactive visualization. We added a short note explaining the available interactions, including the dropdown filter for changing time periods and the hover functionality for viewing additional details. The purpose of this note was not to guide participants toward specific answers, but to make the available interactions explicit. During the pilot study, some participants were unfamiliar with interactive visualizations and did not realize these features were available, which could have introduced an unintended source of error unrelated to the visualization itself.
 * We originally planned to use a single Google Form for all evaluation groups. During the pilot study, we found that this approach required the moderator to manually determine the correct task order and question set for each participant based on their assigned counterbalancing group, which made the evaluation process unnecessarily complex. To streamline administration and reduce the likelihood of procedural errors, we instead created four separate forms, one for each counterbalancing group, with the correct task order and question variants already configured.
 
-### Balance NOTE: come back to this to double check!!
+## Balance
 
 1. **Condition Order Control:** Six participants start with the **Static** condition (IDs 01-03, 07-09), while six participants start with the **Interactive** condition (IDs 04-06, 10-12).
 
