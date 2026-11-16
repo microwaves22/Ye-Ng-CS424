@@ -79,9 +79,9 @@ This counterbalancing approach ensures that:
 
 > Hi! Thank you for participating in our CS 424 visualization evaluation study. This study examines how different visualization designs support the analysis of seat availability reliability patterns across study spaces in the UIC CDLRC.
 >
-> You will answer four questions in total: two using a static visualization and two using an interactive visualization. Depending on your assigned group, you may use either the static or interactive visualization first.
+> You will answer four questions in total: two using a static visualization, an image, and two using an interactive visualization, an image containing dropdowns and hovering.
 >
-> The questions will be provided through a Google Form. Please enter your answers directly into the form.
+> The questions will be provided through this Google Form. Please enter your answers directly into the form.
 >
 > For each visualization condition, you will be given two questions. After I finish reading both questions, I will start a timer. Please answer both questions as accurately and quickly as possible. The timer will stop once you have completed both questions.
 >
@@ -90,6 +90,16 @@ This counterbalancing approach ensures that:
 > This study is evaluating the visualizations, not your performance. You may ask questions about the study procedure before we begin; however, once the tasks start, I will not provide hints, answer clarifying questions about the tasks, or assist in finding the answers.
 >
 > Do you have any questions before we begin?
+
+** Visualization Scripts **
+> Please look at the interactive visualization view on the laptop screen and answer both questions below as accurately and quickly as possible.  There is a dropdown for the different times and you may hover over each point for more details. There is a key on the right labeling the colors. The timer is running.  
+>
+> Note: The bottom-right quadrant represents the most reliable times, while the top-left represents the least reliable. Reliability is based on how many seats are available and how much seat availability fluctuates around that time. For example, at 9 am everyday, how many seats are there and is it consistent everyday?
+>
+>
+> Please look at the static visualization view on the laptop screen and answer both questions below as accurately and quickly as possible. The timer is running.  
+>
+> Note: The bottom-right quadrant represents the most reliable times, while the top-left represents the least reliable. Reliability is based on how many seats are available and how much seat availability fluctuates around that time. For example, at 9 am everyday, how many seats are there and is it consistent everyday?
 
 ### Phase 2: Task Administration
 
