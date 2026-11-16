@@ -150,25 +150,41 @@ We conducted a pilot evaluation with two participants and made the following ref
 
 # Task 4: Quantitative analysis
 
-## Accuracy Statistical Summary
+## Descriptive Statistics
+
+### Accuracy
 | Metric | Static | Interactive |
 |----------|----------:|----------:|
 | Mean Accuracy | 70.8% | 50.0% |
 | Median Accuracy | 100.0% | 50.0% |
 | Accuracy Standard Deviation | 39.6% | 42.6% |
 
-## Completion Time Statistical Summary
+### Completion Time
 | Metric | Static | Interactive |
 |----------|----------:|----------:|
 | Mean Completion Time (s) | 112.3 | 159.1 |
 | Median Completion Time (s) | 107.5 | 134.0 |
 | Completion Time Standard Deviation (s) | 48.9 | 80.7 |
 
-## Self-Reported Measures
+### Self-Reported Measures
 | Metric | Static | Interactive |
 |----------|----------:|----------:|
 | Mean Confidence Rating | 6.5 | 5.9 |
 | Mean Difficulty Rating | 5.3 | 5.3 |
+
+The tables above provide an overview of participant performance across the static and interactive visualization conditions. Overall, participants achieved higher accuracy and lower completion times when using the static visualization. Confidence ratings were also slightly higher for the static condition, while perceived difficulty ratings were nearly identical across both conditions. These descriptive statistics provide an overview of performance trends that are examined in greater detail in the following sections.
+
+## Accuracy Analysis
+
+## Completion Time Analysis
+
+## Task-Level Analysis
+
+## Participant-Level Analysis
+
+## Evaluation Question & Hypothesis
+
+##
 
 # Task 5: Reflection and recommendations
 
