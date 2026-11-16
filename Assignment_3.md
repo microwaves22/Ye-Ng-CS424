@@ -200,6 +200,12 @@ These results suggest that the overall accuracy advantage of the static visualiz
 
 ## Participant-Level Analysis
 
+![Participant-Level Completion Time](Visualizations_3/participant_time.png)
+
+This visualization compares completion times for each participant across the static and interactive visualization conditions. While individual trends varied, a majority of participants required more time to complete the task sets when using the interactive visualization. Several participants showed substantial increases in completion time, including Participants 3, 6, and 9, whose completion times increased by more than two minutes between conditions.
+
+The figure also illustrates the greater variability observed in the interactive condition. Although a few participants completed the interactive tasks as quickly as or faster than the static tasks, the overall pattern shows more participants experiencing increases rather than decreases in completion time. This suggests that the interactive visualization affected participants differently and introduced a less consistent experience across the participant sample.
+
 ## Evaluation Question & Hypothesis
 
 ##
