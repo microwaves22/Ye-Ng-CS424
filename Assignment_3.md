@@ -176,6 +176,10 @@ The tables above provide an overview of participant performance across the stati
 
 ## Accuracy Analysis
 
+![Mean Accuracy by Visualization Condition](../Visualizations_3/mean_accuracy.png)
+
+This visualization compares mean accuracy across the static and interactive visualization conditions. Participants achieved a mean accuracy of 70.8% when using the static visualization compared to 50% when using the interactive visualization. This represents a difference of approximately 20.8 percentage points in favor of the static condition. Overall, participants answered a larger proportion of tasks correctly when using the static visualization than when using the interactive visualization.
+
 ## Completion Time Analysis
 
 ## Task-Level Analysis
