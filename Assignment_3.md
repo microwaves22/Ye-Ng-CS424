@@ -91,7 +91,7 @@ This counterbalancing approach ensures that:
 >
 > Do you have any questions before we begin?
 
-** Visualization Scripts **
+**Visualization Scripts**
 > Please look at the interactive visualization view on the laptop screen and answer both questions below as accurately and quickly as possible.  There is a dropdown for the different times and you may hover over each point for more details. There is a key on the right labeling the colors. The timer is running.  
 >
 > Note: The bottom-right quadrant represents the most reliable times, while the top-left represents the least reliable. Reliability is based on how many seats are available and how much seat availability fluctuates around that time. For example, at 9 am everyday, how many seats are there and is it consistent everyday?
