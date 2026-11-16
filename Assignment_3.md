@@ -182,6 +182,12 @@ This visualization compares mean accuracy across the static and interactive visu
 
 ## Completion Time Analysis
 
+![Completion Time by Visualization Condition](Visualizations_3/completion_time.png)
+
+This visualization compares task completion times across the static and interactive visualization conditions. The median completion time was lower for the static condition (107.5 seconds) than for the interactive condition (134 seconds), suggesting that participants generally completed the tasks more quickly when using the static visualization.
+
+The most noticeable difference between the two conditions is the amount of variation in participant performance. Completion times in the static condition are relatively clustered together, while the interactive condition shows a much wider spread of values. Several participants took considerably longer to complete the interactive task sets, whereas performance in the static condition was more consistent overall. This pattern suggests that participants responded more uniformly when using the static visualization, while the interactive visualization produced a broader range of completion times across participants.
+
 ## Task-Level Analysis
 
 ## Participant-Level Analysis
