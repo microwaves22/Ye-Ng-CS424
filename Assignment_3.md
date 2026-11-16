@@ -192,7 +192,7 @@ The most noticeable difference between the two conditions is the amount of varia
 
 ![Task Accuracy by Visualization Condition](Visualizations_3/task_type_accuracy.png)
 
-Figure 3 breaks down accuracy by analytical task and visualization condition. The Quantitative Difference task required participants to estimate the difference in availability rate between the most reliable and least reliable study locations at a specific time of day (either 9 AM or 3 PM). For this task, participants achieved 83.3% accuracy in the static condition compared to 41.7% in the interactive condition.
+This visualization breaks down accuracy by analytical task and visualization condition. The Quantitative Difference task required participants to estimate the difference in availability rate between the most reliable and least reliable study locations at a specific time of day (either 9 AM or 3 PM). For this task, participants achieved 83.3% accuracy in the static condition compared to 41.7% in the interactive condition.
 
 The Temporal Change task required participants to determine which of two study locations changed more in terms of availability and variability between two time periods (either 9 AM and 1 PM, or 11 AM and 5 PM). Unlike the Quantitative Difference task, both conditions achieved the same accuracy of 58.3%.
 
