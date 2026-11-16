@@ -160,6 +160,9 @@ We conducted a pilot evaluation with two participants and made the following ref
 
 # Task 4: Quantitative analysis
 
+You can access the analysis visualizations [here](Notebooks/Quantitative_Vis_Analysis.ipynb)
+You can access the prepared evaluation results data [here](Data/evaluation_results_cleaned.csv)
+
 ## Descriptive Statistics
 
 ### Accuracy
@@ -222,7 +225,7 @@ The primary evaluation question for this study was whether temporal filtering im
 
 # Task 5: Reflection and recommendations
 
-The evaluation showed that the interactive visualization did not provide a measurable performance advantage over the static visualization. Participants achieved higher overall accuracy in the static condition (70.8% vs. 50.0%) and completed tasks more quickly (107.5 seconds vs. 134 seconds). The most notable finding was that the accuracy difference was driven almost entirely by the Quantitative Difference task, while both conditions achieved identical accuracy on the Temporal Change task.
+The evaluation showed that the interactive visualization did not provide a measurable performance advantage over the static visualization. Participants achieved higher overall accuracy in the static condition (70.8% vs. 50%) and completed tasks more quickly (107.5 seconds vs. 134 seconds). The most notable finding was that the accuracy difference was driven almost entirely by the Quantitative Difference task, while both conditions achieved identical accuracy on the Temporal Change task.
 
 One strength of the design was its ability to communicate reliability patterns across multiple study locations and times. Participants were generally able to identify reliable and unreliable locations and complete both task types. However, the static visualization appeared to support analysis more effectively because all relevant information was visible simultaneously. In contrast, the interactive filtering approach required participants to switch between views and mentally compare information across time periods, which likely contributed to longer completion times and greater variability in performance.
 
